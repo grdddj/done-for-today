@@ -4,45 +4,41 @@
 
 Mastering Bitcoin
 
-https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch03.asciidoc
+https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch04.asciidoc
 
 ## Deep work
 
-Review of https://github.com/trezor/trezor-firmware/pull/2778
-
 Addressing the Model R self-code review - https://github.com/trezor/trezor-firmware/pull/2610
-- enabling expected responses again
+- click tests for TR
 
 ## Other work
 
-Model R small design changes - changed button texts, copy, some fixes in device tests etc.
+Retrospective and sprint planning
 
 ## Ideas
 
 ## Notes
 
-### Review of click tests and other UI test changes
-
-- there are no click tests for BIP39 recovery, only for SLIP39 - we should add them to check the keyboard
-- new reports do not load correctly, a lot of the pictures are missing, the later the test, the less pictures are there (tried multiple reports in two browsers)
---- e.g. https://satoshilabs.gitlab.io/-/trezor/trezor-firmware/-/jobs/3690613386/artifacts/test_ui_report/all_screens.html
---- e.g. https://satoshilabs.gitlab.io/-/trezor/trezor-firmware/-/jobs/3690613403/artifacts/test_ui_report/all_unique_screens.html
-- `make test_emu_ui_multicore` do not work currently (`FileNotFoundError: [Errno 2] No such file or directory: '/home/jmusil/trezor-firmware/tests/ui_tests/reports/test/images/bd83a31d0fc4c23953dfd0d138e4441984e34698ace96aad5308a4ae51b712ae.png'`) - no images are saved there
-- what is the purpose of `tests/ui_tests/reports/.keep`?
-- how to update all the files/reports in `trezor-firmware/tests/ui_tests/reporting/reports/test`? I like to access the `file:///home/jmusil/trezor-firmware/tests/ui_tests/reporting/reports/test` and see everything there
---- `../tests/show_results.py` opens up the browser with the main report, but the `index.html` is not changed
-- why not having the `fixtures.json` indented? Could improve the one-glance readability of the data structure there
+### Click tests
+- add BIP39 cases
+- add PIN cases
+- add passphrase cases
+- add case for the tutorial (it has HTC and middle-click)
+- for all the input methods (mnemonic keyboards, PIN, passphrase) do a recording of all the options (letters, numbers, symbols), so we save the complete UI state
+- in all cases, test all the options like DELETE or SEE
+- aren't there always different seed words? os_random is mocked but seems not to have effect 9rebase to master)
 
 ---
 
 # Tomorrow
 
+Click tests for TR + new click tests features
+
 Remove the dash from line-end in the derivation path - multiline_text probably
 
-Addressing the Model R self-code review - https://github.com/trezor/trezor-firmware/pull/2610
-- click tests for TR
-
-Close as many TR issues from milestone as possible - https://github.com/trezor/trezor-firmware/milestone/38
+EIP712 flow - paginate EIP712 DOMAIN
+- https://satoshilabs.gitlab.io/-/trezor/trezor-firmware/-/jobs/3697879485/artifacts/test_ui_report/all_screens.html
+- TR_ethereum-test_sign_typed_data.py::test_ethereum_sign_typed_data_show_more_button
 
 ---
 
