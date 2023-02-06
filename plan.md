@@ -5,21 +5,14 @@
 Mastering Bitcoin
 
 https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch04.asciidoc
+https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch05.asciidoc
 
 ## Deep work
 
-Integrate latest changes into new UI reports - https://github.com/trezor/trezor-firmware/pull/2750
-- using new diff algorithm for the differing_screens
-
 Click tests for TR - https://github.com/trezor/trezor-firmware/pull/2610
+- bip39, tutorial, PIN for TR
 
 ## Other work
-
-Rebased `TR` branch on `master` - multiple times
-
-Merged HoldToConfirms - https://github.com/trezor/trezor-firmware/pull/2762
-
-Merged UI reports - https://github.com/trezor/trezor-firmware/pull/2750
 
 ## Ideas
 
@@ -30,14 +23,17 @@ Merged UI reports - https://github.com/trezor/trezor-firmware/pull/2750
 # Tomorrow
 
 Click tests for TR - https://github.com/trezor/trezor-firmware/pull/2610
+- PIN for TT, passphrase for both
+
+Rebase and merge newline deletion - https://github.com/trezor/trezor-firmware/pull/2763
+
+Look at SO solution - https://github.com/trezor/trezor-firmware/pull/2792
 
 ---
 
 # General TODOs
 
 Review https://github.com/trezor/trezor-firmware/pull/2410
-
-Discuss the newlines deletion - https://github.com/trezor/trezor-firmware/pull/2763
 
 Get review of input-flows - https://github.com/trezor/trezor-firmware/pull/2749
 
@@ -54,7 +50,6 @@ TR - EIP712 flow - paginate EIP712 DOMAIN
 # Older relevant notes
 
 ### Model R self-code review
-- implement click tests for TR - after click tests support screen recording
 - change show_tutorial from default=true to default=false?
 - change AsRef<str> to Deref<str> for general T types
 - could get rid of both `QRCode` in text/layout.rs and the `multiline_text` in display/mod.rs by calling the QR code as a single layout
@@ -68,13 +63,10 @@ TR - EIP712 flow - paginate EIP712 DOMAIN
 - what to do with all the gdb scripts - update them or delete them?
 
 ### Click tests
-- add BIP39 cases
 - add PIN cases
 - add passphrase cases
-- add case for the tutorial (it has HTC and middle-click)
 - for all the input methods (mnemonic keyboards, PIN, passphrase) do a recording of all the options (letters, numbers, symbols), so we save the complete UI state
 - in all cases, test all the options like DELETE or SEE
-- aren't there always different seed words? os_random is mocked but seems not to have effect (rebase to master)
 
 ---
 
