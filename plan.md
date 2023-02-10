@@ -17,11 +17,7 @@ Ethereum definitions - https://github.com/trezor/definitions
 - refactor the code into more files
 - could add some quick-and-easy github action jobs - style check, static type check etc. - with a Makefile
 
-TR bug in nondebug firmware - some RustLayout functions were called in nondebug but were debug-only
-
 ## Other work
-
-Fix click-UI-tests in https://github.com/trezor/trezor-firmware/pull/2803
 
 ## Ideas
 
@@ -31,14 +27,6 @@ Fix click-UI-tests in https://github.com/trezor/trezor-firmware/pull/2803
 
 # Tomorrow
 
-Ethereum definitions - https://github.com/trezor/definitions
-- properly understand all issues - https://github.com/trezor/definitions/issues
-- make the script runnable - fix all undefined symbols - compare it with the status in `fw` repo
-- add `shell.nix` and `poetry.toml` into the repo (`poetry` > 1.2)
-- figure out how to install the needed `trezorlib` with updated protobuf and other stuff - it lives in a branch currently - `marnova/ethereum_defs_from_host`
-- cut down all the unnecessary parts
-- refactor the code into more files
-- could add some quick-and-easy github action jobs - style check, static type check etc. - with a Makefile
 
 ---
 
