@@ -9,15 +9,16 @@ Transactions - https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch06.asci
 ## Deep work
 
 Ethereum definitions - https://github.com/trezor/definitions
-- properly understand all issues - https://github.com/trezor/definitions/issues
-- make the script runnable - fix all undefined symbols - compare it with the status in `fw` repo
-- add `shell.nix` and `poetry.toml` into the repo (`poetry` > 1.2)
-- figure out how to install the needed `trezorlib` with updated protobuf and other stuff - it lives in a branch currently - `marnova/ethereum_defs_from_host`
-- cut down all the unnecessary parts
-- refactor the code into more files
-- could add some quick-and-easy github action jobs - style check, static type check etc. - with a Makefile
+- do_everything script
+- dev/test signing
+
+TT things from TR - https://github.com/trezor/trezor-firmware/pull/2803
+- rebased on `master`
+- address feedback from Martin
 
 ## Other work
+
+Updated flashovatko - adding recent bootloader intermediary firmware binaries
 
 ## Ideas
 
@@ -27,10 +28,23 @@ Ethereum definitions - https://github.com/trezor/definitions
 
 # Tomorrow
 
+Ethereum definitions - https://github.com/trezor/definitions
+- add `shell.nix` and `poetry.toml` into the repo (`poetry` > 1.2)
+- figure out how to install the needed `trezorlib` with updated protobuf and other stuff - it lives in a branch currently - `marnova/ethereum_defs_from_host`
+- cut down all the unnecessary parts
+- could add some quick-and-easy github action jobs - style check, static type check etc. - with a Makefile
+- add COSI support
+
+TT things from TR - https://github.com/trezor/trezor-firmware/pull/2803
+- address the failing crypto build and crypto comment
+- look at the failure in `utf_text` testcase
+  -  `pytest -s ../tests/device_tests/bitcoin/test_signmessage.py -k utf_text -s --ui=test`
 
 ---
 
 # General TODOs
+
+Flashovatko - make it tested by QA (or request dev kit from them)
 
 Click tests for TR - https://github.com/trezor/trezor-firmware/pull/2610
 - PIN for TT, passphrase for both
