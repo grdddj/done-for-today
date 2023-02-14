@@ -6,19 +6,23 @@ Mastering Bitcoin
 
 Transactions - https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch06.asciidoc
 
+Ruff python linter webinar - https://www.youtube.com/watch?v=jeoL4qsSLbE&ab_channel=PyCharmbyJetBrains
+
 ## Deep work
 
-Ethereum definitions - https://github.com/trezor/definitions
-- do_everything script
-- dev/test signing
-
 TT things from TR - https://github.com/trezor/trezor-firmware/pull/2803
-- rebased on `master`
 - address feedback from Martin
+- solved the trailing whitespace bug
+
+Review ETH definitions - https://github.com/trezor/trezor-firmware/pull/2410
 
 ## Other work
 
-Updated flashovatko - adding recent bootloader intermediary firmware binaries
+Prevent AssertionError in select_word - https://github.com/trezor/trezor-firmware/pull/2817
+
+Add address dialogue to EIP712 signing - https://github.com/trezor/trezor-firmware/pull/2818
+
+Flashovatko - create `.exe` and make it tested by QA - https://github.com/trezor/production/pull/4
 
 ## Ideas
 
@@ -28,6 +32,12 @@ Updated flashovatko - adding recent bootloader intermediary firmware binaries
 
 # Tomorrow
 
+Review ETH definitions - https://github.com/trezor/trezor-firmware/pull/2410
+
+---
+
+# General TODOs
+
 Ethereum definitions - https://github.com/trezor/definitions
 - add `shell.nix` and `poetry.toml` into the repo (`poetry` > 1.2)
 - figure out how to install the needed `trezorlib` with updated protobuf and other stuff - it lives in a branch currently - `marnova/ethereum_defs_from_host`
@@ -35,21 +45,8 @@ Ethereum definitions - https://github.com/trezor/definitions
 - could add some quick-and-easy github action jobs - style check, static type check etc. - with a Makefile
 - add COSI support
 
-TT things from TR - https://github.com/trezor/trezor-firmware/pull/2803
-- address the failing crypto build and crypto comment
-- look at the failure in `utf_text` testcase
-  -  `pytest -s ../tests/device_tests/bitcoin/test_signmessage.py -k utf_text -s --ui=test`
-
----
-
-# General TODOs
-
-Flashovatko - make it tested by QA (or request dev kit from them)
-
 Click tests for TR - https://github.com/trezor/trezor-firmware/pull/2610
 - PIN for TT, passphrase for both
-
-Review https://github.com/trezor/trezor-firmware/pull/2410
 
 Get review of input-flows - https://github.com/trezor/trezor-firmware/pull/2749
 
