@@ -6,23 +6,17 @@ Mastering Bitcoin
 
 Transactions - https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch06.asciidoc
 
-Ruff python linter webinar - https://www.youtube.com/watch?v=jeoL4qsSLbE&ab_channel=PyCharmbyJetBrains
+Ruff - https://www.youtube.com/watch?v=LCva0NOM2-o&ab_channel=TalkPython
 
 ## Deep work
 
-TT things from TR - https://github.com/trezor/trezor-firmware/pull/2803
-- address feedback from Martin
-- solved the trailing whitespace bug
-
 Review ETH definitions - https://github.com/trezor/trezor-firmware/pull/2410
+
+Not showing passphrase from host - https://github.com/trezor/trezor-firmware/pull/2829
 
 ## Other work
 
-Prevent AssertionError in select_word - https://github.com/trezor/trezor-firmware/pull/2817
-
-Add address dialogue to EIP712 signing - https://github.com/trezor/trezor-firmware/pull/2818
-
-Flashovatko - create `.exe` and make it tested by QA - https://github.com/trezor/production/pull/4
+Merge flashovatko
 
 ## Ideas
 
@@ -32,7 +26,10 @@ Flashovatko - create `.exe` and make it tested by QA - https://github.com/trezor
 
 # Tomorrow
 
-Review ETH definitions - https://github.com/trezor/trezor-firmware/pull/2410
+Fix `unix ui changes` - https://github.com/trezor/trezor-firmware/issues/2799
+
+Click tests for TR - https://github.com/trezor/trezor-firmware/pull/2610
+- PIN for TT, passphrase for both
 
 ---
 
@@ -44,9 +41,6 @@ Ethereum definitions - https://github.com/trezor/definitions
 - cut down all the unnecessary parts
 - could add some quick-and-easy github action jobs - style check, static type check etc. - with a Makefile
 - add COSI support
-
-Click tests for TR - https://github.com/trezor/trezor-firmware/pull/2610
-- PIN for TT, passphrase for both
 
 Get review of input-flows - https://github.com/trezor/trezor-firmware/pull/2749
 
