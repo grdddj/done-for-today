@@ -5,18 +5,19 @@
 Mastering Bitcoin
 
 Transactions - https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch06.asciidoc
+Advanced Transactions and Scripting - https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch07.asciidoc
 
-Ruff - https://www.youtube.com/watch?v=LCva0NOM2-o&ab_channel=TalkPython
+Python3.11 - https://www.youtube.com/watch?v=Iak-6AsMLsU&ab_channel=TalkPython
 
 ## Deep work
 
-Review ETH definitions - https://github.com/trezor/trezor-firmware/pull/2410
+Fix `unix ui changes` - https://github.com/trezor/trezor-firmware/issues/2799
 
-Not showing passphrase from host - https://github.com/trezor/trezor-firmware/pull/2829
+Font size in UI2 - https://github.com/trezor/trezor-firmware/issues/2826
 
 ## Other work
 
-Merge flashovatko
+Send flashovatko to Jablo
 
 ## Ideas
 
@@ -26,14 +27,16 @@ Merge flashovatko
 
 # Tomorrow
 
-Fix `unix ui changes` - https://github.com/trezor/trezor-firmware/issues/2799
+Welcome screens TT UI2 - https://github.com/trezor/trezor-firmware/issues/2825
 
-Click tests for TR - https://github.com/trezor/trezor-firmware/pull/2610
-- PIN for TT, passphrase for both
+Enable jump to bootloader - https://github.com/trezor/trezor-firmware/issues/2316
 
 ---
 
 # General TODOs
+
+Click tests for TR - https://github.com/trezor/trezor-firmware/pull/2610
+- PIN for TT, passphrase for both
 
 Ethereum definitions - https://github.com/trezor/definitions
 - add `shell.nix` and `poetry.toml` into the repo (`poetry` > 1.2)
