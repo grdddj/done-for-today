@@ -4,20 +4,21 @@
 
 Mastering Bitcoin
 
-Transactions - https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch06.asciidoc
 Advanced Transactions and Scripting - https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch07.asciidoc
 
-Python3.11 - https://www.youtube.com/watch?v=Iak-6AsMLsU&ab_channel=TalkPython
+Micropython + Pyscript - https://www.youtube.com/watch?v=ABVn6uMG1OI&ab_channel=TalkPython
 
 ## Deep work
 
-Fix `unix ui changes` - https://github.com/trezor/trezor-firmware/issues/2799
+Hide passphrase UI tests - https://github.com/trezor/trezor-firmware/pull/2829
 
-Font size in UI2 - https://github.com/trezor/trezor-firmware/issues/2826
+Review trezorlib improvements - https://github.com/trezor/trezor-firmware/pull/2832
 
 ## Other work
 
-Send flashovatko to Jablo
+Merged master_diff fix - https://github.com/trezor/trezor-firmware/pull/2830
+
+Merged hidden passphrase - https://github.com/trezor/trezor-firmware/pull/2829
 
 ## Ideas
 
