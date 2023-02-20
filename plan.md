@@ -2,23 +2,13 @@
 
 ## Education
 
-Mastering Bitcoin
-
-Advanced Transactions and Scripting - https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch07.asciidoc
-
-Micropython + Pyscript - https://www.youtube.com/watch?v=ABVn6uMG1OI&ab_channel=TalkPython
-
 ## Deep work
 
-Hide passphrase UI tests - https://github.com/trezor/trezor-firmware/pull/2829
-
-Review trezorlib improvements - https://github.com/trezor/trezor-firmware/pull/2832
+Welcome screens TT UI2 - https://github.com/trezor/trezor-firmware/issues/2825
 
 ## Other work
 
-Merged master_diff fix - https://github.com/trezor/trezor-firmware/pull/2830
-
-Merged hidden passphrase - https://github.com/trezor/trezor-firmware/pull/2829
+New branch with zero letter spacing for product
 
 ## Ideas
 
@@ -29,6 +19,8 @@ Merged hidden passphrase - https://github.com/trezor/trezor-firmware/pull/2829
 # Tomorrow
 
 Welcome screens TT UI2 - https://github.com/trezor/trezor-firmware/issues/2825
++
+Get rid of loaders on startup - https://github.com/trezor/trezor-firmware/issues/2838
 
 Enable jump to bootloader - https://github.com/trezor/trezor-firmware/issues/2316
 
