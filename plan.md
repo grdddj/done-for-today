@@ -2,13 +2,25 @@
 
 ## Education
 
+Mastering Bitcoin
+
+Advanced Transactions and Scripting - https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch07.asciidoc
+
+Bitcoin core - https://www.youtube.com/watch?v=wLYdcH37phE&ab_channel=UnderstandingCrypto
+
+BTC Ordinals - https://github.com/casey/ord/
+
 ## Deep work
 
 Welcome screens TT UI2 - https://github.com/trezor/trezor-firmware/issues/2825
++
+Get rid of loaders on startup - https://github.com/trezor/trezor-firmware/issues/2838
+
+Enable jump to bootloader - https://github.com/trezor/trezor-firmware/issues/2316
+
+T1 taproot QR code - https://github.com/trezor/trezor-firmware/issues/2638
 
 ## Other work
-
-New branch with zero letter spacing for product
 
 ## Ideas
 
@@ -18,18 +30,15 @@ New branch with zero letter spacing for product
 
 # Tomorrow
 
-Welcome screens TT UI2 - https://github.com/trezor/trezor-firmware/issues/2825
-+
-Get rid of loaders on startup - https://github.com/trezor/trezor-firmware/issues/2838
+T1 taproot QR code - https://github.com/trezor/trezor-firmware/issues/2638
 
-Enable jump to bootloader - https://github.com/trezor/trezor-firmware/issues/2316
+Click tests for TR - https://github.com/trezor/trezor-firmware/pull/2610
+- PIN for TT, passphrase for both
+
 
 ---
 
 # General TODOs
-
-Click tests for TR - https://github.com/trezor/trezor-firmware/pull/2610
-- PIN for TT, passphrase for both
 
 Ethereum definitions - https://github.com/trezor/definitions
 - add `shell.nix` and `poetry.toml` into the repo (`poetry` > 1.2)
