@@ -6,13 +6,12 @@ Mastering Bitcoin
 
 Advanced Transactions and Scripting - https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch07.asciidoc
 
-Ordinals - https://www.youtube.com/watch?v=EpHaxsE2SZs&ab_channel=PrestonPysh
-
 ## Deep work
 
-T1 taproot QR code - https://github.com/trezor/trezor-firmware/issues/2638
+Click tests - https://github.com/trezor/trezor-firmware/pull/2610
+- passphrase for TR
 
-Get rid of loaders on startup - https://github.com/trezor/trezor-firmware/issues/2838
+Rebase TR branch on master + take improvements from TT-TR branch
 
 ## Other work
 
@@ -24,8 +23,8 @@ Get rid of loaders on startup - https://github.com/trezor/trezor-firmware/issues
 
 # Tomorrow
 
-Click tests for TR - https://github.com/trezor/trezor-firmware/pull/2610
-- PIN for TT, passphrase for both
+Click tests - https://github.com/trezor/trezor-firmware/pull/2610
+- PIN and passphrase for TT
 
 ---
 
