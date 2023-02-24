@@ -4,27 +4,32 @@
 
 Mastering Bitcoin
 
-Advanced Transactions and Scripting - https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch07.asciidoc
+The Bitcoin Network - https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch08.asciidoc
 
 ## Deep work
 
 Click tests - https://github.com/trezor/trezor-firmware/pull/2610
-- passphrase for TR
-
-Rebase TR branch on master + take improvements from TT-TR branch
+- PIN for TT + new test-cases for both models
 
 ## Other work
 
 ## Ideas
 
+JPG from blockchain to Trezor - Ordinals
+
+Click tests on hardware device - checking for StackOverflow, general UI testing
+
 ## Notes
+
+Need to investigate why the trace from TT is not being updated (e.g. during PIN entry in click tests), while TR is.
+- TT is using synthetic_events in comparison to TR's `RustLayout`'s `press_XXX` etc. functions - and they call `notify_layout_change`
 
 ---
 
 # Tomorrow
 
 Click tests - https://github.com/trezor/trezor-firmware/pull/2610
-- PIN and passphrase for TT
+- Passphrase for TT
 
 ---
 
