@@ -9,9 +9,12 @@ The Bitcoin Network - https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch
 ## Deep work
 
 Click tests - https://github.com/trezor/trezor-firmware/pull/2610
-- PIN for TT + new test-cases for both models
+- Passphrase for TT
+- GIFs from the screenshots
 
 ## Other work
+
+Merged https://github.com/trezor/trezor-firmware/pull/2840
 
 ## Ideas
 
@@ -28,8 +31,9 @@ Need to investigate why the trace from TT is not being updated (e.g. during PIN 
 
 # Tomorrow
 
-Click tests - https://github.com/trezor/trezor-firmware/pull/2610
-- Passphrase for TT
+Review TT passphrase dialogs - https://github.com/trezor/trezor-firmware/pull/2845
+
+Review TT receive flow - https://github.com/trezor/trezor-firmware/pull/2843
 
 ---
 
