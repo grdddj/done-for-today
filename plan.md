@@ -8,37 +8,19 @@ The Bitcoin Network - https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch
 
 ## Deep work
 
-Click tests - https://github.com/trezor/trezor-firmware/pull/2610
-- GIFs from the screenshots - improve the code quality and add new features
-
-Review TT passphrase dialogs - https://github.com/trezor/trezor-firmware/pull/2845
-
-Review TT receive flow - https://github.com/trezor/trezor-firmware/pull/2843
-
 Investigate slow device/UI tests
 
 ## Other work
 
-Merged https://github.com/trezor/trezor-firmware/pull/2840
-
 ## Ideas
 
-JPG from blockchain to Trezor - Ordinals
-
-Click tests on hardware device - checking for StackOverflow, general UI testing
-
 ## Notes
-
-Need to investigate why the trace from TT is not being updated (e.g. during PIN entry in click tests), while TR is.
-- TT is using synthetic_events in comparison to TR's `RustLayout`'s `press_XXX` etc. functions - and they call `notify_layout_change`
 
 ---
 
 # Tomorrow
 
 Review TT receive flow - https://github.com/trezor/trezor-firmware/pull/2843
-
-Investigate slow device/UI tests
 
 ---
 
@@ -58,6 +40,10 @@ Increase spaces between NORMAL font in TR in some cases - https://github.com/tre
 ---
 
 # Older relevant notes
+
+## TT debug trace
+Need to investigate why the trace from TT is not being updated (e.g. during PIN entry in click tests), while TR is.
+- TT is using synthetic_events in comparison to TR's `RustLayout`'s `press_XXX` etc. functions - and they call `notify_layout_change`
 
 ### Model R self-code review
 - change show_tutorial from default=true to default=false? Create specific message spawning tutorial
