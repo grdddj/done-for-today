@@ -5,12 +5,19 @@
 Mastering Bitcoin
 
 The Bitcoin Network - https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch08.asciidoc
+The Blockchain - https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch09.asciidoc
+
+OpenAI APIs - https://openai.com/blog/introducing-chatgpt-and-whisper-apis
 
 ## Deep work
 
-Investigate slow device/UI tests
+Review TT receive flow - https://github.com/trezor/trezor-firmware/pull/2843
 
 ## Other work
+
+Change welcome screen icon margin - https://github.com/trezor/trezor-firmware/pull/2858
+
+Create draft PR from the device tests experiments - https://github.com/trezor/trezor-firmware/pull/2857
 
 ## Ideas
 
@@ -20,7 +27,7 @@ Investigate slow device/UI tests
 
 # Tomorrow
 
-Review TT receive flow - https://github.com/trezor/trezor-firmware/pull/2843
+Generate coins_details.json - https://github.com/trezor/definitions/issues/7
 
 ---
 
