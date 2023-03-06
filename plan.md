@@ -5,12 +5,15 @@
 Mastering Bitcoin
 
 The Blockchain - https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch09.asciidoc
+Mining and consensus - https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch10.asciidoc
 
 ## Deep work
 
-Review TT receive flow - https://github.com/trezor/trezor-firmware/pull/2843
+Generate coins_details.json - https://github.com/trezor/definitions/issues/7
 
-CI - setting up and debugging multithreaded device tests - https://github.com/trezor/trezor-firmware/pull/2857
+Downloader script clean - https://github.com/trezor/definitions/issues/2
+
+Cleanup PR - https://github.com/trezor/definitions/pull/6
 
 ## Other work
 
