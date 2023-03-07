@@ -4,16 +4,13 @@
 
 Mastering Bitcoin
 
-The Blockchain - https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch09.asciidoc
 Mining and consensus - https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch10.asciidoc
 
 ## Deep work
 
-Generate coins_details.json - https://github.com/trezor/definitions/issues/7
+Generate coins_details.json - https://github.com/trezor/definitions/pull/8
 
-Downloader script clean - https://github.com/trezor/definitions/issues/2
-
-Cleanup PR - https://github.com/trezor/definitions/pull/6
+Overall eth_definition improvements - https://github.com/trezor/definitions/pull/6
 
 ## Other work
 
@@ -26,7 +23,7 @@ Cleanup PR - https://github.com/trezor/definitions/pull/6
 
 # Tomorrow
 
-Generate coins_details.json - https://github.com/trezor/definitions/issues/7
+Code documentation protobuf
 
 ---
 
