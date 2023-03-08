@@ -8,9 +8,8 @@ Mining and consensus - https://github.com/bitcoinbook/bitcoinbook/blob/develop/c
 
 ## Deep work
 
-Generate coins_details.json - https://github.com/trezor/definitions/pull/8
-
-Overall eth_definition improvements - https://github.com/trezor/definitions/pull/6
+Coverage in multicore device tests - https://github.com/trezor/trezor-firmware/pull/2857
+- going through the coverage report and finding strange things/missing tests
 
 ## Other work
 
