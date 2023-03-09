@@ -8,11 +8,17 @@ Mining and consensus - https://github.com/bitcoinbook/bitcoinbook/blob/develop/c
 
 ## Deep work
 
-Coverage in multicore device tests - https://github.com/trezor/trezor-firmware/pull/2857
-- going through the coverage report and finding strange things/missing tests
+Code documentation protobuf - https://github.com/trezor/trezor-firmware/issues/2869
+
+TR - new PIN text - https://github.com/trezor/trezor-firmware/issues/2636
+
+TR - protobuf message for tutorial - https://github.com/trezor/trezor-firmware/issues/2795
+
+UI2: colors for old display - https://github.com/trezor/trezor-firmware/issues/2873
 
 ## Other work
 
+Fixed and merged quicker device tests - https://github.com/trezor/trezor-firmware/pull/2857#issuecomment-1460572425
 
 ## Ideas
 
@@ -22,7 +28,9 @@ Coverage in multicore device tests - https://github.com/trezor/trezor-firmware/p
 
 # Tomorrow
 
-Code documentation protobuf
+UI2: colors for old display - https://github.com/trezor/trezor-firmware/issues/2873
+
+TR - new PIN text - https://github.com/trezor/trezor-firmware/issues/2636
 
 ---
 
