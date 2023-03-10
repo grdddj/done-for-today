@@ -8,17 +8,11 @@ Mining and consensus - https://github.com/bitcoinbook/bitcoinbook/blob/develop/c
 
 ## Deep work
 
-Code documentation protobuf - https://github.com/trezor/trezor-firmware/issues/2869
-
-TR - new PIN text - https://github.com/trezor/trezor-firmware/issues/2636
-
-TR - protobuf message for tutorial - https://github.com/trezor/trezor-firmware/issues/2795
-
-UI2: colors for old display - https://github.com/trezor/trezor-firmware/issues/2873
+TR - rebased the whole PR - https://github.com/trezor/trezor-firmware/pull/2610
 
 ## Other work
 
-Fixed and merged quicker device tests - https://github.com/trezor/trezor-firmware/pull/2857#issuecomment-1460572425
+Ordinals reading for Bitcoin
 
 ## Ideas
 
@@ -27,8 +21,6 @@ Fixed and merged quicker device tests - https://github.com/trezor/trezor-firmwar
 ---
 
 # Tomorrow
-
-UI2: colors for old display - https://github.com/trezor/trezor-firmware/issues/2873
 
 TR - new PIN text - https://github.com/trezor/trezor-firmware/issues/2636
 
