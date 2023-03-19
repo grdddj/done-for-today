@@ -8,11 +8,17 @@ Mining and consensus - https://github.com/bitcoinbook/bitcoinbook/blob/develop/c
 
 ## Deep work
 
-TR - rebased the whole PR - https://github.com/trezor/trezor-firmware/pull/2610
+TR - new PIN text - https://github.com/trezor/trezor-firmware/issues/2636
+- seems like it is not worth creating a special layout just for getting rid of the arrows
+
+TR - receive flow with QR code and xpubs
+- should decide how to do it - whether to unify it with current TT, or change TT to be like TR
+
+ETH definitions PRs review - https://github.com/trezor/trezor-firmware/pull/2410
+
+TT UI style update review - https://github.com/trezor/trezor-firmware/pull/2876
 
 ## Other work
-
-Ordinals reading for Bitcoin
 
 ## Ideas
 
@@ -22,7 +28,11 @@ Ordinals reading for Bitcoin
 
 # Tomorrow
 
-TR - new PIN text - https://github.com/trezor/trezor-firmware/issues/2636
+TT bootloader style update PR review - https://github.com/trezor/trezor-firmware/pull/2879
+
+SLIP-25 support in trezorctl get-descriptor review - https://github.com/trezor/trezor-firmware/pull/2774
+
+Edit output from emulator to match colors in UI2 - https://github.com/trezor/trezor-firmware/issues/2865
 
 ---
 
@@ -31,13 +41,17 @@ TR - new PIN text - https://github.com/trezor/trezor-firmware/issues/2636
 Ethereum definitions - https://github.com/trezor/definitions
 - add `shell.nix` and `poetry.toml` into the repo (`poetry` > 1.2)
 - figure out how to install the needed `trezorlib` with updated protobuf and other stuff - it lives in a branch currently - `marnova/ethereum_defs_from_host`
-- cut down all the unnecessary parts
 - could add some quick-and-easy github action jobs - style check, static type check etc. - with a Makefile
-- add COSI support
 
 Get review of input-flows - https://github.com/trezor/trezor-firmware/pull/2749
 
 Increase spaces between NORMAL font in TR in some cases - https://github.com/trezor/trezor-firmware/issues/2397
+
+TR - new PIN text - https://github.com/trezor/trezor-firmware/issues/2636
+- seems like it is not worth creating a special layout just for getting rid of the arrows
+
+TR - receive flow with QR code and xpubs
+- should decide how to do it - whether to unify it with current TT, or change TT to be like TR
 
 ---
 
