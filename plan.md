@@ -6,21 +6,24 @@ Mastering Bitcoin
 
 Mining and consensus - https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch10.asciidoc
 
+Python performance - https://www.youtube.com/watch?v=_r6bFhl6wR8&ab_channel=TalkPython
+
 ## Deep work
 
-TR - new PIN text - https://github.com/trezor/trezor-firmware/issues/2636
-- seems like it is not worth creating a special layout just for getting rid of the arrows
+TT bootloader style update PR review - https://github.com/trezor/trezor-firmware/pull/2879
 
-TR - receive flow with QR code and xpubs
-- should decide how to do it - whether to unify it with current TT, or change TT to be like TR
+SLIP-25 support in trezorctl get-descriptor review - https://github.com/trezor/trezor-firmware/pull/2774
 
-ETH definitions PRs review - https://github.com/trezor/trezor-firmware/pull/2410
-
-TT UI style update review - https://github.com/trezor/trezor-firmware/pull/2876
+Edit output from emulator to match colors in UI2 - https://github.com/trezor/trezor-firmware/issues/2865
 
 ## Other work
 
 ## Ideas
+
+Could we somehow use keyboard shortcuts in the emulator?
+- like left-arrow is clicking the left btn, right-arrow is clicking the right btn, etc.
+- some things like wiping the device, loading the all all seed, etc.
+- could even include some clickable buttons there (but then we are almost reimplementing trezor-user-env)
 
 ## Notes
 
@@ -28,11 +31,7 @@ TT UI style update review - https://github.com/trezor/trezor-firmware/pull/2876
 
 # Tomorrow
 
-TT bootloader style update PR review - https://github.com/trezor/trezor-firmware/pull/2879
-
-SLIP-25 support in trezorctl get-descriptor review - https://github.com/trezor/trezor-firmware/pull/2774
-
-Edit output from emulator to match colors in UI2 - https://github.com/trezor/trezor-firmware/issues/2865
+New artifact naming for legacy builds - https://github.com/trezor/trezor-firmware/issues/2732
 
 ---
 
