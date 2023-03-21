@@ -8,22 +8,19 @@ Mining and consensus - https://github.com/bitcoinbook/bitcoinbook/blob/develop/c
 
 Python performance - https://www.youtube.com/watch?v=_r6bFhl6wR8&ab_channel=TalkPython
 
+Pydantic - https://www.youtube.com/watch?v=URrUBgOFl6U&ab_channel=TalkPython
+
 ## Deep work
 
 TT bootloader style update PR review - https://github.com/trezor/trezor-firmware/pull/2879
 
-SLIP-25 support in trezorctl get-descriptor review - https://github.com/trezor/trezor-firmware/pull/2774
+New artifact naming for legacy builds - https://github.com/trezor/trezor-firmware/issues/2732
 
-Edit output from emulator to match colors in UI2 - https://github.com/trezor/trezor-firmware/issues/2865
+ETH definitions - address PR review - https://github.com/trezor/definitions/pull/6
 
 ## Other work
 
 ## Ideas
-
-Could we somehow use keyboard shortcuts in the emulator?
-- like left-arrow is clicking the left btn, right-arrow is clicking the right btn, etc.
-- some things like wiping the device, loading the all all seed, etc.
-- could even include some clickable buttons there (but then we are almost reimplementing trezor-user-env)
 
 ## Notes
 
@@ -31,7 +28,9 @@ Could we somehow use keyboard shortcuts in the emulator?
 
 # Tomorrow
 
-New artifact naming for legacy builds - https://github.com/trezor/trezor-firmware/issues/2732
+ETH definitions - address PR review - https://github.com/trezor/definitions/pull/6
+
+TR - multisig receive - https://github.com/trezor/trezor-firmware/issues/2785
 
 ---
 
@@ -121,6 +120,12 @@ Need to investigate why the trace from TT is not being updated (e.g. during PIN 
     - 1 - Ethereum, 3 - Ropsten (test), 4 - Rinkeby (test), 8 - Ubiq, 30 - RSK, 42 - Kovan (test), 61 - Ethereum Classic, 31102 - Ethersocial Network, 43114 - Avalanche C-Chain
 
 - `chain_id` is completely unique, more networks can have the same `slip44`
+
+### Emulator shortcuts
+Could we somehow use keyboard shortcuts in the emulator?
+- like left-arrow is clicking the left btn, right-arrow is clicking the right btn, etc.
+- some things like wiping the device, loading the all all seed, etc.
+- could even include some clickable buttons there (but then we are almost reimplementing trezor-user-env)
 
 ---
 
