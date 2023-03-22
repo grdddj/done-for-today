@@ -6,17 +6,15 @@ Mastering Bitcoin
 
 Mining and consensus - https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch10.asciidoc
 
-Python performance - https://www.youtube.com/watch?v=_r6bFhl6wR8&ab_channel=TalkPython
-
 Pydantic - https://www.youtube.com/watch?v=URrUBgOFl6U&ab_channel=TalkPython
 
 ## Deep work
 
-TT bootloader style update PR review - https://github.com/trezor/trezor-firmware/pull/2879
+ETH definitions - address PR reviews
+- https://github.com/trezor/definitions/pull/6
+- https://github.com/trezor/definitions/pull/8
 
-New artifact naming for legacy builds - https://github.com/trezor/trezor-firmware/issues/2732
-
-ETH definitions - address PR review - https://github.com/trezor/definitions/pull/6
+Emulator gamma correction - update tests - https://github.com/trezor/trezor-firmware/pull/2894
 
 ## Other work
 
@@ -28,9 +26,11 @@ ETH definitions - address PR review - https://github.com/trezor/definitions/pull
 
 # Tomorrow
 
-ETH definitions - address PR review - https://github.com/trezor/definitions/pull/6
+Emulator gamma correction - update tests and merge - https://github.com/trezor/trezor-firmware/pull/2894
 
 TR - multisig receive - https://github.com/trezor/trezor-firmware/issues/2785
+
+TR - look at CoinJoin screens
 
 ---
 
