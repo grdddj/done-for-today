@@ -6,17 +6,19 @@ Mastering Bitcoin
 
 Mining and consensus - https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch10.asciidoc
 
+Bitcoin security - https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch11.asciidoc
+
 Pydantic - https://www.youtube.com/watch?v=URrUBgOFl6U&ab_channel=TalkPython
 
 ## Deep work
 
-ETH definitions - address PR reviews
-- https://github.com/trezor/definitions/pull/6
-- https://github.com/trezor/definitions/pull/8
+TR - multisig receive - https://github.com/trezor/trezor-firmware/issues/2785
 
-Emulator gamma correction - update tests - https://github.com/trezor/trezor-firmware/pull/2894
+Emulator gamma correction - improvements/fixes - https://github.com/trezor/trezor-firmware/pull/2903
 
 ## Other work
+
+Emulator gamma correction - merge - https://github.com/trezor/trezor-firmware/pull/2894
 
 ## Ideas
 
@@ -26,11 +28,7 @@ Emulator gamma correction - update tests - https://github.com/trezor/trezor-firm
 
 # Tomorrow
 
-Emulator gamma correction - update tests and merge - https://github.com/trezor/trezor-firmware/pull/2894
-
 TR - multisig receive - https://github.com/trezor/trezor-firmware/issues/2785
-
-TR - look at CoinJoin screens
 
 ---
 
