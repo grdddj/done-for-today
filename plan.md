@@ -4,21 +4,17 @@
 
 Mastering Bitcoin
 
-Mining and consensus - https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch10.asciidoc
-
 Bitcoin security - https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch11.asciidoc
 
-Pydantic - https://www.youtube.com/watch?v=URrUBgOFl6U&ab_channel=TalkPython
+Blockchain Applications - https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch12.asciidoc
 
 ## Deep work
 
+TR - rebase on master
+
 TR - multisig receive - https://github.com/trezor/trezor-firmware/issues/2785
 
-Emulator gamma correction - improvements/fixes - https://github.com/trezor/trezor-firmware/pull/2903
-
 ## Other work
-
-Emulator gamma correction - merge - https://github.com/trezor/trezor-firmware/pull/2894
 
 ## Ideas
 
@@ -28,7 +24,18 @@ Emulator gamma correction - merge - https://github.com/trezor/trezor-firmware/pu
 
 # Tomorrow
 
-TR - multisig receive - https://github.com/trezor/trezor-firmware/issues/2785
+TR - fix tests/device_tests/ethereum/test_definitions.py tests
+
+TR - find out why there is no previous-page-icon
+
+TR - find out why majority of the screens shifted little bit
+
+TR - find out why on the second paginated page there are leftovers from the first page on the top
+
+TR homescreen - https://github.com/trezor/trezor-firmware/issues/2812
+- + locking by holding - test_hold_to_lock
+
+Look at `core unix memory profiler` allocation - compare UI1 and UI2
 
 ---
 
@@ -48,6 +55,8 @@ TR - new PIN text - https://github.com/trezor/trezor-firmware/issues/2636
 
 TR - receive flow with QR code and xpubs
 - should decide how to do it - whether to unify it with current TT, or change TT to be like TR
+
+Study miniscript on the Bitcoin socratic seminar
 
 ---
 
