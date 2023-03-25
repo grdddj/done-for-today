@@ -4,15 +4,20 @@
 
 Mastering Bitcoin
 
-Bitcoin security - https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch11.asciidoc
-
 Blockchain Applications - https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch12.asciidoc
 
 ## Deep work
 
-TR - rebase on master
+TR - fix tests/device_tests/ethereum/test_definitions.py tests
 
-TR - multisig receive - https://github.com/trezor/trezor-firmware/issues/2785
+TR - find out why there is no previous-page-icon
+
+TR - find out why majority of the screens shifted little bit
+
+TR - find out why on the second paginated page there are leftovers from the first page on the top
+
+TR homescreen - https://github.com/trezor/trezor-firmware/issues/2812
+
 
 ## Other work
 
@@ -24,17 +29,6 @@ TR - multisig receive - https://github.com/trezor/trezor-firmware/issues/2785
 
 # Tomorrow
 
-TR - fix tests/device_tests/ethereum/test_definitions.py tests
-
-TR - find out why there is no previous-page-icon
-
-TR - find out why majority of the screens shifted little bit
-
-TR - find out why on the second paginated page there are leftovers from the first page on the top
-
-TR homescreen - https://github.com/trezor/trezor-firmware/issues/2812
-- + locking by holding - test_hold_to_lock
-
 Look at `core unix memory profiler` allocation - compare UI1 and UI2
 
 ---
@@ -44,7 +38,6 @@ Look at `core unix memory profiler` allocation - compare UI1 and UI2
 Ethereum definitions - https://github.com/trezor/definitions
 - add `shell.nix` and `poetry.toml` into the repo (`poetry` > 1.2)
 - figure out how to install the needed `trezorlib` with updated protobuf and other stuff - it lives in a branch currently - `marnova/ethereum_defs_from_host`
-- could add some quick-and-easy github action jobs - style check, static type check etc. - with a Makefile
 
 Get review of input-flows - https://github.com/trezor/trezor-firmware/pull/2749
 
@@ -53,8 +46,10 @@ Increase spaces between NORMAL font in TR in some cases - https://github.com/tre
 TR - new PIN text - https://github.com/trezor/trezor-firmware/issues/2636
 - seems like it is not worth creating a special layout just for getting rid of the arrows
 
-TR - receive flow with QR code and xpubs
-- should decide how to do it - whether to unify it with current TT, or change TT to be like TR
+TR homescreen - https://github.com/trezor/trezor-firmware/issues/2812
+- on hardware, the welcome screen is shown for a very short time before homescreen, most of the time there is black screen
+- on hardware, on homescreen, sometimes NO USB CONNECTION is displayed for a short moment after calling e.g. trezorctl set pin
+- homescreen currently does not support locking via button-hold
 
 Study miniscript on the Bitcoin socratic seminar
 
