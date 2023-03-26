@@ -8,16 +8,7 @@ Blockchain Applications - https://github.com/bitcoinbook/bitcoinbook/blob/develo
 
 ## Deep work
 
-TR - fix tests/device_tests/ethereum/test_definitions.py tests
-
-TR - find out why there is no previous-page-icon
-
-TR - find out why majority of the screens shifted little bit
-
-TR - find out why on the second paginated page there are leftovers from the first page on the top
-
-TR homescreen - https://github.com/trezor/trezor-firmware/issues/2812
-
+TR - experiments with homescreen game
 
 ## Other work
 
@@ -28,6 +19,10 @@ TR homescreen - https://github.com/trezor/trezor-firmware/issues/2812
 ---
 
 # Tomorrow
+
+TR - update homescreen code to mimic TT
+TR - update style tests
+TR - update TT tests
 
 Look at `core unix memory profiler` allocation - compare UI1 and UI2
 
