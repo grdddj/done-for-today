@@ -8,7 +8,12 @@ Blockchain Applications - https://github.com/bitcoinbook/bitcoinbook/blob/develo
 
 ## Deep work
 
-TR - experiments with homescreen game
+TR - update homescreen code to mimic TT
+- on hardware, on homescreen, sometimes NO USB CONNECTION is displayed for a short moment after calling e.g. trezorctl set pin
+TR - update style tests
+TR - update TT tests
+
+ETH definitions fixes - https://github.com/trezor/definitions/pull/8
 
 ## Other work
 
@@ -20,11 +25,9 @@ TR - experiments with homescreen game
 
 # Tomorrow
 
-TR - update homescreen code to mimic TT
-TR - update style tests
-TR - update TT tests
-
 Look at `core unix memory profiler` allocation - compare UI1 and UI2
+
+Persistence tests - try to record UI screenshots
 
 ---
 
@@ -43,7 +46,6 @@ TR - new PIN text - https://github.com/trezor/trezor-firmware/issues/2636
 
 TR homescreen - https://github.com/trezor/trezor-firmware/issues/2812
 - on hardware, the welcome screen is shown for a very short time before homescreen, most of the time there is black screen
-- on hardware, on homescreen, sometimes NO USB CONNECTION is displayed for a short moment after calling e.g. trezorctl set pin
 - homescreen currently does not support locking via button-hold
 
 Study miniscript on the Bitcoin socratic seminar
