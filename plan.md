@@ -8,14 +8,11 @@ Blockchain Applications - https://github.com/bitcoinbook/bitcoinbook/blob/develo
 
 ## Deep work
 
-TR - update homescreen code to mimic TT
-- on hardware, on homescreen, sometimes NO USB CONNECTION is displayed for a short moment after calling e.g. trezorctl set pin
-TR - update style tests
-TR - update TT tests
-
-ETH definitions fixes - https://github.com/trezor/definitions/pull/8
+Look at `core unix memory profiler` allocation - compare UI1 and UI2
 
 ## Other work
+
+Increase BL and FW major versions
 
 ## Ideas
 
@@ -25,7 +22,7 @@ ETH definitions fixes - https://github.com/trezor/definitions/pull/8
 
 # Tomorrow
 
-Look at `core unix memory profiler` allocation - compare UI1 and UI2
+Review TT UI2 Coinjoin
 
 Persistence tests - try to record UI screenshots
 
