@@ -8,21 +8,28 @@ Blockchain Applications - https://github.com/bitcoinbook/bitcoinbook/blob/develo
 
 ## Deep work
 
-Look at `core unix memory profiler` allocation - compare UI1 and UI2
+Review TT UI2 Coinjoin
+
+TR homescreen - https://github.com/trezor/trezor-firmware/issues/2812
+-  locking homescreen via button-hold
+
+TR - couple of UI and test fixes
 
 ## Other work
 
-Increase BL and FW major versions
-
 ## Ideas
+
+Could have a script to validate Rust API generated from layout.rs
+- checking the default values and types
+
+Options how to quickly spawn some UI scenarios, e.g. multisig receive, through pytest
+- currently it is possible sometimes with INTERACT=1, but it is not very convenient
 
 ## Notes
 
 ---
 
 # Tomorrow
-
-Review TT UI2 Coinjoin
 
 Persistence tests - try to record UI screenshots
 
@@ -43,7 +50,6 @@ TR - new PIN text - https://github.com/trezor/trezor-firmware/issues/2636
 
 TR homescreen - https://github.com/trezor/trezor-firmware/issues/2812
 - on hardware, the welcome screen is shown for a very short time before homescreen, most of the time there is black screen
-- homescreen currently does not support locking via button-hold
 
 Study miniscript on the Bitcoin socratic seminar
 
@@ -74,48 +80,6 @@ Need to investigate why the trace from TT is not being updated (e.g. during PIN 
 - add passphrase cases
 - for all the input methods (mnemonic keyboards, PIN, passphrase) do a recording of all the options (letters, numbers, symbols), so we save the complete UI state
 - in all cases, test all the options like DELETE or SEE
-
-### Ethereum definitions
-- parts of solution
-    - definitions repo
-    - `Suite` drawing binary from definitions repo and using it to supply data to firmware
-    - same for `trezorctl`
-    - `firmware` must understand the definitions
-- how does the signing/verifying the signatures work? Suite/firmware must know how to recognize the signature
-  - do we sign each `.dat` file?
-  - is there a lot of overhead in signing/verifying the signatures?
-- why do we need a binary, why isn't the JSON enough? (how does the `Suite` talk to the binary?)
-
-- https://github.com/trezor/definitions
-    - what part does the `trezor-common` play in this? and what about `ethereum-lists`?
-    - where does it store that commit hash of the submodule?
-    - `trezor-common` maybe not necessary
-
-- https://github.com/trezor/trezor-firmware/blob/472a04a67fcf996823770d001cfdffab05c68463/docs/common/ethereum-definitions.md
-    - how big of a subset will be built-in to the firmware? And what will be the process of distinguishing between the built-in and the external? Will there be some differences? ... "blobs are generated also for built-in definitions"
-        - might be nice to have a checking we have up-to-date TOP100
-    - why having both `by_chain_id` and `by_slip44`, cannot there be some mapping between them? (could reuse `network.dat`)
-    - what are the plans with `https://data.trezor.io/eth_definitions/LOOKUP_TYPE/ID/NAME` - to serve as public API for all tokens?
-    - `trezorctl` will use the above-mentioned API?
-    - `model 1` code is also ready?
-
-- https://github.com/trezor/definitions/blob/8783b5db600196f98de3a1716b63783c482f5b1e/ethereum_definitions.py
-    - is there a reason the code above - 1300 lines - is only one file? Like for transfer purposes?
-
-- Data sources (Coingecko etc.)
-    - do we have some special agreement/API tokens with them?
-
-- core/src/apps/ethereum/networks.py
-    - `slip44==1` always means a testnet, regardless of the network (BTC, ETH...)?
-    - each network has its own blockchain?
-    - a lot of them have `slip44==60`, which is `ETH`
-    - who is deciding `chain_id`? (`slip44` seems to be according https://github.com/satoshilabs/slips/blob/master/slip-0044.md)
-
-- core/src/apps/ethereum/tokens.py
-    - these are all on `ETH` mainnet? --- no, `if chain_id == XXX` is deciding that
-    - 1 - Ethereum, 3 - Ropsten (test), 4 - Rinkeby (test), 8 - Ubiq, 30 - RSK, 42 - Kovan (test), 61 - Ethereum Classic, 31102 - Ethersocial Network, 43114 - Avalanche C-Chain
-
-- `chain_id` is completely unique, more networks can have the same `slip44`
 
 ### Emulator shortcuts
 Could we somehow use keyboard shortcuts in the emulator?
