@@ -8,22 +8,24 @@ Blockchain Applications - https://github.com/bitcoinbook/bitcoinbook/blob/develo
 
 ## Deep work
 
-Review TT UI2 Coinjoin
+Persistence tests - try to record UI screenshots
 
-TR homescreen - https://github.com/trezor/trezor-firmware/issues/2812
--  locking homescreen via button-hold
-
-TR - couple of UI and test fixes
+TT in TR changes - https://github.com/trezor/trezor-firmware/pull/2803
 
 ## Other work
 
 ## Ideas
 
-Could have a script to validate Rust API generated from layout.rs
-- checking the default values and types
+It could be possible to do some hardware profiling/experiments using print traces
+- something like getting object sizes, stack sizes, how long some actions take, etc.
+- with the use of trace recording via `tio` - https://github.com/tio/tio
+- `nix-shell -p tio`
+- `sudo tio /dev/ttyACM0`
+- killing it with `Ctrl+t` and `q`
 
-Options how to quickly spawn some UI scenarios, e.g. multisig receive, through pytest
-- currently it is possible sometimes with INTERACT=1, but it is not very convenient
+Could create a validation script to check QSTR strings in `core/embed/rust/librust_qstr.h`
+- check there are no duplicates
+- check all of those are really used
 
 ## Notes
 
@@ -31,7 +33,9 @@ Options how to quickly spawn some UI scenarios, e.g. multisig receive, through p
 
 # Tomorrow
 
-Persistence tests - try to record UI screenshots
+Fix persistence tests - troubleshoot why test_wipe_code fails and probably do not set TREZOR_PROFILING
+
+Rebase TR on TT-in-TR changes and change PR base branch to it
 
 ---
 
@@ -41,9 +45,9 @@ Ethereum definitions - https://github.com/trezor/definitions
 - add `shell.nix` and `poetry.toml` into the repo (`poetry` > 1.2)
 - figure out how to install the needed `trezorlib` with updated protobuf and other stuff - it lives in a branch currently - `marnova/ethereum_defs_from_host`
 
-Get review of input-flows - https://github.com/trezor/trezor-firmware/pull/2749
-
 Increase spaces between NORMAL font in TR in some cases - https://github.com/trezor/trezor-firmware/issues/2397
+
+Change font to MONOspace in allocation reports
 
 TR - new PIN text - https://github.com/trezor/trezor-firmware/issues/2636
 - seems like it is not worth creating a special layout just for getting rid of the arrows
@@ -86,6 +90,14 @@ Could we somehow use keyboard shortcuts in the emulator?
 - like left-arrow is clicking the left btn, right-arrow is clicking the right btn, etc.
 - some things like wiping the device, loading the all all seed, etc.
 - could even include some clickable buttons there (but then we are almost reimplementing trezor-user-env)
+
+### Rust API (trezorui2.pyi) validation
+Could have a script to validate Rust API generated from layout.rs
+- checking the default values and types
+
+### Emu UI testing for people
+Options how to quickly spawn some UI scenarios, e.g. multisig receive, through pytest
+- currently it is possible sometimes with INTERACT=1, but it is not very convenient
 
 ---
 
