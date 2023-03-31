@@ -8,24 +8,19 @@ Blockchain Applications - https://github.com/bitcoinbook/bitcoinbook/blob/develo
 
 ## Deep work
 
-Persistence tests - try to record UI screenshots
+Fix persistence tests - troubleshoot why test_wipe_code fails and probably do not set TREZOR_PROFILING
 
-TT in TR changes - https://github.com/trezor/trezor-firmware/pull/2803
+TT UI2 Send flow style update review
+
+Rebase TR on TT-in-TR changes and change PR base branch to it
 
 ## Other work
 
+Fix click tests in TT-in-TR - remove renamed test from fixtures.json
+
+Change font to MONOspace in allocation reports
+
 ## Ideas
-
-It could be possible to do some hardware profiling/experiments using print traces
-- something like getting object sizes, stack sizes, how long some actions take, etc.
-- with the use of trace recording via `tio` - https://github.com/tio/tio
-- `nix-shell -p tio`
-- `sudo tio /dev/ttyACM0`
-- killing it with `Ctrl+t` and `q`
-
-Could create a validation script to check QSTR strings in `core/embed/rust/librust_qstr.h`
-- check there are no duplicates
-- check all of those are really used
 
 ## Notes
 
@@ -33,9 +28,6 @@ Could create a validation script to check QSTR strings in `core/embed/rust/libru
 
 # Tomorrow
 
-Fix persistence tests - troubleshoot why test_wipe_code fails and probably do not set TREZOR_PROFILING
-
-Rebase TR on TT-in-TR changes and change PR base branch to it
 
 ---
 
@@ -46,8 +38,6 @@ Ethereum definitions - https://github.com/trezor/definitions
 - figure out how to install the needed `trezorlib` with updated protobuf and other stuff - it lives in a branch currently - `marnova/ethereum_defs_from_host`
 
 Increase spaces between NORMAL font in TR in some cases - https://github.com/trezor/trezor-firmware/issues/2397
-
-Change font to MONOspace in allocation reports
 
 TR - new PIN text - https://github.com/trezor/trezor-firmware/issues/2636
 - seems like it is not worth creating a special layout just for getting rid of the arrows
@@ -98,6 +88,19 @@ Could have a script to validate Rust API generated from layout.rs
 ### Emu UI testing for people
 Options how to quickly spawn some UI scenarios, e.g. multisig receive, through pytest
 - currently it is possible sometimes with INTERACT=1, but it is not very convenient
+
+### Hardware profiling
+It could be possible to do some hardware profiling/experiments using print traces
+- something like getting object sizes, stack sizes, how long some actions take, etc.
+- with the use of trace recording via `tio` - https://github.com/tio/tio
+- `nix-shell -p tio`
+- `sudo tio /dev/ttyACM0`
+- killing it with `Ctrl+t` and `q`
+
+### QSTR validation
+Could create a validation script to check QSTR strings in `core/embed/rust/librust_qstr.h`
+- check there are no duplicates
+- check all of those are really used
 
 ---
 
