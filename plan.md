@@ -2,26 +2,22 @@
 
 ## Education
 
-Mastering Bitcoin
-
-Blockchain Applications - https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch12.asciidoc
+Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd39a7ed2643c8f70a6a/63680ec74eedb9a69fb09d49_lightning-network-bitcoin-kniha-braiins.pdf
 
 ## Deep work
 
-TR - looking at TODOs from the code
+TR passphrase - some special characters are badly visible when highlighted in the middle
+- change the strategy fo calculating highlight width
 
-QSTR validation validation script to check QSTR strings in `core/embed/rust/librust_qstr.h`
-- check there are no duplicates
-- check all of those are really used
+TR normal font - increase the width of "m", "w" and other letters colliding with others
 
-Rust API (trezorui2.pyi) validation
-- script to validate Rust API generated from layout.rs
-- checking the default values and types
-- comparing the API between models
+TR - go through UI screenshots and look for inconsistencies
+
+Rust - delete unused code
+
+Rebase TT-in-TR and TR to the latest master after release
 
 ## Other work
-
-Persistence tests review feedback
 
 ## Ideas
 
@@ -30,8 +26,6 @@ Persistence tests review feedback
 ---
 
 # Tomorrow
-
-TR passphrase - some special characters are badly visible when highlighted in the middle
 
 TR CoinJoin screens
 
