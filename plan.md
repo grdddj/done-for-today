@@ -6,18 +6,11 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-TR passphrase - some special characters are badly visible when highlighted in the middle
-- change the strategy fo calculating highlight width
-
-TR normal font - increase the width of "m", "w" and other letters colliding with others
-
-TR - go through UI screenshots and look for inconsistencies
-
-Rust - delete unused code
-
-Rebase TT-in-TR and TR to the latest master after release
+TR - Centering all choice items - https://github.com/trezor/trezor-firmware/issues/2917
 
 ## Other work
+
+Merging persistence tests recording
 
 ## Ideas
 
@@ -36,8 +29,6 @@ TR CoinJoin screens
 Ethereum definitions - https://github.com/trezor/definitions
 - add `shell.nix` and `poetry.toml` into the repo (`poetry` > 1.2)
 - figure out how to install the needed `trezorlib` with updated protobuf and other stuff - it lives in a branch currently - `marnova/ethereum_defs_from_host`
-
-Increase spaces between NORMAL font in TR in some cases - https://github.com/trezor/trezor-firmware/issues/2397
 
 TR - new PIN text - https://github.com/trezor/trezor-firmware/issues/2636
 - seems like it is not worth creating a special layout just for getting rid of the arrows
