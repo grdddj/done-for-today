@@ -6,11 +6,13 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-TR - Centering all choice items - https://github.com/trezor/trezor-firmware/issues/2917
+Review TT: button text and warning style update PR - https://github.com/trezor/trezor-firmware/pull/2950
+
+Differing screens in master diff
+
+TR CoinJoin screens
 
 ## Other work
-
-Merging persistence tests recording
 
 ## Ideas
 
