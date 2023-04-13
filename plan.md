@@ -6,10 +6,6 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-Review TT: button text and warning style update PR - https://github.com/trezor/trezor-firmware/pull/2950
-
-Differing screens in master diff
-
 TR CoinJoin screens
 
 ## Other work
@@ -22,7 +18,7 @@ TR CoinJoin screens
 
 # Tomorrow
 
-TR CoinJoin screens
+TR debugging and other TODOs from self-code review
 
 ---
 
