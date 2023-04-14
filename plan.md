@@ -6,7 +6,9 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-TR CoinJoin screens
+TR debugging and other TODOs from self-code review
+
+Review TR bootloader - https://github.com/trezor/trezor-firmware/pull/2959/commits/a87d052c94d1bbb5dd1e6aaf72eca6ee737d8e99
 
 ## Other work
 
