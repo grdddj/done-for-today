@@ -8,8 +8,6 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 TR debugging and other TODOs from self-code review
 
-Review TR bootloader - https://github.com/trezor/trezor-firmware/pull/2959/commits/a87d052c94d1bbb5dd1e6aaf72eca6ee737d8e99
-
 ## Other work
 
 ## Ideas
@@ -20,7 +18,7 @@ Review TR bootloader - https://github.com/trezor/trezor-firmware/pull/2959/commi
 
 # Tomorrow
 
-TR debugging and other TODOs from self-code review
+TT/TR - properly understand debuglink and its usage in tests to make it more reliable
 
 ---
 
@@ -50,6 +48,8 @@ Need to investigate why the trace from TT is not being updated (e.g. during PIN 
 - change AsRef<str> to Deref<str> for general T types
 - investigate whether `obj_place` - `ui_layout_place` is necessary to get all debugging info
 - investigate using synthetic events instead of calling `TR`'s `RustLayout`'s `press_XXX` etc. functions (would be possible to see the button highlights, but was causing freezing in some other tests)
+  - or vice-versa, use the `click_at` debug function in TT
+  - the benefit of using synthetic events is that we capture the UI change of the button being pressed, which is good to have
 - try to use `page_count` from `inner.event_ctx.page_count`
 - have some common code for `RustLayout` for `TT` and `TR`? A lot of code is the same.
 - will we have a strategy for sorting the QSTRings in `core/embed/rust/librust_qstr.h`?
