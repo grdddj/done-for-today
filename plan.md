@@ -6,7 +6,7 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-TR debugging and other TODOs from self-code review
+TT/TR - properly understand debuglink and its usage in tests and make it more reliable
 
 ## Other work
 
@@ -18,7 +18,9 @@ TR debugging and other TODOs from self-code review
 
 # Tomorrow
 
-TT/TR - properly understand debuglink and its usage in tests to make it more reliable
+Make the debuglink more reliable
+
+Modify tests for debuglink changes
 
 ---
 
