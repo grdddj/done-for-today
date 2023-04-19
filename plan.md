@@ -6,7 +6,9 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-TT/TR - properly understand debuglink and its usage in tests and make it more reliable
+Make the debuglink more reliable
+
+Modify tests for debuglink changes
 
 ## Other work
 
@@ -18,9 +20,11 @@ TT/TR - properly understand debuglink and its usage in tests and make it more re
 
 # Tomorrow
 
-Make the debuglink more reliable
+Debuglink changes for TR
 
-Modify tests for debuglink changes
+Looking at Connect to see if it can include two accounts (segwit and taproot) into one transaction
+
+Study miniscript on the Bitcoin socratic seminar
 
 ---
 
@@ -35,8 +39,6 @@ TR - new PIN text - https://github.com/trezor/trezor-firmware/issues/2636
 
 TR homescreen - https://github.com/trezor/trezor-firmware/issues/2812
 - on hardware, the welcome screen is shown for a very short time before homescreen, most of the time there is black screen
-
-Study miniscript on the Bitcoin socratic seminar
 
 ---
 
