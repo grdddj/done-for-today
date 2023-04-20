@@ -6,9 +6,7 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-Make the debuglink more reliable
-
-Modify tests for debuglink changes
+Debuglink changes for TR
 
 ## Other work
 
@@ -20,7 +18,7 @@ Modify tests for debuglink changes
 
 # Tomorrow
 
-Debuglink changes for TR
+Replicate TR's debuglink state in TT
 
 Looking at Connect to see if it can include two accounts (segwit and taproot) into one transaction
 
