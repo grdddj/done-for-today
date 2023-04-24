@@ -6,9 +6,9 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-Replicate TR's debuglink state in TT
+Look at review of TT-in-TR - autogenerate librust_qstr.h and modify input flows
 
-Study miniscript on the Bitcoin socratic seminar
+Debug trace in JSON - implementing it for python tests
 
 ## Other work
 
@@ -16,37 +16,11 @@ Study miniscript on the Bitcoin socratic seminar
 
 ## Notes
 
-Miniscript
-- https://blog.ledger.com/miniscript-is-coming/
-- https://bitcoin.sipa.be/miniscript/
-- a tool for developers to write better and more secure Bitcoin Scripts
-- allows for combining multiple policies into one - allows for creating verified libraries of policies
-  - something like ETH has a smart contract library OpenZeppelin
-- like a high-level language that compiles into Bitcoin Scripts with some checks and optimizations
-- comparison - instead of writing C, you could write python and have everything much more readable
-  - but even better, it is doing some checks and optimizations for you, so it is like writing Assembly vs writing Rust
-- https://github.com/rust-bitcoin/rust-miniscript
-  - it has no-std support, we could use it in the firmware
-
-Mempool RBF functioning
-- is it possible to be gradually increasing the fee - by one satoshi per each increase - and to spam the network like this?
-  - (is there some limit of how many times one UTXO could be RBF-eed?)
-- could the transaction be retrospectively verified that it was valid? even after the RBF-eed UTXO is spent?
-- it could be theoretically used as kind of a chat/communication channel between people with BTC nodes
-  - arbitrary messages could be send in the inscription-envelope
-- assumption: BTC full-node synced with network is be biggest source of truth you can get online
-  - when I check that the message is signed by some public key, I can be sure it really comes from that person
-- the transaction does not have to be fully validated in blockchain to have a meaning
-- one can send it to the same address it originated from, so even if it mined, nothing so bad happens
-  - when fee-rate is 1sat/b, I would pay almost nothing for the transaction (4 cents currently), even if it got mined
-- incredible possibilities for censorship resistance
-- also some interesting services could be created - like "Only messages coming from addresses with > 0.1 BTC will be shown"
-
 ---
 
 # Tomorrow
 
-Look at review of TT-in-TR - autogenerate librust_qstr.h and modify input flows
+Debug trace in JSON - implementing it for python tests
 
 Looking at Connect to see if it can include two accounts (segwit and taproot) into one transaction
 
@@ -100,6 +74,32 @@ It could be possible to do some hardware profiling/experiments using print trace
 - `nix-shell -p tio`
 - `sudo tio /dev/ttyACM0`
 - killing it with `Ctrl+t` and `q`
+
+### Miniscript
+- https://blog.ledger.com/miniscript-is-coming/
+- https://bitcoin.sipa.be/miniscript/
+- a tool for developers to write better and more secure Bitcoin Scripts
+- allows for combining multiple policies into one - allows for creating verified libraries of policies
+  - something like ETH has a smart contract library OpenZeppelin
+- like a high-level language that compiles into Bitcoin Scripts with some checks and optimizations
+- comparison - instead of writing C, you could write python and have everything much more readable
+  - but even better, it is doing some checks and optimizations for you, so it is like writing Assembly vs writing Rust
+- https://github.com/rust-bitcoin/rust-miniscript
+  - it has no-std support, we could use it in the firmware
+
+### Mempool RBF functioning
+- is it possible to be gradually increasing the fee - by one satoshi per each increase - and to spam the network like this?
+  - (is there some limit of how many times one UTXO could be RBF-eed?)
+- could the transaction be retrospectively verified that it was valid? even after the RBF-eed UTXO is spent?
+- it could be theoretically used as kind of a chat/communication channel between people with BTC nodes
+  - arbitrary messages could be send in the inscription-envelope
+- assumption: BTC full-node synced with network is be biggest source of truth you can get online
+  - when I check that the message is signed by some public key, I can be sure it really comes from that person
+- the transaction does not have to be fully validated in blockchain to have a meaning
+- one can send it to the same address it originated from, so even if it mined, nothing so bad happens
+  - when fee-rate is 1sat/b, I would pay almost nothing for the transaction (4 cents currently), even if it got mined
+- incredible possibilities for censorship resistance
+- also some interesting services could be created - like "Only messages coming from addresses with > 0.1 BTC will be shown"
 
 ---
 
