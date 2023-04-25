@@ -6,9 +6,9 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-Look at review of TT-in-TR - autogenerate librust_qstr.h and modify input flows
-
 Debug trace in JSON - implementing it for python tests
+
+Combining JSON trace with debuglink improvements
 
 ## Other work
 
@@ -20,9 +20,9 @@ Debug trace in JSON - implementing it for python tests
 
 # Tomorrow
 
-Debug trace in JSON - implementing it for python tests
+Trezorlib changes review
 
-Looking at Connect to see if it can include two accounts (segwit and taproot) into one transaction
+Look at partial review of TR
 
 ---
 
