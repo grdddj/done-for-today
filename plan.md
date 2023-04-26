@@ -6,9 +6,9 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-Debug trace in JSON - implementing it for python tests
+Trezorlib changes review
 
-Combining JSON trace with debuglink improvements
+TR PR - implementing suggestions and fixes
 
 ## Other work
 
@@ -20,9 +20,7 @@ Combining JSON trace with debuglink improvements
 
 # Tomorrow
 
-Trezorlib changes review
-
-Look at partial review of TR
+TR PR - implementing suggestions and fixes
 
 ---
 
