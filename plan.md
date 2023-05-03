@@ -6,9 +6,11 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-Trezorlib changes review
+TR/TT PRs - implementing suggestions and fixes
 
-TR PR - implementing suggestions and fixes
+TT in TR - rebase on master
+
+Fix Passphrase entry on Trezor device now has an issue at the 50th length input
 
 ## Other work
 
@@ -20,7 +22,7 @@ TR PR - implementing suggestions and fixes
 
 # Tomorrow
 
-TR PR - implementing suggestions and fixes
+TR/TT PRs - implementing suggestions and fixes
 
 ---
 
@@ -35,6 +37,10 @@ TR - new PIN text - https://github.com/trezor/trezor-firmware/issues/2636
 
 TR homescreen - https://github.com/trezor/trezor-firmware/issues/2812
 - on hardware, the welcome screen is shown for a very short time before homescreen, most of the time there is black screen
+
+Gettext - translations
+- look at OneKey
+  - report on the status of translations
 
 ---
 
