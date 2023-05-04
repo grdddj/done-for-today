@@ -6,11 +6,7 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-TR/TT PRs - implementing suggestions and fixes
-
-TT in TR - rebase on master
-
-Fix Passphrase entry on Trezor device now has an issue at the 50th length input
+TR/TT PRs - implementing suggestions and fixes + rebase + cleaning up commit history
 
 ## Other work
 
@@ -22,7 +18,10 @@ Fix Passphrase entry on Trezor device now has an issue at the 50th length input
 
 # Tomorrow
 
-TR/TT PRs - implementing suggestions and fixes
+TR PR - suggestions and fixes
+- Label reusing
+- Coinjoin loaders
+- updating homescreen
 
 ---
 
