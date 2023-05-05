@@ -6,7 +6,7 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-TR/TT PRs - implementing suggestions and fixes + rebase + cleaning up commit history
+TR-in-TT PR - fixing all the tests, cleaning master-diff
 
 ## Other work
 
@@ -17,6 +17,9 @@ TR/TT PRs - implementing suggestions and fixes + rebase + cleaning up commit his
 ---
 
 # Tomorrow
+
+TT-in-TR UI changes:
+- replace PIN MISMATCH screen with error screen
 
 TR PR - suggestions and fixes
 - Label reusing
