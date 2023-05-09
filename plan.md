@@ -6,7 +6,11 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-TR-in-TT PR - fixing all the tests, cleaning master-diff
+ETH definitions
+- add new fields into coins_details.json
+
+TR
+- homescreen new designs
 
 ## Other work
 
@@ -18,13 +22,8 @@ TR-in-TT PR - fixing all the tests, cleaning master-diff
 
 # Tomorrow
 
-TT-in-TR UI changes:
-- replace PIN MISMATCH screen with error screen
-
-TR PR - suggestions and fixes
-- Label reusing
-- Coinjoin loaders
-- updating homescreen
+TR
+- homescreen uploading a custom one
 
 ---
 
@@ -36,6 +35,13 @@ Ethereum definitions - https://github.com/trezor/definitions
 
 TR - new PIN text - https://github.com/trezor/trezor-firmware/issues/2636
 - seems like it is not worth creating a special layout just for getting rid of the arrows
+
+TT-in-TR UI changes:
+- replace PIN MISMATCH screen with error screen
+
+TR PR - suggestions and fixes
+- Label reusing
+- Coinjoin loaders
 
 TR homescreen - https://github.com/trezor/trezor-firmware/issues/2812
 - on hardware, the welcome screen is shown for a very short time before homescreen, most of the time there is black screen
