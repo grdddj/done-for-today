@@ -6,11 +6,12 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-ETH definitions
-- add new fields into coins_details.json
-
 TR
-- homescreen new designs
+- homescreen uploading a custom one
+- tests for homescreen
+
+TT-in-TR UI changes:
+- error popups improvements
 
 ## Other work
 
@@ -22,8 +23,7 @@ TR
 
 # Tomorrow
 
-TR
-- homescreen uploading a custom one
+TR - Coinjoin screens
 
 ---
 
@@ -35,9 +35,6 @@ Ethereum definitions - https://github.com/trezor/definitions
 
 TR - new PIN text - https://github.com/trezor/trezor-firmware/issues/2636
 - seems like it is not worth creating a special layout just for getting rid of the arrows
-
-TT-in-TR UI changes:
-- replace PIN MISMATCH screen with error screen
 
 TR PR - suggestions and fixes
 - Label reusing
