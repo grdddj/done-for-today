@@ -6,12 +6,11 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-TR
-- homescreen uploading a custom one
-- tests for homescreen
+TT - revert some UI changes
 
-TT-in-TR UI changes:
-- error popups improvements
+TR - rebase on master
+
+TR - address feedback
 
 ## Other work
 
@@ -22,6 +21,8 @@ TT-in-TR UI changes:
 ---
 
 # Tomorrow
+
+TR - address feedback
 
 TR - Coinjoin screens
 
