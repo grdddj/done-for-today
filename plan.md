@@ -6,11 +6,12 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-TT - revert some UI changes
+Tests hackathon
 
-TR - rebase on master
+Rebase binsize branch on master
 
 TR - address feedback
+- making all the components T: AsRef<str>
 
 ## Other work
 
@@ -23,6 +24,11 @@ TR - address feedback
 # Tomorrow
 
 TR - address feedback
+- making all the components T: AsRef<str>
+
+TR - common type
+pub trait StringType: AsRef<&str> + From<&'static str> + Clone {}
+impl<T> StringType for T where T: ... {}
 
 TR - Coinjoin screens
 
