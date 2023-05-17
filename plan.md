@@ -7,9 +7,6 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 ## Deep work
 
 TR - address feedback
-- making all the components T: AsRef<str>
-- common type instead of StrBuffer
-- other things from review
 
 ## Other work
 
@@ -24,6 +21,8 @@ TR - address feedback
 TR - address feedback
 
 TR - Coinjoin screens
+
+TR - Homescreen uploading grayscale
 
 ---
 
