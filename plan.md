@@ -6,6 +6,8 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
+TR - fix nondebug versions
+
 TR - address feedback
 
 ## Other work
@@ -20,9 +22,9 @@ TR - address feedback
 
 TR - address feedback
 
-TR - Coinjoin screens
+TR - take matejcik's changes for ChoicePages (and clean up the code)
 
-TR - Homescreen uploading grayscale
+TR - try deleting Clone from StringType and see if it works most of the time
 
 ---
 
@@ -36,11 +38,15 @@ TR - new PIN text - https://github.com/trezor/trezor-firmware/issues/2636
 - seems like it is not worth creating a special layout just for getting rid of the arrows
 
 TR PR - suggestions and fixes
-- Label reusing
+- Label reusing for ChangingTextLine
 - Coinjoin loaders
 
 TR homescreen - https://github.com/trezor/trezor-firmware/issues/2812
 - on hardware, the welcome screen is shown for a very short time before homescreen, most of the time there is black screen
+
+TR - Coinjoin screens
+
+TR - Homescreen uploading grayscale
 
 Gettext - translations
 - look at OneKey
