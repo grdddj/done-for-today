@@ -6,9 +6,9 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-TR - fix nondebug versions
-
 TR - address feedback
+
+TR - take matejcik's changes for ChoicePages (and clean up the code)
 
 ## Other work
 
@@ -21,8 +21,6 @@ TR - address feedback
 # Tomorrow
 
 TR - address feedback
-
-TR - take matejcik's changes for ChoicePages (and clean up the code)
 
 TR - try deleting Clone from StringType and see if it works most of the time
 
