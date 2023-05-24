@@ -8,7 +8,11 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 TR - address feedback
 
-TR - take matejcik's changes for ChoicePages (and clean up the code)
+TR - deleting Clone from StringType and see if it works most of the time
+
+TR - documenting of some UI components
+
+TR - making the Op-based formatted text work for all models
 
 ## Other work
 
@@ -21,8 +25,6 @@ TR - take matejcik's changes for ChoicePages (and clean up the code)
 # Tomorrow
 
 TR - address feedback
-
-TR - try deleting Clone from StringType and see if it works most of the time
 
 ---
 
