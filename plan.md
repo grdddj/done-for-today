@@ -8,11 +8,17 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 TR - address feedback
 
-TR - improve FormattedText and Op-based TextLayout
+TR - look at Label and ChangingTextLine
+
+TR - fix the need of place()
+
+TR - Font improvements
 
 ## Other work
 
 ## Ideas
+
+Is it possible to have both TR and TT emulator builds at the same time? It would be useful e.g. for testing and comparing.
 
 ## Notes
 
