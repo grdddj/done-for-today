@@ -6,19 +6,21 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-TR - address feedback
+TR - get rid of `if MODEL` statements where possible
 
-TR - look at Label and ChangingTextLine
+TR - rebase on master and fix TT's tests
 
-TR - fix the need of place()
+TR - PIN entry going to ENTER after 4th digit
 
-TR - Font improvements
+TR - homescreen upload problem with black/white
 
 ## Other work
 
 ## Ideas
 
 Is it possible to have both TR and TT emulator builds at the same time? It would be useful e.g. for testing and comparing.
+
+Use the dev/test server for building things mostly for product people.
 
 ## Notes
 
