@@ -6,13 +6,13 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-TR - get rid of `if MODEL` statements where possible
+TR merge into master
 
-TR - rebase on master and fix TT's tests
+TR - close finished issues
 
-TR - PIN entry going to ENTER after 4th digit
+TR bootloader UI rebase
 
-TR - homescreen upload problem with black/white
+TR running bootloader emulator
 
 ## Other work
 
@@ -28,7 +28,9 @@ Use the dev/test server for building things mostly for product people.
 
 # Tomorrow
 
-TR - address feedback
+TR bootloader UI review
+
+TR support in trezor-user-env
 
 ---
 
