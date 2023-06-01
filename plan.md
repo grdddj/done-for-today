@@ -6,13 +6,7 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-TR merge into master
-
-TR - close finished issues
-
-TR bootloader UI rebase
-
-TR running bootloader emulator
+TR bootloader UI rebase, review and refactor
 
 ## Other work
 
@@ -27,8 +21,6 @@ Use the dev/test server for building things mostly for product people.
 ---
 
 # Tomorrow
-
-TR bootloader UI review
 
 TR support in trezor-user-env
 
