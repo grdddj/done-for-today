@@ -6,7 +6,11 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-TR bootloader UI rebase, review and refactor
+TR - support in trezor-user-env
+
+TR - support odd-width icons
+
+TR - use proper fonts from design
 
 ## Other work
 
@@ -22,7 +26,7 @@ Use the dev/test server for building things mostly for product people.
 
 # Tomorrow
 
-TR support in trezor-user-env
+TR - use proper fonts from design
 
 ---
 
