@@ -6,9 +6,11 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-TR - bootloader UI fixes
+TR - font changes
 
-TR - use proper fonts from design
+TR - bootloader rebase, squash and merge
+
+TR - PIN and word entry randomization
 
 ## Other work
 
@@ -24,9 +26,7 @@ Use the dev/test server for building things mostly for product people.
 
 # Tomorrow
 
-TR - font changes
-
-TR - bootloader rebase and squash
+TR - passphrase randomization
 
 ---
 
