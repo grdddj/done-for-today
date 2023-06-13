@@ -6,11 +6,13 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-TR - font changes
+TR - fix not generating UI report
 
-TR - bootloader rebase, squash and merge
+TR - passphrase randomization
 
-TR - PIN and word entry randomization
+TR - vertical centering of input methods
+
+TR - include TR screens into master diff
 
 ## Other work
 
@@ -26,7 +28,11 @@ Use the dev/test server for building things mostly for product people.
 
 # Tomorrow
 
-TR - passphrase randomization
+TR - vertical centering of input methods
+
+TR - Shamir backup
+
+TR - Coinjoin screens
 
 ---
 
