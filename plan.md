@@ -6,13 +6,15 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-TR - fix not generating UI report
-
-TR - passphrase randomization
-
 TR - vertical centering of input methods
 
-TR - include TR screens into master diff
+TR - Shamir backup
+
+TR - FIDO screens
+
+TR - Coinjoin screens
+
+TR - lot of merging
 
 ## Other work
 
@@ -28,11 +30,9 @@ Use the dev/test server for building things mostly for product people.
 
 # Tomorrow
 
-TR - vertical centering of input methods
-
-TR - Shamir backup
-
 TR - Coinjoin screens
+
+Write proposal for PyCon - upysize tool for micropython - https://cz.pycon.org/2023/cfp/
 
 ---
 
