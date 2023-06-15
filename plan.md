@@ -6,15 +6,9 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-TR - vertical centering of input methods
-
-TR - Shamir backup
-
-TR - FIDO screens
-
 TR - Coinjoin screens
 
-TR - lot of merging
+Write proposal for PyCon - upysize tool for micropython - https://cz.pycon.org/2023/cfp/
 
 ## Other work
 
@@ -30,9 +24,11 @@ Use the dev/test server for building things mostly for product people.
 
 # Tomorrow
 
-TR - Coinjoin screens
+TR - tutorial flow
 
-Write proposal for PyCon - upysize tool for micropython - https://cz.pycon.org/2023/cfp/
+TR - send flow
+
+Trezorlib documentation
 
 ---
 
@@ -46,15 +42,10 @@ TR - new PIN text - https://github.com/trezor/trezor-firmware/issues/2636
 - seems like it is not worth creating a special layout just for getting rid of the arrows
 
 TR PR - suggestions and fixes
-- Label reusing for ChangingTextLine
 - Coinjoin loaders
 
 TR homescreen - https://github.com/trezor/trezor-firmware/issues/2812
 - on hardware, the welcome screen is shown for a very short time before homescreen, most of the time there is black screen
-
-TR - Coinjoin screens
-
-TR - Homescreen uploading grayscale
 
 Gettext - translations
 - look at OneKey
