@@ -6,9 +6,13 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-TR - Coinjoin screens
+TR - tutorial flow
 
-Write proposal for PyCon - upysize tool for micropython - https://cz.pycon.org/2023/cfp/
+TR - button improvements
+
+TR - fix coinjoin loaders
+
+Review minor visual tweaks PR
 
 ## Other work
 
@@ -24,11 +28,11 @@ Use the dev/test server for building things mostly for product people.
 
 # Tomorrow
 
-TR - tutorial flow
-
 TR - send flow
 
-Trezorlib documentation
+Unit tests cleanup PR
+
+Trezorlib documentation PR
 
 ---
 
