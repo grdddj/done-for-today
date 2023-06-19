@@ -6,13 +6,11 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-TR - tutorial flow
+Review of Rust codebase
 
-TR - button improvements
+TR - analyzing new issues
 
-TR - fix coinjoin loaders
-
-Review minor visual tweaks PR
+TR - Coinjoin and tutorial PRs
 
 ## Other work
 
@@ -28,7 +26,7 @@ Use the dev/test server for building things mostly for product people.
 
 # Tomorrow
 
-TR - send flow
+TR - new design issues
 
 Unit tests cleanup PR
 
