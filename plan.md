@@ -6,19 +6,14 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-Review of Rust codebase
+TR - new design issues - PIN, passphrase, send
 
-TR - analyzing new issues
-
-TR - Coinjoin and tutorial PRs
+Blockbook - Block Golomb filters - introduction and planning
+- https://www.notion.so/satoshilabs/Block-Golomb-Filters-e8f3f9ec417b49a0b6025b6b084031be
 
 ## Other work
 
 ## Ideas
-
-Is it possible to have both TR and TT emulator builds at the same time? It would be useful e.g. for testing and comparing.
-
-Use the dev/test server for building things mostly for product people.
 
 ## Notes
 
@@ -26,7 +21,13 @@ Use the dev/test server for building things mostly for product people.
 
 # Tomorrow
 
-TR - new design issues
+TR - new design issues - passphrase, receive
+
+Blockbook - Block Golomb filters
+
+---
+
+# Later
 
 Unit tests cleanup PR
 
@@ -40,15 +41,6 @@ Ethereum definitions - https://github.com/trezor/definitions
 - add `shell.nix` and `poetry.toml` into the repo (`poetry` > 1.2)
 - figure out how to install the needed `trezorlib` with updated protobuf and other stuff - it lives in a branch currently - `marnova/ethereum_defs_from_host`
 
-TR - new PIN text - https://github.com/trezor/trezor-firmware/issues/2636
-- seems like it is not worth creating a special layout just for getting rid of the arrows
-
-TR PR - suggestions and fixes
-- Coinjoin loaders
-
-TR homescreen - https://github.com/trezor/trezor-firmware/issues/2812
-- on hardware, the welcome screen is shown for a very short time before homescreen, most of the time there is black screen
-
 Gettext - translations
 - look at OneKey
   - report on the status of translations
@@ -56,21 +48,6 @@ Gettext - translations
 ---
 
 # Older relevant notes
-
-## TT debug trace
-Need to investigate why the trace from TT is not being updated (e.g. during PIN entry in click tests), while TR is.
-- TT is using synthetic_events in comparison to TR's `RustLayout`'s `press_XXX` etc. functions - and they call `notify_layout_change`
-
-### Model R self-code review
-- change AsRef<str> to Deref<str> for general T types
-- investigate whether `obj_place` - `ui_layout_place` is necessary to get all debugging info
-- investigate using synthetic events instead of calling `TR`'s `RustLayout`'s `press_XXX` etc. functions (would be possible to see the button highlights, but was causing freezing in some other tests)
-  - or vice-versa, use the `click_at` debug function in TT
-  - the benefit of using synthetic events is that we capture the UI change of the button being pressed, which is good to have
-- try to use `page_count` from `inner.event_ctx.page_count`
-- have some common code for `RustLayout` for `TT` and `TR`? A lot of code is the same.
-- will we have a strategy for sorting the QSTRings in `core/embed/rust/librust_qstr.h`?
-- what to do with all the gdb scripts - update them or delete them?
 
 ### Emulator shortcuts
 Could we somehow use keyboard shortcuts in the emulator?
@@ -115,6 +92,13 @@ It could be possible to do some hardware profiling/experiments using print trace
   - when fee-rate is 1sat/b, I would pay almost nothing for the transaction (4 cents currently), even if it got mined
 - incredible possibilities for censorship resistance
 - also some interesting services could be created - like "Only messages coming from addresses with > 0.1 BTC will be shown"
+
+### Emulator more models
+Is it possible to have both TR and TT emulator builds at the same time? It would be useful e.g. for testing and comparing.
+
+
+### Dev server usage
+Use the dev/test server for building things mostly for product people.
 
 ---
 
