@@ -6,14 +6,18 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-TR - new design issues - PIN, passphrase, send
+Blockbook - Block Golomb filters studying, experiments
 
-Blockbook - Block Golomb filters - introduction and planning
-- https://www.notion.so/satoshilabs/Block-Golomb-Filters-e8f3f9ec417b49a0b6025b6b084031be
+TR - new design issues - passphrase, receive
+
+UI tests - tool to get the latest UI reports for a given branch/PR
 
 ## Other work
 
 ## Ideas
+
+We might want to improve the integration of differing screens report into PRs, so it is easy to see all the UI changes.
+- something like automatically generate a report of all the screens that changed - and more importantly having a deterministic URL for the branch, so that it can be always viewed for the most-recent state
 
 ## Notes
 
@@ -21,9 +25,9 @@ Blockbook - Block Golomb filters - introduction and planning
 
 # Tomorrow
 
-TR - new design issues - passphrase, receive
-
 Blockbook - Block Golomb filters
+
+TR - new design issues - receive
 
 ---
 
