@@ -6,11 +6,9 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-Blockbook - Block Golomb filters studying, experiments
-
-TR - new design issues - passphrase, receive
-
 UI tests - tool to get the latest UI reports for a given branch/PR
+
+TR - new design issues - wallet creation
 
 ## Other work
 
@@ -25,9 +23,9 @@ We might want to improve the integration of differing screens report into PRs, s
 
 # Tomorrow
 
-Blockbook - Block Golomb filters
+TR - new design issues - wallet creation
 
-TR - new design issues - receive
+UI test and master diff improvements
 
 ---
 
