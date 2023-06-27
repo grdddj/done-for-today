@@ -6,16 +6,17 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-TR - new design issues - wallet creation
+TR - merging and rebasing
 
-TR - design PRs feedback
+UI test and master diff improvements
+
+Change Total amount font in send summary
+
+Blockbook - Golomb filter code overview
 
 ## Other work
 
 ## Ideas
-
-We might want to improve the integration of differing screens report into PRs, so it is easy to see all the UI changes.
-- something like automatically generate a report of all the screens that changed - and more importantly having a deterministic URL for the branch, so that it can be always viewed for the most-recent state
 
 ## Notes
 
@@ -23,13 +24,16 @@ We might want to improve the integration of differing screens report into PRs, s
 
 # Tomorrow
 
-UI test and master diff improvements
+TR - merging and rebasing
+
+Unit tests cleanup PR
+
+Blockbook - Golomb filter code overview
+--- opening PRs with typos fixes and adding gcc into shell.nix
 
 ---
 
 # Later
-
-Unit tests cleanup PR
 
 Trezorlib documentation PR
 
