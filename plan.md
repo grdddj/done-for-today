@@ -6,9 +6,9 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-UI tests - tool to get the latest UI reports for a given branch/PR
-
 TR - new design issues - wallet creation
+
+TR - design PRs feedback
 
 ## Other work
 
@@ -22,8 +22,6 @@ We might want to improve the integration of differing screens report into PRs, s
 ---
 
 # Tomorrow
-
-TR - new design issues - wallet creation
 
 UI test and master diff improvements
 
