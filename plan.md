@@ -6,13 +6,11 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-TR - merging and rebasing
+Review pseudo-global content PR
 
-UI test and master diff improvements
+Unit tests cleanup PR
 
-Change Total amount font in send summary
-
-Blockbook - Golomb filter code overview
+UI master diff reports
 
 ## Other work
 
@@ -24,16 +22,16 @@ Blockbook - Golomb filter code overview
 
 # Tomorrow
 
-TR - merging and rebasing
-
-Unit tests cleanup PR
-
-Blockbook - Golomb filter code overview
---- opening PRs with typos fixes and adding gcc into shell.nix
+TR - recovery designs
 
 ---
 
 # Later
+
+Blockbook
+- setting up dev environment on testnet
+- Golomb filter code overview
+- opening PRs with typos fixes and adding gcc into shell.nix
 
 Trezorlib documentation PR
 
