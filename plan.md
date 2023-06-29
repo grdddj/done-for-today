@@ -6,15 +6,15 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-Review pseudo-global content PR
+TR - feedback for all UI PRs
 
-Unit tests cleanup PR
-
-UI master diff reports
+TR - recovery designs
 
 ## Other work
 
 ## Ideas
+
+Should do a table/mapping of device/click tests for the appropriate Figma designs
 
 ## Notes
 
@@ -22,7 +22,9 @@ UI master diff reports
 
 # Tomorrow
 
-TR - recovery designs
+TR - feedback for all UI PRs
+
+TR - recovery designs - improve tests
 
 ---
 
