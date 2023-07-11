@@ -6,15 +6,15 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-TR - feedback for all UI PRs + rebase
-
 TR - recovery designs - improve tests
+
+TR - merge all PRs into a super-PR and record tests
+
+TR - create mapping of Figma designs and UI tests
 
 ## Other work
 
 ## Ideas
-
-Should do a table/mapping of device/click tests for the appropriate Figma designs
 
 ## Notes
 
@@ -22,13 +22,11 @@ Should do a table/mapping of device/click tests for the appropriate Figma design
 
 # Tomorrow
 
-TR - recovery designs - improve tests
-
 TR - try showing "protection" in regular font in PIN setup
 
-TR - merge all PRs into a super-PR and record tests
-
 Smaller UI issues
+
+Blockbook filters
 
 ---
 
