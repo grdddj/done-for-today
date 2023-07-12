@@ -6,11 +6,7 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-TR - recovery designs - improve tests
-
-TR - merge all PRs into a super-PR and record tests
-
-TR - create mapping of Figma designs and UI tests
+TR - T2B1 design PR - rebasing on master, solving click tests issue
 
 ## Other work
 
