@@ -6,7 +6,11 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-TR - T2B1 design PR - rebasing on master, solving click tests issue
+TR - try showing "protection" in regular font in PIN setup
+
+Smaller UI issues and PRs
+
+Blockbook - two small PRs
 
 ## Other work
 
@@ -18,9 +22,7 @@ TR - T2B1 design PR - rebasing on master, solving click tests issue
 
 # Tomorrow
 
-TR - try showing "protection" in regular font in PIN setup
-
-Smaller UI issues
+CI - saving fixtures.suggestions.json and allowing to apply them locally
 
 Blockbook filters
 
@@ -31,7 +33,6 @@ Blockbook filters
 Blockbook
 - setting up dev environment on testnet
 - Golomb filter code overview
-- opening PRs with typos fixes and adding gcc into shell.nix
 
 Trezorlib documentation PR
 
