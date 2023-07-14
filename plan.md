@@ -6,11 +6,11 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-TR - try showing "protection" in regular font in PIN setup
+CI - saving fixtures.suggestions.json and allowing to apply them locally
 
-Smaller UI issues and PRs
+UI PRs
 
-Blockbook - two small PRs
+Blockbook filters
 
 ## Other work
 
@@ -22,7 +22,7 @@ Blockbook - two small PRs
 
 # Tomorrow
 
-CI - saving fixtures.suggestions.json and allowing to apply them locally
+UI PRs
 
 Blockbook filters
 
