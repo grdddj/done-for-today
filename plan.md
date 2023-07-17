@@ -6,11 +6,11 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-CI - saving fixtures.suggestions.json and allowing to apply them locally
+Blockbook filters - MVP done
 
 UI PRs
 
-Blockbook filters
+SiteScons linting PR
 
 ## Other work
 
@@ -24,15 +24,9 @@ Blockbook filters
 
 UI PRs
 
-Blockbook filters
-
 ---
 
 # Later
-
-Blockbook
-- setting up dev environment on testnet
-- Golomb filter code overview
 
 Trezorlib documentation PR
 
