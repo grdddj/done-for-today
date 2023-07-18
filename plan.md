@@ -6,11 +6,9 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-Blockbook filters - MVP done
+Blockbook filters - fix initial sync
 
 UI PRs
-
-SiteScons linting PR
 
 ## Other work
 
