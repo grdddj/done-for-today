@@ -8,7 +8,7 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 Blockbook filters - fix initial sync
 
-UI PRs
+TT UI PRs
 
 ## Other work
 
@@ -20,7 +20,7 @@ UI PRs
 
 # Tomorrow
 
-UI PRs
+TT UI PRs
 
 ---
 
