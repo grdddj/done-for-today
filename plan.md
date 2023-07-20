@@ -6,13 +6,15 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-Blockbook filters - fix initial sync
-
-TT UI PRs
+TT UI PRs - recovery flow + input flows improving
 
 ## Other work
 
 ## Ideas
+
+Number the screens on the UI report, so they are easily identifiable. Also, allow for <URL>#<screen_id> to visit the screen directly.
+
+Try to generate a list of all unique screens to a specific design - e.g. tutorial, recovery, etc.
 
 ## Notes
 
@@ -20,7 +22,11 @@ TT UI PRs
 
 # Tomorrow
 
-TT UI PRs
+TT UI PRs - recovery flow + input flows improving
+
+UI tests mapping
+
+Blockbook - remove ordinals from block filters
 
 ---
 
