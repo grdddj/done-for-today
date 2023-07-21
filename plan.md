@@ -6,7 +6,7 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-TT UI PRs - recovery flow + input flows improving
+TT UI - recovery flow + improve recovery input flows
 
 ## Other work
 
@@ -22,17 +22,19 @@ Try to generate a list of all unique screens to a specific design - e.g. tutoria
 
 # Tomorrow
 
-TT UI PRs - recovery flow + input flows improving
+Recovery flow
 
-UI tests mapping
-
-Blockbook - remove ordinals from block filters
+Refactoring input flows for backup and other flows, like done in recovery
 
 ---
 
 # Later
 
 Trezorlib documentation PR
+
+UI tests mapping
+
+Blockbook - remove ordinals from block filters
 
 ---
 
