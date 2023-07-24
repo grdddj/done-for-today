@@ -6,7 +6,20 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-TT UI - recovery flow + improve recovery input flows
+Connecting UI tests with Figma screen designs
+Plan:
+- create a mapping of Figma flow title (tutorial, recovery, PIN, etc.) to all the test-cases that have the relevant screens (unique only ofc.)
+- create a dashboard for each flow with links to all the relevant tests - or maybe group all these test's results on one page
+- make sure each screen in Figma has a unique name (Tutorial 1, Tutorial 2, ...)
+- add id tags to each screen in the specific UI test-case, so it can be parsed from the test
+--- each screen can then be uniquely identified by the test name and screen index
+--- TR-click_tests-test_tutorial.py::test_tutorial_again_and_skip#1 ... this picture can then be fetched
+- map the Figma unique name to the screen unique name in the test
+- have a dashboard with the same titles as in Figma, and images taken from the last master build
+--- need to resolve the latest master artifacts somehow
+- uncover which screens are missing either in Figma, or in tests - there should be a 1:1 mapping
+- goal is NOT to have everything pixel-perfect, goal is to catch obvious errors and to have a quick overview of the current state of the UI
+- is it possible to automatically export all the screens from Figma? We might then do a real-time comparison of the similarity
 
 ## Other work
 
@@ -22,9 +35,7 @@ Try to generate a list of all unique screens to a specific design - e.g. tutoria
 
 # Tomorrow
 
-Recovery flow
-
-Refactoring input flows for backup and other flows, like done in recovery
+Connecting UI tests with Figma screen designs
 
 ---
 
