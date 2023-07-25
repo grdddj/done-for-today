@@ -20,6 +20,7 @@ Plan:
 - uncover which screens are missing either in Figma, or in tests - there should be a 1:1 mapping
 - goal is NOT to have everything pixel-perfect, goal is to catch obvious errors and to have a quick overview of the current state of the UI
 - is it possible to automatically export all the screens from Figma? We might then do a real-time comparison of the similarity
+- adding a search field to find screens with given text
 
 ## Other work
 
@@ -36,6 +37,8 @@ Try to generate a list of all unique screens to a specific design - e.g. tutoria
 # Tomorrow
 
 Connecting UI tests with Figma screen designs
+
+Rebase the size firmware PR
 
 ---
 
