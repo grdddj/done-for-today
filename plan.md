@@ -6,11 +6,7 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-Binsize - account for the new micropython symbols
-
-TT Recovery PR - rebase, fix tests
-
-Connecting UI tests with Figma screen designs - Sign, Receive, CoinJoin etc.
+PR xpub QRcodes
 
 ## Other work
 
@@ -22,9 +18,12 @@ Connecting UI tests with Figma screen designs - Sign, Receive, CoinJoin etc.
 
 # Tomorrow
 
-Connecting UI tests with Figma screen designs - Sign, Receive, CoinJoin etc.
+PR xpub QRcodes
 
 TR - ETH sign flow
+
+Connecting UI tests with Figma screen designs - Sign, Receive, CoinJoin etc.
+
 ---
 
 # Later
