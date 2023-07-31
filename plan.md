@@ -6,7 +6,9 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-PR xpub QRcodes
+PR xpub QRcodes review
+
+TR - ETH send flow
 
 ## Other work
 
@@ -17,10 +19,6 @@ PR xpub QRcodes
 ---
 
 # Tomorrow
-
-PR xpub QRcodes
-
-TR - ETH sign flow
 
 Connecting UI tests with Figma screen designs - Sign, Receive, CoinJoin etc.
 
