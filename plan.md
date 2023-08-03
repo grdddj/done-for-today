@@ -6,9 +6,7 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-TR - ETH send flow - make it possible to skip or cancel the data
-
-Figma mapping - add missing flows
+Figma mapping - add missing flows, support text search
 
 ## Other work
 
@@ -20,7 +18,11 @@ Figma mapping - add missing flows
 
 # Tomorrow
 
-Figma mapping - add missing flows
+TR - Check the bootloader icons
+
+TR - sign message flow
+
+TT - Changing fonts in confirm_properties
 
 ---
 
