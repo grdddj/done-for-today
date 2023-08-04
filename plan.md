@@ -6,7 +6,7 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-Figma mapping - add missing flows, support text search
+Figma mapping - include button texts, add comment field, do proper check
 
 ## Other work
 
@@ -17,6 +17,8 @@ Figma mapping - add missing flows, support text search
 ---
 
 # Tomorrow
+
+TR - update the confirm_data screen - arrow on the very left, GO BACK on the very right
 
 TR - Check the bootloader icons
 
