@@ -6,7 +6,11 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-Figma mapping - include button texts, add comment field, do proper check
+TR - update the confirm_data screen
+
+TR - Check the bootloader icons
+
+TR - fix mismatches with Figma
 
 ## Other work
 
@@ -18,13 +22,9 @@ Figma mapping - include button texts, add comment field, do proper check
 
 # Tomorrow
 
-TR - update the confirm_data screen - arrow on the very left, GO BACK on the very right
-
-TR - Check the bootloader icons
+TT - Changing fonts in confirm_properties
 
 TR - sign message flow
-
-TT - Changing fonts in confirm_properties
 
 ---
 
