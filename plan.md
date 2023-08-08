@@ -6,11 +6,11 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-TR - update the confirm_data screen
+TT - Changing fonts in confirm_properties
 
-TR - Check the bootloader icons
+TR - sign message flow
 
-TR - fix mismatches with Figma
+Figma screens - reading text from screenshots with OCR
 
 ## Other work
 
@@ -22,9 +22,9 @@ TR - fix mismatches with Figma
 
 # Tomorrow
 
-TT - Changing fonts in confirm_properties
+TR - bad tutorial message when cancelled
 
-TR - sign message flow
+TR - choice items different spacing
 
 ---
 
