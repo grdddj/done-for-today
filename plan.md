@@ -6,11 +6,15 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-TT - Changing fonts in confirm_properties
+TR - bad tutorial message when cancelled
 
-TR - sign message flow
+TR - choice items different spacing
 
-Figma screens - reading text from screenshots with OCR
+UI dashboard - add test summary (failed and error testcases)
+
+CI test downloader - fail when the tests contain failures
+
+Blockbook - remove ordinals from block filters
 
 ## Other work
 
@@ -22,17 +26,16 @@ Figma screens - reading text from screenshots with OCR
 
 # Tomorrow
 
-TR - bad tutorial message when cancelled
+Blockbook - finalize block filters PR
 
-TR - choice items different spacing
+Blockbook - add witness data to transactions
+
 
 ---
 
 # Later
 
 Trezorlib documentation PR
-
-Blockbook - remove ordinals from block filters
 
 ---
 
