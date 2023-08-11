@@ -6,8 +6,6 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-Blockbook - delete block filters on disconnect
-
 Firmware translations - create proof of concept
 
 ## Other work
@@ -20,17 +18,22 @@ Translations
 - storing mappings in JSON files (in nested structure, so it is easy to navigate and know what is used where)
 - autogenerating .py and .rs files from JSON with mako templates
 --- check how much space they are taking
---- experiment with micropython::const and without it
+--- experiment with micropython::const and without it (also with Rust::trait instead of struct)
 --- make sure it never goes to RAM and is always in flash
 - needs to add new characters into fonts (czech and french)
 - handle plurals
 - handle {} formatting
 - how to handle Micropython vs Rust division? Translators should not care where it is
+- how to handle model-specific texts and those that are different?
+- translate C and bootloader as well?
+- all the languages should contain the same keys
 ---
 
 # Tomorrow
 
-Firmware translations - create proof of concept
+Firmware translations - add font characters for czech and french
+
+Firmware translations - do the translations for Model T as well
 
 ---
 
