@@ -6,15 +6,9 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-TR - bad tutorial message when cancelled
+Blockbook - delete block filters on disconnect
 
-TR - choice items different spacing
-
-UI dashboard - add test summary (failed and error testcases)
-
-CI test downloader - fail when the tests contain failures
-
-Blockbook - remove ordinals from block filters
+Firmware translations - create proof of concept
 
 ## Other work
 
@@ -22,18 +16,27 @@ Blockbook - remove ordinals from block filters
 
 ## Notes
 
+Translations
+- storing mappings in JSON files (in nested structure, so it is easy to navigate and know what is used where)
+- autogenerating .py and .rs files from JSON with mako templates
+--- check how much space they are taking
+--- experiment with micropython::const and without it
+--- make sure it never goes to RAM and is always in flash
+- needs to add new characters into fonts (czech and french)
+- handle plurals
+- handle {} formatting
+- how to handle Micropython vs Rust division? Translators should not care where it is
 ---
 
 # Tomorrow
 
-Blockbook - finalize block filters PR
-
-Blockbook - add witness data to transactions
-
+Firmware translations - create proof of concept
 
 ---
 
 # Later
+
+Blockbook - add witness data to transactions
 
 Trezorlib documentation PR
 
