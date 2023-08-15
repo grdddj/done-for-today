@@ -6,9 +6,7 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-Ruff linter - add it as a dependency
-
-Firmware translations - add font characters for czech language, support UTF8
+Firmware translations - account for translations in tests
 
 ## Other work
 
