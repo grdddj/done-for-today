@@ -6,7 +6,11 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
+Review PRs
+
 Firmware translations - account for translations in tests
+
+Firmware translations - translate Cardano
 
 ## Other work
 
@@ -31,9 +35,11 @@ Translations
 
 # Tomorrow
 
-Firmware translations - account for translations in tests
+Review PRs
 
-Firmware translations - do the translations for Model T as well
+Firmware translations - fix test_getaddress_show.py
+
+Firmware translations - translate remaining altcoins
 
 ---
 
