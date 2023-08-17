@@ -8,9 +8,11 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 Review PRs
 
-Firmware translations - account for translations in tests
+Firmware translations - fix test_getaddress_show.py
 
-Firmware translations - translate Cardano
+Firmware translations - fix UTF8 handling in Rust
+
+Firmware translations - translate remaining altcoins
 
 ## Other work
 
@@ -35,15 +37,15 @@ Translations
 
 # Tomorrow
 
-Review PRs
-
-Firmware translations - fix test_getaddress_show.py
-
 Firmware translations - translate remaining altcoins
+
+TR issues/PRs
 
 ---
 
 # Later
+
+Firmware translations - load french characters
 
 Blockbook - add witness data to transactions
 
