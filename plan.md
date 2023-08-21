@@ -6,13 +6,9 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-Review PRs
+Firmware translations - translate remaining altcoins and layouts
 
-Firmware translations - fix test_getaddress_show.py
-
-Firmware translations - fix UTF8 handling in Rust
-
-Firmware translations - translate remaining altcoins
+Firmware translations - script for checking the completion of translations
 
 ## Other work
 
@@ -36,8 +32,6 @@ Translations
 ---
 
 # Tomorrow
-
-Firmware translations - translate remaining altcoins
 
 TR issues/PRs
 
