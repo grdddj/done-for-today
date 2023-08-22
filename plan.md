@@ -6,15 +6,21 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-Firmware translations - translate remaining altcoins and layouts
+Firmware translations - finish TT translations, make all the tests work, add czech build/test into CI
 
-Firmware translations - script for checking the completion of translations
+Golomb filters call with Lucas from Wasabi
 
 ## Other work
 
 ## Ideas
 
 ## Notes
+
+Golomb filters
+- increase the P size of mempool filters to something like 23 (more transactions than in one block)
+- think about supporting variable P size in the future
+- Berlino project - using binary websocket
+- gzip and blob
 
 Translations
 - storing mappings in JSON files (in nested structure, so it is easy to navigate and know what is used where)
