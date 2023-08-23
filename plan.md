@@ -6,9 +6,9 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-Firmware translations - finish TT translations, make all the tests work, add czech build/test into CI
+TR small issues/PRs
 
-Golomb filters call with Lucas from Wasabi
+TR - support automatic movement of choices when user holds the button
 
 ## Other work
 
@@ -39,7 +39,9 @@ Translations
 
 # Tomorrow
 
-TR issues/PRs
+TR - trying to animate the PIN shuffling
+
+Definitions - include the ID of the coin into data
 
 ---
 
