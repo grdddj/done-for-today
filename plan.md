@@ -6,9 +6,11 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-TR small issues/PRs
+Definitions - include the ID of the coin into data
 
-TR - support automatic movement of choices when user holds the button
+TR - trying to animate the PIN shuffling
+
+Blockbook - add witness data to transactions, exclude ordinals transactions from Golomb filters
 
 ## Other work
 
@@ -39,9 +41,7 @@ Translations
 
 # Tomorrow
 
-TR - trying to animate the PIN shuffling
-
-Definitions - include the ID of the coin into data
+Displaying chunked address
 
 ---
 
