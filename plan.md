@@ -6,11 +6,9 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-Definitions - include the ID of the coin into data
+Displaying chunked address on TT/TR
 
-TR - trying to animate the PIN shuffling
-
-Blockbook - add witness data to transactions, exclude ordinals transactions from Golomb filters
+Blockbook - improve ordinals filtering
 
 ## Other work
 
@@ -41,7 +39,9 @@ Translations
 
 # Tomorrow
 
-Displaying chunked address
+Deploy and test the ordinals filtering against non-filtering
+
+Coin support on TR
 
 ---
 
