@@ -6,11 +6,9 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-Design PRs
-
-Deploy and test the ordinals filtering against non-filtering
-
 Coin support on TR
+
+Presentation on block-filters and ordinals
 
 ## Other work
 
