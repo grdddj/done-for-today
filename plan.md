@@ -10,9 +10,23 @@ Coin support on TR
 
 Presentation on block-filters and ordinals
 
+Block filters - additional API/websocket parameters
+
 ## Other work
 
 ## Ideas
+
+Golomb filters
+- decreasing the P for mempool filters - the data seem to be smaller with smaller P - https://stefano.brilli.me/gcs/
+- send just part of tx_id in the mempool response (e.g. first half, or even less)
+- enforce mempool request to be the same type?
+
+- send filter-type from Suite to Blockbook
+- add configuration to zero-bytes*16 to block filters
+
+- send M and P in the response, and ONLY M in the request for block
+- when not sending the parameter from request, make it optional
+---
 
 ## Notes
 
