@@ -6,8 +6,6 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-Coin support on TR
-
 Presentation on block-filters and ordinals
 
 Block filters - additional API/websocket parameters
@@ -53,9 +51,9 @@ Translations
 
 # Tomorrow
 
-Coin support on TR
-
 Presentation on block-filters and ordinals
+
+Block filters - additional API/websocket parameters
 
 ---
 
