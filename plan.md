@@ -6,9 +6,11 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-Presentation on block-filters and ordinals
+TR - merge older PRs
 
-Block filters - additional API/websocket parameters
+Definitions - review PR
+
+Presentation on block-filters and ordinals
 
 ## Other work
 
@@ -51,17 +53,13 @@ Translations
 
 # Tomorrow
 
-Presentation on block-filters and ordinals
-
-Block filters - additional API/websocket parameters
+Block filters - add more tests for block filters
 
 ---
 
 # Later
 
 Firmware translations - load french characters
-
-Blockbook - add witness data to transactions
 
 Trezorlib documentation PR
 
