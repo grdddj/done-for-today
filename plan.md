@@ -6,11 +6,9 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-TR - merge older PRs
+Wrong PIN instead of Enter PIN
 
-Definitions - review PR
-
-Presentation on block-filters and ordinals
+Internal model names in tests
 
 ## Other work
 
@@ -53,7 +51,9 @@ Translations
 
 # Tomorrow
 
-Block filters - add more tests for block filters
+Vertically centering the content
+
+Supported coins for TR
 
 ---
 
