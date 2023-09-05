@@ -6,9 +6,13 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-Wrong PIN instead of Enter PIN
+Address chunkification - change design
 
-Internal model names in tests
+TR automatic movement - fix bugs
+
+Vertically centering the content
+
+Supported coins for TR - Bitcoin-like coins
 
 ## Other work
 
@@ -51,9 +55,11 @@ Translations
 
 # Tomorrow
 
-Vertically centering the content
+Supported coins for TR - verify that coins are there only once in the final binary
 
-Supported coins for TR
+Vertically centering the content - investigate it more deeply
+
+TR - internal error screen
 
 ---
 
