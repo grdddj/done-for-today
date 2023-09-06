@@ -6,13 +6,11 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-Address chunkification - change design
+Address chunkification - improve design
 
-TR automatic movement - fix bugs
+Supported coins for TR - fix tests, verify that coins are there only once in the final binary
 
-Vertically centering the content
-
-Supported coins for TR - Bitcoin-like coins
+Definitions - update definitions data, prepare them for signing, add README
 
 ## Other work
 
@@ -55,7 +53,7 @@ Translations
 
 # Tomorrow
 
-Supported coins for TR - verify that coins are there only once in the final binary
+Address chunkification - do it for sending addresses as well
 
 Vertically centering the content - investigate it more deeply
 
