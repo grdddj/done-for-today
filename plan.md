@@ -6,11 +6,7 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-Address chunkification - improve design
-
-Supported coins for TR - fix tests, verify that coins are there only once in the final binary
-
-Definitions - update definitions data, prepare them for signing, add README
+Firmware translations
 
 ## Other work
 
