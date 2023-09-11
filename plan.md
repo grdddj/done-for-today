@@ -6,7 +6,9 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-Firmware translations
+Firmware translations - check screens, load french characters
+
+Address chunkification - do it for sending addresses as well
 
 ## Other work
 
@@ -58,8 +60,6 @@ TR - internal error screen
 ---
 
 # Later
-
-Firmware translations - load french characters
 
 Trezorlib documentation PR
 
