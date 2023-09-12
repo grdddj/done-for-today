@@ -6,9 +6,11 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-Firmware translations - check screens, load french characters
+Address chunkification - fix design
 
-Address chunkification - do it for sending addresses as well
+TENV - fix missing uploads
+
+Translations - fix conflicts
 
 ## Other work
 
@@ -49,9 +51,23 @@ Translations
 - all the languages should contain the same keys
 ---
 
+Ordinals in Trezor
+- find out what exactly is missing
+- https://xverseapp.notion.site/xverseapp/Sats-Connect-Inscription-Pre-release-6e13b4313bf0454881431c4916b8327b
+- just for signing transactions, or also for creating the transaction?
+- recognize ordinals are in the wallet, prevent potential loss of funds
+- extension to Trezor Suite, not shown be default
+
+Blockbook filters tests
+- increase unittest coverage for golomb filters... add zeroed-key (is hardcoded now), add no-ordinals support
+- gf.AddAddrDesc(ad, nil)
+- create a whole transaction with witness etc.
+- use parser and hexadecimal tx data to convert
+- hextoBytes
+
 # Tomorrow
 
-Address chunkification - do it for sending addresses as well
+Address chunkification - do it for sending addresses as well (protobuf changes)
 
 Vertically centering the content - investigate it more deeply
 
