@@ -6,11 +6,11 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-Address chunkification - fix design
+Automatic movement - improvements, merging
 
-TENV - fix missing uploads
+Chunkifying address - protobuf changes, experiments, tests
 
-Translations - fix conflicts
+Support for T2B1
 
 ## Other work
 
@@ -67,15 +67,21 @@ Blockbook filters tests
 
 # Tomorrow
 
-Address chunkification - do it for sending addresses as well (protobuf changes)
+Address chunkification - finalize and merge
 
-Vertically centering the content - investigate it more deeply
+Fix left arrow button icon
 
-TR - internal error screen
+Translations - get rid of UI conflicts, setup UI tests for non-english languages
 
 ---
 
 # Later
+
+Blockbook block filter tests
+
+Vertically centering the content - investigate it more deeply
+
+TR - internal error screen
 
 Trezorlib documentation PR
 
