@@ -6,11 +6,11 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-Automatic movement - improvements, merging
+Address chunkification - finalize
 
-Chunkifying address - protobuf changes, experiments, tests
+Fix left arrow button icon
 
-Support for T2B1
+Same ButtonRequests on TR and TT
 
 ## Other work
 
@@ -69,7 +69,7 @@ Blockbook filters tests
 
 Address chunkification - finalize and merge
 
-Fix left arrow button icon
+Fix chunkification in multiple pages
 
 Translations - get rid of UI conflicts, setup UI tests for non-english languages
 
