@@ -6,11 +6,13 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-Address chunkification - finalize
+Address chunkification - finalize and merge
 
-Fix left arrow button icon
+Blockbook - add unittests for taproot-noordinals filter
 
-Same ButtonRequests on TR and TT
+Fix chunkification in multiple pages - arrows and chunks sizes
+
+Mono font fix - decrease the width of m, w, M and W characters
 
 ## Other work
 
@@ -67,17 +69,15 @@ Blockbook filters tests
 
 # Tomorrow
 
-Address chunkification - finalize and merge
+Change homescreen dialogue with preview on T2B1
 
-Fix chunkification in multiple pages
-
-Translations - get rid of UI conflicts, setup UI tests for non-english languages
+Hold to delete on T2B1
 
 ---
 
 # Later
 
-Blockbook block filter tests
+Translations - get rid of UI conflicts, setup UI tests for non-english languages
 
 Vertically centering the content - investigate it more deeply
 
