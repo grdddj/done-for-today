@@ -6,13 +6,9 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-Address chunkification - finalize and merge
+Change homescreen dialogue with preview on T2B1
 
-Blockbook - add unittests for taproot-noordinals filter
-
-Fix chunkification in multiple pages - arrows and chunks sizes
-
-Mono font fix - decrease the width of m, w, M and W characters
+Hold to delete on T2B1
 
 ## Other work
 
@@ -69,15 +65,11 @@ Blockbook filters tests
 
 # Tomorrow
 
-Change homescreen dialogue with preview on T2B1
-
-Hold to delete on T2B1
+Translations - get rid of UI conflicts, setup UI tests for non-english languages
 
 ---
 
 # Later
-
-Translations - get rid of UI conflicts, setup UI tests for non-english languages
 
 Vertically centering the content - investigate it more deeply
 
