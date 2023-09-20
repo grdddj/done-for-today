@@ -6,9 +6,9 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-Change homescreen dialogue with preview on T2B1
+Translations - get rid of some UI/tests conflicts, fill missing translations, fix bootloader builds
 
-Hold to delete on T2B1
+Hold to delete - making the action happen even without button release
 
 ## Other work
 
@@ -49,6 +49,12 @@ Translations
 - all the languages should contain the same keys
 ---
 
+Translations issues/problems:
+- bootloader cannot import the translation modules
+- however, the translations are included even in parts used by it (like buttons or ChoicePage)
+- the translations are quite big in size -- just one language, let alone storing multiple languages at once
+- how to create the possibility of changing the language from outside without rebuild?
+
 Ordinals in Trezor
 - find out what exactly is missing
 - https://xverseapp.notion.site/xverseapp/Sats-Connect-Inscription-Pre-release-6e13b4313bf0454881431c4916b8327b
@@ -65,7 +71,7 @@ Blockbook filters tests
 
 # Tomorrow
 
-Translations - get rid of UI conflicts, setup UI tests for non-english languages
+Translations - setup UI tests for non-english languages
 
 ---
 
