@@ -6,9 +6,11 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-Translations - get rid of some UI/tests conflicts, fill missing translations, fix bootloader builds
+Hold to delete - troubleshooting
 
-Hold to delete - making the action happen even without button release
+Translations - efficiently storing the translations data
+
+TR - deduplicate letters in recovery selection
 
 ## Other work
 
@@ -54,6 +56,18 @@ Translations issues/problems:
 - however, the translations are included even in parts used by it (like buttons or ChoicePage)
 - the translations are quite big in size -- just one language, let alone storing multiple languages at once
 - how to create the possibility of changing the language from outside without rebuild?
+- with large enough flash storage, we should be able to store all languages at once (maybe if we get bigger storage with the next model)
+- french translation brings extra 25kb, czech extra 22 kb ... it would be possible to have these three langs all the time
+--- we might also not translate the altcoins and have them only in english!!!
+--- (it makes very little sense to waste space on (Cardano, Eos, Nem, Stellar, Tezos), when very few people use it and the strings there are very long)
+- we might store the current (non-english) language in storage
+--- but we should be able to return it as &'static str, which might be a problem
+- it is possible to store the byte-array and encode key-value pairs
+--- storing the keys as integers takes much less space - however, then mapping would be necessary between keys and integers
+- there should always be english translation baked into the firmware, and only other languages pushed into storage
+--- (check if something is in storage, and if not, or malformed, use english)
+- we should store the translation blob in three flash sectors
+--- change MPU - will be hard, secret.c in stm32f4, mpu_config_firmware comment, SECRET_AREA -> TRANSLATIONS_AREA, after it
 
 Ordinals in Trezor
 - find out what exactly is missing
@@ -71,7 +85,11 @@ Blockbook filters tests
 
 # Tomorrow
 
-Translations - setup UI tests for non-english languages
+Show account names for altcoins
+
+Troubleshoot slow marquee
+
+Translations - efficiently storing the translations data
 
 ---
 
