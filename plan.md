@@ -6,11 +6,11 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-Hold to delete - troubleshooting
+Show account names for altcoins + create tests
 
-Translations - efficiently storing the translations data
+Troubleshoot slow marquee
 
-TR - deduplicate letters in recovery selection
+Hold to delete improvements and tests
 
 ## Other work
 
@@ -85,11 +85,7 @@ Blockbook filters tests
 
 # Tomorrow
 
-Show account names for altcoins
-
-Troubleshoot slow marquee
-
-Translations - efficiently storing the translations data
+Translations - efficiently storing the translations data, read/write from available flash sectors
 
 ---
 
