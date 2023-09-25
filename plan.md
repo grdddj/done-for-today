@@ -6,11 +6,9 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-Show account names for altcoins + create tests
+Translations - efficiently storing the translations data, read/write from available flash sectors
 
-Troubleshoot slow marquee
-
-Hold to delete improvements and tests
+TR PRs - addressing review comments
 
 ## Other work
 
@@ -85,7 +83,7 @@ Blockbook filters tests
 
 # Tomorrow
 
-Translations - efficiently storing the translations data, read/write from available flash sectors
+Translations - efficiently reading the translations data, resolve index to translation, resolving name to index
 
 ---
 
@@ -160,7 +158,6 @@ It could be possible to do some hardware profiling/experiments using print trace
 ### Emulator more models
 Is it possible to have both TR and TT emulator builds at the same time? It would be useful e.g. for testing and comparing.
 
-
 ### Dev server usage
 Use the dev/test server for building things mostly for product people.
 
@@ -180,7 +177,6 @@ Use the dev/test server for building things mostly for product people.
 - adding a search field to find screens with given text
 Number the screens on the UI report, so they are easily identifiable. Also, allow for <URL>#<screen_id> to visit the screen directly.
 Try to generate a list of all unique screens to a specific design - e.g. tutorial, recovery, etc.
-
 
 ---
 
