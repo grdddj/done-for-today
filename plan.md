@@ -6,9 +6,9 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-Translations - efficiently storing the translations data, read/write from available flash sectors
+TR PRs - rebasing and merging
 
-TR PRs - addressing review comments
+Translations - efficiently reading the translations data, resolve index to translation, resolving name to index
 
 ## Other work
 
@@ -66,6 +66,8 @@ Translations issues/problems:
 --- (check if something is in storage, and if not, or malformed, use english)
 - we should store the translation blob in three flash sectors
 --- change MPU - will be hard, secret.c in stm32f4, mpu_config_firmware comment, SECRET_AREA -> TRANSLATIONS_AREA, after it
+-  current state of translations means all the UI will be dependent on micropython (unless using String)
+--- can limit the upper size to 100 bytes, and then use String
 
 Ordinals in Trezor
 - find out what exactly is missing
@@ -83,7 +85,9 @@ Blockbook filters tests
 
 # Tomorrow
 
-Translations - efficiently reading the translations data, resolve index to translation, resolving name to index
+Default homescreen preview
+
+Translations - setup protobuf message, data validation, words on chunk boundaries
 
 ---
 
