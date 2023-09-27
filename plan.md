@@ -6,9 +6,9 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-TR PRs - rebasing and merging
+Default homescreen preview
 
-Translations - efficiently reading the translations data, resolve index to translation, resolving name to index
+Translations - setup protobuf message and trezorctl support
 
 ## Other work
 
@@ -68,6 +68,22 @@ Translations issues/problems:
 --- change MPU - will be hard, secret.c in stm32f4, mpu_config_firmware comment, SECRET_AREA -> TRANSLATIONS_AREA, after it
 -  current state of translations means all the UI will be dependent on micropython (unless using String)
 --- can limit the upper size to 100 bytes, and then use String
+- how to handle validation that the translations are up-to-date?
+--- could have some logic in firmware that would compare the supplied translations with internal strings
+--- or firmware could have endpoint to list all the keys it currently uses, in order, and it would be up to the client to make sure it sends it correctly
+--- what are the data limitations to be streamed to the hardware device? Can we send 50 kb easily to the device? ?(homescreen has the limit of 16 kb)
+--- can it, on the other hand, give us a long response with the keys (like 20 kb?)
+--- turns out it cannot, and we will need to stream it in chunks
+--- therefore, we cannot easily use the ApplySettings message, even though it already has a language field - as we would need to support offset field there as well
+- will the translations be signed? (probably not, because it would be too much work for founders)
+--- if we really make sure that no malicious code can be supplied to the device by translations, then we do not need signing and we also offer relatively easy way of updating the translations and creating new languages, even by the community
+--- is the flash sector executable? could somebody upload some code/instructions there and then call it?
+--- e.g. storing a seed phrase in the translations and forcing the firmware to read it from there?
+- official translations for the release could be downloaded from Github - direct link to release version of the JSON translations
+- how to handle altcoins - translate them at all, or leave them in english?
+- how to handle BTC-only translations - should it use the same file with all the altcoins?
+- setup a debug endpoint to see the current translations? (e.g. send key and receive value)?
+- can we write into the storage even when the device is not initialized?
 
 Ordinals in Trezor
 - find out what exactly is missing
@@ -85,9 +101,7 @@ Blockbook filters tests
 
 # Tomorrow
 
-Default homescreen preview
-
-Translations - setup protobuf message, data validation, words on chunk boundaries
+Translations - improve protobuf handling, data validation, words on chunk boundaries
 
 ---
 
