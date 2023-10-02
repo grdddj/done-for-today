@@ -6,9 +6,12 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-Default homescreen preview
+Translations:
+- tests
+- rebase on master
+- UI diff on TR
 
-Translations - setup protobuf message and trezorctl support
+TR - not allowing to enter empty PIN
 
 ## Other work
 
@@ -101,7 +104,11 @@ Blockbook filters tests
 
 # Tomorrow
 
-Translations - improve protobuf handling, data validation, words on chunk boundaries
+Translations:
+- UI diff on TT
+- delete micropython cfg
+- storing the language name together with data
+- data validation
 
 ---
 
