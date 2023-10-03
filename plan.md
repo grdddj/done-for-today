@@ -7,11 +7,10 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 ## Deep work
 
 Translations:
-- tests
-- rebase on master
-- UI diff on TR
-
-TR - not allowing to enter empty PIN
+- delete micropython cfg
+- UI diff on TT
+- storing the language name together with data
+- reading the boundary word in both flash sections
 
 ## Other work
 
@@ -104,10 +103,11 @@ Blockbook filters tests
 
 # Tomorrow
 
+Update screenshots on https://figma.grdddj.eu/
+
 Translations:
-- UI diff on TT
-- delete micropython cfg
-- storing the language name together with data
+- reading the boundary word in both flash sections
+- tests in czech and french
 - data validation
 
 ---
