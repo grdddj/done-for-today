@@ -6,10 +6,9 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
+Update screenshots on https://figma.grdddj.eu/
+
 Translations:
-- delete micropython cfg
-- UI diff on TT
-- storing the language name together with data
 - reading the boundary word in both flash sections
 
 ## Other work
@@ -86,6 +85,11 @@ Translations issues/problems:
 - how to handle BTC-only translations - should it use the same file with all the altcoins?
 - setup a debug endpoint to see the current translations? (e.g. send key and receive value)?
 - can we write into the storage even when the device is not initialized?
+- we might include a header with some metadata into the blob - version, language name, etc.
+- it seems to be impossible to read a word from both sectors at once - probably fill the end of section with ignored bytes
+--- who will do the logic - host or Trezor? (could be hard to enforce the longest possible length, maybe have limit of 256 bytes for the longest word?)
+- we want to sign the translations - how to deal with that during development?
+- how to deal with the replacement of fonts? with many languages the fonts may also need to be dynamically loaded
 
 Ordinals in Trezor
 - find out what exactly is missing
@@ -103,10 +107,11 @@ Blockbook filters tests
 
 # Tomorrow
 
-Update screenshots on https://figma.grdddj.eu/
-
 Translations:
 - reading the boundary word in both flash sections
+- link translations.c from unix to stm32f4
+- change delimiter from asterisk to 0
+- create mapping/dictionary of all the keys
 - tests in czech and french
 - data validation
 
