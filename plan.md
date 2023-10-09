@@ -6,10 +6,11 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-Update screenshots on https://figma.grdddj.eu/
-
 Translations:
+- setup translation object with attributes
 - reading the boundary word in both flash sections
+- link translations.c from unix to stm32f4
+- tests in czech
 
 ## Other work
 
@@ -91,6 +92,14 @@ Translations issues/problems:
 - we want to sign the translations - how to deal with that during development?
 - how to deal with the replacement of fonts? with many languages the fonts may also need to be dynamically loaded
 
+Attribute-based lookup instead of function parameters
+TREZOR_MODEL=R PYOPT=0 make build_firmware
+Memory region         Used Size  Region Size  %age Used
+before
+          FLASH2:      750600 B       896 KB     81.81%
+after
+          FLASH2:      744968 B       896 KB     81.20%
+
 Ordinals in Trezor
 - find out what exactly is missing
 - https://xverseapp.notion.site/xverseapp/Sats-Connect-Inscription-Pre-release-6e13b4313bf0454881431c4916b8327b
@@ -108,12 +117,11 @@ Blockbook filters tests
 # Tomorrow
 
 Translations:
-- reading the boundary word in both flash sections
-- link translations.c from unix to stm32f4
+- tests in french
 - change delimiter from asterisk to 0
-- create mapping/dictionary of all the keys
-- tests in czech and french
+- add header into the translation data
 - data validation
+- create mapping/dictionary of all the keys
 
 ---
 
