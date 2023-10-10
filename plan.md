@@ -7,10 +7,9 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 ## Deep work
 
 Translations:
-- setup translation object with attributes
-- reading the boundary word in both flash sections
-- link translations.c from unix to stm32f4
-- tests in czech
+- tests in french
+- making translations runnable on hardware
+- planning the next steps with the blob
 
 ## Other work
 
@@ -100,6 +99,38 @@ before
 after
           FLASH2:      744968 B       896 KB     81.20%
 
+Translations header:
+- magic bytes (4 bytes)
+- version number (4 bytes)
+- language name (8 bytes)
+- number of keys (4 bytes) - will compute the offset_table_size from it
+- whole data size (4 bytes)
+- checksum? (16 bytes)
+- signature? (64 bytes)
+
+Offset table:
+- is it even necessary to add this complexity?
+- looping through at most 32 kb of data should not be that slow even on hardware
+- the offset table is adding additional storage - 2 bytes (u16) per key
+--- however, when having the offset table, we could get rid of the delimiter completely (so the cost is 1 byte per key)
+
+Translations backwards compatibility issue:
+- what happens when the translations are newer/older than the firmware?
+- might try to setup some benchmark/tests on the hardware device
+- homescreen might have a banner "NEEDS TRANSLATIONS" when the translations are not up-to-date after firmware update
+- new translations should be stored after the already existing ones
+- centralizing the order of keys and only adding new ones at the end
+--- the deleted ones may never be deleted, as they might be used in the old translations
+- we can enforce that older firmwares can never use newer translations --- therefore the issue of missing keys should not happen
+
+Font issue:
+- how to dynamically supply all the necessary font/glyph characters together with the translation data?
+- we would need to have all the special (non-english) characters in all the fonts, which may take a LOT of space
+- we have the limitation of 32kb combined with the translations
+
+Change language flow:
+- might also send the question "Do you want to change the language?" in the new language
+
 Ordinals in Trezor
 - find out what exactly is missing
 - https://xverseapp.notion.site/xverseapp/Sats-Connect-Inscription-Pre-release-6e13b4313bf0454881431c4916b8327b
@@ -117,7 +148,7 @@ Blockbook filters tests
 # Tomorrow
 
 Translations:
-- tests in french
+- rebase to master
 - change delimiter from asterisk to 0
 - add header into the translation data
 - data validation
