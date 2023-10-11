@@ -7,9 +7,10 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 ## Deep work
 
 Translations:
-- tests in french
-- making translations runnable on hardware
-- planning the next steps with the blob
+- rebase to master
+- change delimiter from asterisk to 0
+- hardware speed experiments
+- add header into the translation data
 
 ## Other work
 
@@ -131,6 +132,9 @@ Font issue:
 Change language flow:
 - might also send the question "Do you want to change the language?" in the new language
 
+Hardware translations performance:
+- one retrieving of the translation ranges from 1 to 2.5 ms, based on the position in the blob
+
 Ordinals in Trezor
 - find out what exactly is missing
 - https://xverseapp.notion.site/xverseapp/Sats-Connect-Inscription-Pre-release-6e13b4313bf0454881431c4916b8327b
@@ -148,11 +152,10 @@ Blockbook filters tests
 # Tomorrow
 
 Translations:
-- rebase to master
-- change delimiter from asterisk to 0
-- add header into the translation data
+- tests for the header
 - data validation
-- create mapping/dictionary of all the keys
+- create mapping/dictionary of all the keys for backwards compatibility
+- consider using offset table
 
 ---
 
