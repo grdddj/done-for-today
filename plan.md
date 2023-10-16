@@ -6,11 +6,14 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
+Trezor-user-env fix Safe3 support
+- onboarding Adam into firmware emulator
+
 Translations:
-- rebase to master
-- change delimiter from asterisk to 0
-- hardware speed experiments
-- add header into the translation data
+- tests for the header
+- consider using data compression
+- consider using offset table
+- font size research
 
 ## Other work
 
@@ -128,12 +131,35 @@ Font issue:
 - how to dynamically supply all the necessary font/glyph characters together with the translation data?
 - we would need to have all the special (non-english) characters in all the fonts, which may take a LOT of space
 - we have the limitation of 32kb combined with the translations
+- TT's fonts in EN+CS+FR have `53 kb`
+--- Regular_21 ... 13_564
+--- DemiBold_21 ... 14_824
+- extra_size 22890
+--- {'TTHoves_DemiBold_21': 6592, 'TTHoves_Regular_21': 5998, 'RobotoMono_Medium_20': 5705, 'TTHoves_Bold_17': 4595}
+- czech_sum 11754
+- we might have just one font for the translations
+
+Language	Standard Letters Shared with English	Unique/Special Letters	Number of Unique/Special Letters
+English	26		0
+French	26	é, è, ê, ë, à, â, æ, ô, œ, ù, û, ü, ç, ï, î	15
+Spanish	26	á, é, í, ó, ú, ü, ñ, ¡, ¿	9
+German	26	ä, ö, ü, ß	4
+Italian	26	à, è, é, ì, ò, ù	6
+Portuguese	26	á, â, ã, à, ç, é, ê, í, ó, ô, õ, ú, ü	13
+Dutch	26	é, ë, ï, ö, ù, â, ê, î, ô, û, ÿ	11
+Polish	26	ą, ć, ę, ł, ń, ó, ś, ź, ż	9
+Russian	Different Script	Whole Cyrillic Alphabet	33
+Ukrainian	Different Script	Whole Cyrillic Alphabet	33
 
 Change language flow:
 - might also send the question "Do you want to change the language?" in the new language
 
 Hardware translations performance:
 - one retrieving of the translation ranges from 1 to 2.5 ms, based on the position in the blob
+
+Translations compression (including font data):
+- decompression will decrease the size, but also slow down the process and increase the RAM/CPU usage
+--- also, it will not be available as &'static anymore
 
 Ordinals in Trezor
 - find out what exactly is missing
@@ -152,10 +178,11 @@ Blockbook filters tests
 # Tomorrow
 
 Translations:
-- tests for the header
+- consider using data compression
+- consider using offset table
+- font size research
 - data validation
 - create mapping/dictionary of all the keys for backwards compatibility
-- consider using offset table
 
 ---
 
