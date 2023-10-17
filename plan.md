@@ -6,14 +6,14 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-Trezor-user-env fix Safe3 support
-- onboarding Adam into firmware emulator
-
 Translations:
-- tests for the header
-- consider using data compression
-- consider using offset table
-- font size research
+- rebasing on master
+- writing the summary of the current state with next steps
+
+Figma screens from UI tests for TT
+
+Review trezorlib PR
+
 
 ## Other work
 
@@ -138,6 +138,35 @@ Font issue:
 --- {'TTHoves_DemiBold_21': 6592, 'TTHoves_Regular_21': 5998, 'RobotoMono_Medium_20': 5705, 'TTHoves_Bold_17': 4595}
 - czech_sum 11754
 - we might have just one font for the translations
+- on TR, the fonts are MUCH smaller, like 10 times
+
+Transforming into regular PR, so it is ready for review.
+
+There is still quite some work, but I think it makes sense to stop now and analyze the status and create clear requirements for what should be done.
+
+Current high-level status:
+- contains translations into czech and french, both done by ChatGPT, so the quality is rather poor
+- translations are centralized in JSON files - en.json, cs.json, fr.json - in `core/embed/rust/src/ui/translations`
+- english translations are embedded/hardcoded in the code, they will be there all the time, acting as a backup/default
+- foreign translations are stored in two `16 kb` sectors, which is enough right now for the translations data
+- fonts/glyphs are currently hardcoded into the firmware, so both czech/french fonts are there all the time
+- trezorctl is responsible for generating the translation data blob (will be replaced by a custom tool)
+- the structure of the blob is a `256-byte` header with metadata and then the translations data delimited by `0x00` byte
+- the translations data has around `22kB` for each language, the extra fonts for czech and french have around `12 kB` each (on TT, TR is like `2 kB`)
+- on TT hardware, it takes at most `2.5 ms` to load the translation (even with the "inefficient" delimiter storing)
+- it increases the firmware size quite a lot, on TT with both the czech/french font, the firmware is `90 kB` bigger - mostly because of storing all the translations keys
+
+Some things/considerations/questions that are missing and should be prioritized:
+- we might want to include offset table into the translations blob (it would increase the size by around `1 kB`)
+- the translations are not being signed/verified
+- we do not yet have logic to append new translations to the existing ones (they should be always at the end)
+- firmware update process is not fully accounted for, it should make sure the translations are up-to-date with firmware (tell user that they should update the translations as well)
+- it might make sense to not translate altcoins at all, to save space and a lot of translating work (and confusion for users)
+- we might want to load fonts dynamically with each language
+- with bigger glyph sets, like Azbuka, we might have just one font, instead of four/five
+- `TT` has one extra 16kb sector (occupied by secret on `TR`), which might be used specifically for the font data (fonts on TR are much smaller, they may fit together with the translations)
+- in TR, how is it with the last `16 kb` sector? could we safely use it? (also on `TT`)
+- it would be nice to use some data compression (for both translations and font data), but we have a limitation on the Rust side of no-std libraries only and no dynamic memory allocation ... also, it would mean some runtime CPU and RAM overhead
 
 Language	Standard Letters Shared with English	Unique/Special Letters	Number of Unique/Special Letters
 English	26		0
@@ -177,16 +206,21 @@ Blockbook filters tests
 
 # Tomorrow
 
+Figma screens from UI tests for TT
+
+---
+
+# Later
+
+Trezor-user-env fix Safe3 support
+- update trezorlib version
+
 Translations:
 - consider using data compression
 - consider using offset table
 - font size research
 - data validation
 - create mapping/dictionary of all the keys for backwards compatibility
-
----
-
-# Later
 
 Vertically centering the content - investigate it more deeply
 
