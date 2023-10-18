@@ -6,14 +6,8 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-Translations:
-- rebasing on master
-- writing the summary of the current state with next steps
-
 Figma screens from UI tests for TT
-
-Review trezorlib PR
-
+- integrating second model into the existing tool/website
 
 ## Other work
 
@@ -207,6 +201,7 @@ Blockbook filters tests
 # Tomorrow
 
 Figma screens from UI tests for TT
+- find out what exact screens need to be changed/are missing in Figma
 
 ---
 
