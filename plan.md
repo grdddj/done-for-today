@@ -6,18 +6,12 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
+Solana code review
+
 Trezor-user-env
-- update to new trezorlib version
-- wiping storage when changing the model versions running
-
-Figma screens from UI tests for TT
-- find out what exact screens need to be changed/are missing in Figma
-
-Coinjoin icon on lockscreen - review
-
-Address chunkification - fix it on Ethereum in sign flow
-
-TR - middle-click unlocking
+- fix broken tests
+- improve typing
+- fix removed trezorlib debug command in backup flow
 
 ## Other work
 
@@ -210,9 +204,7 @@ Blockbook filters tests
 
 # Tomorrow
 
-Trezor-user-env
-- fix broken tests
-- improve typing
+Figma screens - show both models flows next to each other
 
 ETH fee units
 
