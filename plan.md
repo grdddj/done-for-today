@@ -6,12 +6,14 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-Solana code review
+Update sign/verify message flow review
 
 Trezor-user-env
-- fix broken tests
-- improve typing
-- fix removed trezorlib debug command in backup flow
+- fix broken tests in CI
+
+Figma screens
+- show both (all) models flows on the same page
+- support showing the same screens next to each other
 
 ## Other work
 
@@ -204,7 +206,10 @@ Blockbook filters tests
 
 # Tomorrow
 
-Figma screens - show both models flows next to each other
+Figma screens
+- identify same groups of screens in comparison view
+
+TT differing screens from Figma
 
 ETH fee units
 
