@@ -6,14 +6,13 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-Update sign/verify message flow review
-
-Trezor-user-env
-- fix broken tests in CI
-
 Figma screens
-- show both (all) models flows on the same page
-- support showing the same screens next to each other
+- identify same groups of screens in comparison view
+
+Translations
+- try updated MPU on TT
+- rebase on master
+- embed fonts into the translations blob
 
 ## Other work
 
@@ -206,19 +205,16 @@ Blockbook filters tests
 
 # Tomorrow
 
-Figma screens
-- identify same groups of screens in comparison view
-
-TT differing screens from Figma
-
-ETH fee units
+Translations
+- embed fonts into the translations blob
 
 ---
 
 # Later
 
-Trezor-user-env fix Safe3 support
-- update trezorlib version
+TT differing screens from Figma
+
+ETH fee units
 
 Translations:
 - consider using data compression
