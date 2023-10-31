@@ -6,12 +6,7 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-Figma screens
-- identify same groups of screens in comparison view
-
 Translations
-- try updated MPU on TT
-- rebase on master
 - embed fonts into the translations blob
 
 ## Other work
@@ -211,6 +206,8 @@ Translations
 ---
 
 # Later
+
+On-demand update of the UI screens
 
 TT differing screens from Figma
 
