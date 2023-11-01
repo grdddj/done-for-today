@@ -6,8 +6,9 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-Translations
-- embed fonts into the translations blob
+Onboarding new colleague to the code and project
+
+Trezor-user-env - fix the branch name for CI firmware artifacts
 
 ## Other work
 
@@ -197,6 +198,23 @@ Blockbook filters tests
 - create a whole transaction with witness etc.
 - use parser and hexadecimal tx data to convert
 - hextoBytes
+
+Code and project overview with Vitek:
+- emulator
+--- core/emu.py
+- trezorlib
+--- python/src
+--- pyproject.toml
+- builds
+--- core/SConscript.*
+- tests
+--- core/tests
+--- tests
+--- conftest.py
+- Makefiles
+- CI
+--- ci/*.yml
+- sdcard
 
 # Tomorrow
 
