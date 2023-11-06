@@ -6,9 +6,8 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-Onboarding new colleague to the code and project
-
-Trezor-user-env - fix the branch name for CI firmware artifacts
+Translations
+- embed fonts into the translations blob
 
 ## Other work
 
@@ -219,7 +218,7 @@ Code and project overview with Vitek:
 # Tomorrow
 
 Translations
-- embed fonts into the translations blob
+- fix the bootloader/boardloader build issues with translations
 
 ---
 
