@@ -7,7 +7,13 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 ## Deep work
 
 Translations
-- embed fonts into the translations blob
+- fix the bootloader/boardloader build issues with translations
+- fix tests
+- guides for maximum length of title/button
+
+TR - unify button-requests with TT in ETH send flow
+
+TR - check the button-requests unification in all flows
 
 ## Other work
 
@@ -215,14 +221,29 @@ Code and project overview with Vitek:
 --- ci/*.yml
 - sdcard
 
+Trezor Translations guide - maximal length of title/button
+TT:
+- title ... "CONFIRM TYPED DATA" ... 18 chars + 2 (can fit) = 20 chars
+- button ... "HOLD TO CONFIRM" ... 15 chars
+- button left to cancel ... "SKIP" ... 4 chars + 1 (can fit) = 5 chars
+TR:
+- title ... "WIPE CODE SETTINGS" ... 18 chars + 1 (can fit) = 19 chars
+- button ... "HOLD TO CONFIRM" ... 15 chars
+- middle button single ... "OK, I UNDERSTAND" ... 16 chars + 2 (can fit) = 18 chars
+- middle button with others ... "CONFIRM" ... 7 chars + 4 (can fit) = 11 chars
+
 # Tomorrow
 
 Translations
-- fix the bootloader/boardloader build issues with translations
+- offset table for translations
+- allocate last 65 bytes in header data for the signature
+- try allocating 48kB in RAM and load all the translations data before signature verification and data saving
 
 ---
 
 # Later
+
+Technical documentation on figma screens
 
 On-demand update of the UI screens
 
