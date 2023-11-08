@@ -7,13 +7,12 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 ## Deep work
 
 Translations
-- fix the bootloader/boardloader build issues with translations
-- fix tests
-- guides for maximum length of title/button
+- create offset table for translations
+- record all foreign language tests
 
-TR - unify button-requests with TT in ETH send flow
-
-TR - check the button-requests unification in all flows
+T1 flashovatko tool problems
+- fix the issue with broken 1.4 BL version import
+- there was one with BL 1.10.0, and it was fine to flash
 
 ## Other work
 
@@ -235,9 +234,9 @@ TR:
 # Tomorrow
 
 Translations
-- offset table for translations
-- allocate last 65 bytes in header data for the signature
 - try allocating 48kB in RAM and load all the translations data before signature verification and data saving
+- create a stored sequence of order of translation strings
+- allocate last 65 bytes in header data for the signature
 
 ---
 
