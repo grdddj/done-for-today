@@ -6,13 +6,8 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-Translations
-- create offset table for translations
-- record all foreign language tests
-
-T1 flashovatko tool problems
-- fix the issue with broken 1.4 BL version import
-- there was one with BL 1.10.0, and it was fine to flash
+Trezor tester GUI
+- start creating the MVP
 
 ## Other work
 
@@ -232,6 +227,9 @@ TR:
 - middle button with others ... "CONFIRM" ... 7 chars + 4 (can fit) = 11 chars
 
 # Tomorrow
+
+Trezor tester GUI
+- finish the MVP
 
 Translations
 - try allocating 48kB in RAM and load all the translations data before signature verification and data saving
