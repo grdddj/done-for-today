@@ -7,7 +7,7 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 ## Deep work
 
 Trezor tester GUI
-- start creating the MVP
+- finishing the MVP
 
 ## Other work
 
@@ -228,8 +228,11 @@ TR:
 
 # Tomorrow
 
-Trezor tester GUI
-- finish the MVP
+Trezor tester GUI improvements:
+- logging
+- configuration
+- tests in second thread to stay responsive
+- administration settings
 
 Translations
 - try allocating 48kB in RAM and load all the translations data before signature verification and data saving
