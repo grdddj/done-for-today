@@ -6,8 +6,11 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-Trezor tester GUI
-- finishing the MVP
+Trezor tester GUI improvements:
+- test configuration
+- logging
+- statistics
+- administration settings
 
 ## Other work
 
@@ -227,12 +230,6 @@ TR:
 - middle button with others ... "CONFIRM" ... 7 chars + 4 (can fit) = 11 chars
 
 # Tomorrow
-
-Trezor tester GUI improvements:
-- logging
-- configuration
-- tests in second thread to stay responsive
-- administration settings
 
 Translations
 - try allocating 48kB in RAM and load all the translations data before signature verification and data saving
