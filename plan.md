@@ -6,11 +6,11 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-Trezor tester GUI improvements:
-- test configuration
-- logging
-- statistics
-- administration settings
+Figma screens
+- dev documentation
+- designer step-by-step flow
+
+Cardano chunkify issues in send flow
 
 ## Other work
 
@@ -228,6 +228,25 @@ TR:
 - button ... "HOLD TO CONFIRM" ... 15 chars
 - middle button single ... "OK, I UNDERSTAND" ... 16 chars + 2 (can fit) = 18 chars
 - middle button with others ... "CONFIRM" ... 7 chars + 4 (can fit) = 11 chars
+
+UI design step-by-step guide
+- 0) create new sections/columns in `Figma` model-pages:
+--- `new design` section - will show proposed design changes - where both the old and new design will be shown side-by-side
+--- `history/accepted` section - will show all the changes that were already implemented and accepted, with connections to the `PR`s
+----- (unless `Figma` has some concept of commits)
+- 1) copy the old screen into `new design` section, so we know its previous state and what changed
+- 2) mark the old screens in `main` section as being `in progress` (a hint to look to `new design` section for the proposed changes)
+- 3) do some changes in `new design` section - leaving the old screen as it is for comparison
+- 4) create `GitHub` issue with screenshots of the proposed changes
+- ... developers implement the changes ...
+- 5) review and test the UI changes (via UI tests, emulator, or preferably with HW device to show "real" colors/feel, when something new is done)
+- 6) move the pages from `new design` section to `history/accepted` section, mark the date and `PR` that did the changes
+- 7) replace the old screens in `main` section with the new ones
+- 8) remove the `in progress` mark from the replaced screens in `main` section
+
+Crowdin translation strings upload:
+- do it manually via the script when some new strings are added
+- in CI we should have only a checker that will fail if the translations are not up-to-date (not to give it commit rights)
 
 # Tomorrow
 
