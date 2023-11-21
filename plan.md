@@ -6,11 +6,13 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-Figma screens
-- dev documentation
-- designer step-by-step flow
-
 Cardano chunkify issues in send flow
+
+Trezor-user-env - updating for latest release, change master to main
+
+Translations
+- allocating 48kB in RAM and load all the translations data before signature verification and data saving
+- improving the reading of u16 lists from the flash
 
 ## Other work
 
@@ -248,11 +250,18 @@ Crowdin translation strings upload:
 - do it manually via the script when some new strings are added
 - in CI we should have only a checker that will fail if the translations are not up-to-date (not to give it commit rights)
 
+Translations possible issues:
+- need to be signed
+- updating process - should be done together with firmware update in Suite?
+--- homescreen may show "NEEDS TRANSLATIONS" banner
+- new strings creation - put them at the end of the blob
+- crowdin translations upload and download
+
 # Tomorrow
 
 Translations
-- try allocating 48kB in RAM and load all the translations data before signature verification and data saving
 - create a stored sequence of order of translation strings
+- improve the blob generator to get rid of the need of filler bytes
 - allocate last 65 bytes in header data for the signature
 
 ---
