@@ -6,13 +6,16 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-Cardano chunkify issues in send flow
+Cardano chunkification - make sure it has only 4 chunk rows at one page
 
-Trezor-user-env - updating for latest release, change master to main
+ETH:
+- unify Button Requests
+- unify the fee units
 
 Translations
-- allocating 48kB in RAM and load all the translations data before signature verification and data saving
-- improving the reading of u16 lists from the flash
+- create a stored sequence of order of translation strings
+- record UI fixtures
+- improve the blob alignment logic
 
 ## Other work
 
@@ -256,13 +259,27 @@ Translations possible issues:
 --- homescreen may show "NEEDS TRANSLATIONS" banner
 - new strings creation - put them at the end of the blob
 - crowdin translations upload and download
+- handling of plurals - not yet done
+
+Translations update scenarios:
+- we should only allow to upload translations that have the same version as current firmware
+
+- firmware and translation same version
+--- OK
+- firmware newer than translations
+--- there might be some missing strings in the translations
+--- these strings will default to english
+--- we will notice user that they should update the translations ... can be done in Suite as well
+- translations newer than firmware
+--- should only happen when user downgrades the firmware, and that is his problem
+--- theoretically there might be missing strings in the translations, as they were removed --- unlikely but possible
+--- still, there is a fallback to english
 
 # Tomorrow
 
 Translations
-- create a stored sequence of order of translation strings
-- improve the blob generator to get rid of the need of filler bytes
-- allocate last 65 bytes in header data for the signature
+- handle signatures - allocate last 65 bytes in header data for the signature, sign with dev keys, verify
+- handle plurals
 
 ---
 
