@@ -6,16 +6,8 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-Cardano chunkification - make sure it has only 4 chunk rows at one page
-
-ETH:
-- unify Button Requests
-- unify the fee units
-
 Translations
-- create a stored sequence of order of translation strings
-- record UI fixtures
-- improve the blob alignment logic
+- handle plurals
 
 ## Other work
 
@@ -279,7 +271,6 @@ Translations update scenarios:
 
 Translations
 - handle signatures - allocate last 65 bytes in header data for the signature, sign with dev keys, verify
-- handle plurals
 
 ---
 
