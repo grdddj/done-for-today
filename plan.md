@@ -7,31 +7,15 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 ## Deep work
 
 Translations
-- handle plurals
+- handle signatures - sign with dev keys, verify on device
+- improve and extend tests
+- document for Suite
 
 ## Other work
 
 ## Ideas
 
-Golomb filters
-- decreasing the P for mempool filters - the data seem to be smaller with smaller P - https://stefano.brilli.me/gcs/
-- send just part of tx_id in the mempool response (e.g. first half, or even less)
-- enforce mempool request to be the same type?
-
-- send filter-type from Suite to Blockbook
-- add configuration to zero-bytes*16 to block filters
-
-- send M and P in the response, and ONLY M in the request for block
-- when not sending the parameter from request, make it optional
----
-
 ## Notes
-
-Golomb filters
-- increase the P size of mempool filters to something like 23 (more transactions than in one block)
-- think about supporting variable P size in the future
-- Berlino project - using binary websocket
-- gzip and blob
 
 Translations
 - storing mappings in JSON files (in nested structure, so it is easy to navigate and know what is used where)
@@ -184,37 +168,6 @@ Translations compression (including font data):
 - decompression will decrease the size, but also slow down the process and increase the RAM/CPU usage
 --- also, it will not be available as &'static anymore
 
-Ordinals in Trezor
-- find out what exactly is missing
-- https://xverseapp.notion.site/xverseapp/Sats-Connect-Inscription-Pre-release-6e13b4313bf0454881431c4916b8327b
-- just for signing transactions, or also for creating the transaction?
-- recognize ordinals are in the wallet, prevent potential loss of funds
-- extension to Trezor Suite, not shown be default
-
-Blockbook filters tests
-- increase unittest coverage for golomb filters... add zeroed-key (is hardcoded now), add no-ordinals support
-- gf.AddAddrDesc(ad, nil)
-- create a whole transaction with witness etc.
-- use parser and hexadecimal tx data to convert
-- hextoBytes
-
-Code and project overview with Vitek:
-- emulator
---- core/emu.py
-- trezorlib
---- python/src
---- pyproject.toml
-- builds
---- core/SConscript.*
-- tests
---- core/tests
---- tests
---- conftest.py
-- Makefiles
-- CI
---- ci/*.yml
-- sdcard
-
 Trezor Translations guide - maximal length of title/button
 TT:
 - title ... "CONFIRM TYPED DATA" ... 18 chars + 2 (can fit) = 20 chars
@@ -270,26 +223,16 @@ Translations update scenarios:
 # Tomorrow
 
 Translations
-- handle signatures - allocate last 65 bytes in header data for the signature, sign with dev keys, verify
+- create CLI for signing with production keys
 
 ---
 
 # Later
 
-Technical documentation on figma screens
-
 On-demand update of the UI screens
-
-TT differing screens from Figma
-
-ETH fee units
 
 Translations:
 - consider using data compression
-- consider using offset table
-- font size research
-- data validation
-- create mapping/dictionary of all the keys for backwards compatibility
 
 Vertically centering the content - investigate it more deeply
 
@@ -300,14 +243,6 @@ Trezorlib documentation PR
 ---
 
 # General TODOs
-
-Ethereum definitions - https://github.com/trezor/definitions
-- add `shell.nix` and `poetry.toml` into the repo (`poetry` > 1.2)
-- figure out how to install the needed `trezorlib` with updated protobuf and other stuff - it lives in a branch currently - `marnova/ethereum_defs_from_host`
-
-Gettext - translations
-- look at OneKey
-  - report on the status of translations
 
 ---
 
