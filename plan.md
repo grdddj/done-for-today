@@ -6,10 +6,11 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
+Fix missing confirm address PR review
+
 Translations
-- handle signatures - sign with dev keys, verify on device
-- improve and extend tests
-- document for Suite
+- create CLI for signing with production keys
+- add loader for loading/validating translations blob
 
 ## Other work
 
@@ -223,7 +224,7 @@ Translations update scenarios:
 # Tomorrow
 
 Translations
-- create CLI for signing with production keys
+- working with Crowdin CLI
 
 ---
 
