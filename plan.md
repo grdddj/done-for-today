@@ -6,11 +6,11 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-Fix missing confirm address PR review
+Trezor manufacturing:
+- improvements, support more results
 
 Translations
-- create CLI for signing with production keys
-- add loader for loading/validating translations blob
+- working with Crowdin CLI - download and upload
 
 ## Other work
 
@@ -223,8 +223,10 @@ Translations update scenarios:
 
 # Tomorrow
 
-Translations
-- working with Crowdin CLI
+Issues:
+- Change go to bootloader screens text
+- Show a loader when locking the device with long press on T2B1
+- Recovery: Add a return button to go back when entering words
 
 ---
 
