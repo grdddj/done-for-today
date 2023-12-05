@@ -6,11 +6,13 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-Trezor manufacturing:
-- improvements, support more results
+Solana layouts
 
-Translations
-- working with Crowdin CLI - download and upload
+Fix ETH summary bug
+
+Issues:
+- Change go to bootloader screens text
+- Show a loader when locking the device with long press on T2B1
 
 ## Other work
 
@@ -224,7 +226,6 @@ Translations update scenarios:
 # Tomorrow
 
 Issues:
-- Change go to bootloader screens text
 - Show a loader when locking the device with long press on T2B1
 - Recovery: Add a return button to go back when entering words
 
