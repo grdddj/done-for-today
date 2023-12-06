@@ -6,12 +6,9 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-Solana layouts
-
-Fix ETH summary bug
+Manufacturing - allow failing the test with success=False
 
 Issues:
-- Change go to bootloader screens text
 - Show a loader when locking the device with long press on T2B1
 
 ## Other work
