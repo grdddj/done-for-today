@@ -6,12 +6,8 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-Manufacturing
-- review of the current python/shell scripts
-- tests for the supported scenarios
-
 Issues:
-- Show a loader when locking the device with long press on T2B1
+- Recovery: Add a return button to go back when entering words
 
 ## Other work
 
@@ -225,7 +221,7 @@ Translations update scenarios:
 # Tomorrow
 
 Issues:
-- Recovery: Add a return button to go back when entering words
+- Recovery: Add a return button to go back when entering words --- click tests
 
 ---
 
