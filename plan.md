@@ -7,7 +7,9 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 ## Deep work
 
 Issues:
-- Recovery: Add a return button to go back when entering words --- click tests
+- Passphrase - missing semicolon character in TR
+- Loader - modify the locking screen for TT
+- Translations - rebase on current main
 
 ## Other work
 
@@ -221,7 +223,7 @@ Translations update scenarios:
 # Tomorrow
 
 Issues:
-- Recovery: Add a return button to go back when entering words --- click tests
+- Translations - self-review the PR
 
 ---
 
