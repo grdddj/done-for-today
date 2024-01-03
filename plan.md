@@ -7,9 +7,12 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 ## Deep work
 
 Issues:
-- Passphrase - missing semicolon character in TR
-- Loader - modify the locking screen for TT
-- Translations - rebase on current main
+- Passphrase - add changelog, record fixtures, merge
+- Loader - create bigger lock icon
+- Translations
+  - self-review the PR
+  - translate Solana strings
+  - improve some translations string names
 
 ## Other work
 
@@ -222,8 +225,9 @@ Translations update scenarios:
 
 # Tomorrow
 
-Issues:
-- Translations - self-review the PR
+Translations - PR review
+
+Manufacturing tests - review and docker improvements
 
 ---
 
