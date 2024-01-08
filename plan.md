@@ -6,13 +6,7 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-Issues:
-- Passphrase - add changelog, record fixtures, merge
-- Loader - create bigger lock icon
-- Translations
-  - self-review the PR
-  - translate Solana strings
-  - improve some translations string names
+Manufacturing tests - review, improvements, hardware board troubleshooting
 
 ## Other work
 
@@ -225,9 +219,9 @@ Translations update scenarios:
 
 # Tomorrow
 
-Translations - PR review
+Manufacturing tests - new features
 
-Manufacturing tests - review and docker improvements
+Translations - PR review
 
 ---
 
