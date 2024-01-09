@@ -6,7 +6,7 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-Manufacturing tests - review, improvements, hardware board troubleshooting
+Manufacturing tests - new UI features
 
 ## Other work
 
@@ -222,6 +222,8 @@ Translations update scenarios:
 Manufacturing tests - new features
 
 Translations - PR review
+- do not translate the exceptions in Cardano - but translate the words when showing to user
+- improve the Cardano sentences "is_a"...
 
 ---
 
