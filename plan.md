@@ -6,7 +6,9 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-Manufacturing tests - new UI features
+Open PRs:
+- going back on recovery flow - code improvements
+- TR homescreen loader - code improvements
 
 ## Other work
 
@@ -219,7 +221,8 @@ Translations update scenarios:
 
 # Tomorrow
 
-Manufacturing tests - new features
+Open PRs:
+- going back on recovery flow - add more tests
 
 Translations - PR review
 - do not translate the exceptions in Cardano - but translate the words when showing to user
