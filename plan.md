@@ -6,9 +6,19 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
+UI dashboard - add Vitek, Michal and Matejcik to the list of people whose PRs to take
+
+Manufacturing tests - LAN interface
+
 Open PRs:
-- going back on recovery flow - code improvements
-- TR homescreen loader - code improvements
+- TR homescreen loader - finish the review
+- going back on recovery flow - add more tests
+
+Translations - PR review
+- try the newly translated JSONs and identify what is missing
+- add spanish and german fonts
+- flatten out the JSON structure
+- add script for better CI tests generation
 
 ## Other work
 
@@ -221,10 +231,8 @@ Translations update scenarios:
 
 # Tomorrow
 
-Open PRs:
-- going back on recovery flow - add more tests
-
-Translations - PR review
+Translations:
+- fix all tests ... ../tests/device_tests/reset_recovery/test_recovery_slip39_advanced_dryrun.py seems to be frozen
 - do not translate the exceptions in Cardano - but translate the words when showing to user
 - improve the Cardano sentences "is_a"...
 
