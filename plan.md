@@ -6,12 +6,8 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-Manufacturing tests - LAN interface
-
 Translations:
-- fix all tests ... ../tests/device_tests/reset_recovery/test_recovery_slip39_advanced_dryrun.py seems to be frozen
-- rebase on main, fix some conflicts and revert EN translations to minimize UI diff
-- do not translate the exceptions in Cardano - but translate the words when showing to user
+- fix all the tests, make sure they are all green
 
 ## Other work
 
@@ -225,7 +221,8 @@ Translations update scenarios:
 # Tomorrow
 
 Translations:
-- record tests for all languages, make sure they are all green
+- fix all the tests, make sure they are all green
+- record tests for all languages
 - improve the Cardano sentences "is_a"...
 
 ---
