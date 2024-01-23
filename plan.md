@@ -6,12 +6,11 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-Manufacturing tests:
-- try proof of concept of HTTP communication with HTML frontend
-
 Translations:
-- fix all the tests, make sure they are all green
-- record tests for all languages
+- agree on how to verify/validate the translations with the agency
+
+Manufacturing tests:
+- continue with the HTTP communication - frontend in Vue.js, backend websocket improvements
 
 ## Other work
 
@@ -226,6 +225,7 @@ Translations verification process:
 - the only 100 percent solution is to run all the UI tests
 - we could have some script defining the maximum length (in rows) of each screen
   - however, each model is different, and it uses different fonts
+- will we upload it to Crowdin?
 
 Should we run the device/click tests in non-english only when the translations have changed from master?
 
@@ -234,10 +234,13 @@ After rebasing on Solana, there is only 11 kB left in flash2
 # Tomorrow
 
 Translations:
-- agree on how to verify/validate the translations with the agency
+- proof of concept of validation of the translations
+- zbyva 2 sekund ... solve the issue with plurals
+- loader text in new language
+- revert the newlines for english language --- check if it fits with the newlines
 
 Manufacturing tests:
-- continue with the HTTP communication
+- continue with the HTTP communication - Vue.js frontend
 
 ---
 
