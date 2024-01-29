@@ -6,8 +6,12 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-Translations:
-- validation of the translations strings
+Older PRs:
+- going back on recovery
+- homescreen loaders
+
+Manufacturing tests:
+- continue with the HTTP communication - Vue.js frontend
 
 ## Other work
 
@@ -230,10 +234,8 @@ After rebasing on Solana, there is only 11 kB left in flash2
 
 # Tomorrow
 
-Manufacturing tests:
-- continue with the HTTP communication - Vue.js frontend
-
 Translations:
+- rebase matejcik's branch
 - zbyva 2 sekund ... solve the issue with plurals
 - loader text in new language
 - revert the newlines for english language --- check if it fits with the newlines
