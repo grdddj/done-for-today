@@ -6,9 +6,11 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
+Manufacturing tests:
+- add the admin section
+
 Translations:
-- rebase matejcik's branch
-- fix tests
+- fix issues, make sure all the tests are green, record fixtures
 
 ## Other work
 
@@ -231,13 +233,9 @@ After rebasing on Solana, there is only 11 kB left in flash2
 
 # Tomorrow
 
-Manufacturing tests:
-- add the admin section
-
 Translations:
 - zbyva 2 sekund ... solve the issue with plurals
 - loader text in new language
-- revert the newlines for english language --- check if it fits with the newlines
 
 ---
 
