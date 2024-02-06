@@ -7,10 +7,7 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 ## Deep work
 
 Manufacturing tests:
-- new requirements - export logs, extra popups
-
-Translations:
-- UI changes of english translations
+- new requirements - extra popups
 
 ## Other work
 
@@ -233,11 +230,13 @@ After rebasing on Solana, there is only 11 kB left in flash2
 
 # Tomorrow
 
-Manufacturing tests:
-- new requirements - extra popups
-
 Translations:
-- UI changes of english translations
+- nightly tests
+- put en into tests / regenerate fixtures
+- rebase on master
+- TODO --- check all TODOs
+
+LATER after merge
 - zbyva 2 sekund ... solve the issue with plurals
 
 ---
