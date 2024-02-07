@@ -6,8 +6,13 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-Manufacturing tests:
-- new requirements - extra popups
+Translations:
+- rebase on master
+- fix foreign tests
+- regenerate order.json
+- nightly tests
+- put en into tests / regenerate fixtures
+- TODO --- check all TODOs
 
 ## Other work
 
@@ -229,12 +234,6 @@ Should we run the device/click tests in non-english only when the translations h
 After rebasing on Solana, there is only 11 kB left in flash2
 
 # Tomorrow
-
-Translations:
-- nightly tests
-- put en into tests / regenerate fixtures
-- rebase on master
-- TODO --- check all TODOs
 
 LATER after merge
 - zbyva 2 sekund ... solve the issue with plurals
