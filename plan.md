@@ -7,12 +7,13 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 ## Deep work
 
 Translations:
-- rebase on master
-- fix foreign tests
-- regenerate order.json
-- nightly tests
-- put en into tests / regenerate fixtures
-- TODO --- check all TODOs
+- rebase and squash
+- minor fixes
+- add documentation for blob creation and usage
+- fix broken debug signature validation on hardware
+
+Manufacturing tests:
+- download all the CSS/JS frameworks locally
 
 ## Other work
 
@@ -234,6 +235,9 @@ Should we run the device/click tests in non-english only when the translations h
 After rebasing on Solana, there is only 11 kB left in flash2
 
 # Tomorrow
+
+Translations:
+- create tests for silent update
 
 LATER after merge
 - zbyva 2 sekund ... solve the issue with plurals
