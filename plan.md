@@ -6,9 +6,11 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-Translations:
-- create tests for silent update
-- minor improvements
+Manufacturing tests:
+- fix broken popups --- making all code async
+- docker improvements
+- showing the version in UI
+- python scripts improvements
 
 ## Other work
 
@@ -18,10 +20,11 @@ Translations:
 
 # Tomorrow
 
-Manufacturing tests:
-- docker improvements
-- showing the version in UI
-- python scripts improvements
+Vitek ETH code review
+
+Trezor-user-env requirements
+
+Manufacturing tests continuation
 
 # Later
 
