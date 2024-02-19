@@ -6,11 +6,18 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-Manufacturing tests:
-- fix broken popups --- making all code async
-- docker improvements
-- showing the version in UI
-- python scripts improvements
+Firmware:
+- Vitek ETH code review
+- Translations updates
+- Go to previous word PR rebase/fix
+
+Trezor-user-env requirements
+
+Manufacturing tests continuation
+- merging current state to develop
+- adding stepping functionality
+- improving the SQL logging code
+- improve all the python scripts
 
 ## Other work
 
@@ -20,13 +27,17 @@ Manufacturing tests:
 
 # Tomorrow
 
-Vitek ETH code review
-
-Trezor-user-env requirements
+Firmware:
+- translations update PR
 
 Manufacturing tests continuation
+- adding stepping functionality
+- improving the SQL logging code
+- improve all the python scripts
 
 # Later
+
+Trezor-user-env requirements
 
 Translations:
 - zbyva 2 sekund ... solve the issue with plurals
