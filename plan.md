@@ -7,17 +7,11 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 ## Deep work
 
 Firmware:
-- Vitek ETH code review
-- Translations updates
-- Go to previous word PR rebase/fix
+- translations update PR
+- improve rules for buttons and headers in translations verification
 
-Trezor-user-env requirements
-
-Manufacturing tests continuation
-- merging current state to develop
-- adding stepping functionality
-- improving the SQL logging code
-- improve all the python scripts
+Manufacturing tests:
+- improve Docker efficiency and decrease storage
 
 ## Other work
 
@@ -26,9 +20,6 @@ Manufacturing tests continuation
 ## Notes
 
 # Tomorrow
-
-Firmware:
-- translations update PR
 
 Manufacturing tests continuation
 - adding stepping functionality
