@@ -7,11 +7,15 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 ## Deep work
 
 Firmware:
-- translations update PR
-- improve rules for buttons and headers in translations verification
+- translations update PR - merge
+- create zip with all the new translations
+- review the ETH PR
 
-Manufacturing tests:
-- improve Docker efficiency and decrease storage
+Manufacturing tests continuation
+- adding stepping functionality
+- improving the SQL logging code
+- improve all the python scripts
+- remove all shell scripts, replace by just python
 
 ## Other work
 
@@ -21,10 +25,11 @@ Manufacturing tests:
 
 # Tomorrow
 
-Manufacturing tests continuation
-- adding stepping functionality
-- improving the SQL logging code
-- improve all the python scripts
+Firmware:
+- GH issues
+
+Manufacturing tests
+- improve DB logging
 
 # Later
 
