@@ -6,16 +6,10 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-Firmware:
-- translations update PR - merge
-- create zip with all the new translations
-- review the ETH PR
-
-Manufacturing tests continuation
-- adding stepping functionality
-- improving the SQL logging code
-- improve all the python scripts
-- remove all shell scripts, replace by just python
+Manufacturing tests
+- improve DB logging
+- cleaning python scripts
+- DB and provisioning logic
 
 ## Other work
 
@@ -25,13 +19,14 @@ Manufacturing tests continuation
 
 # Tomorrow
 
-Firmware:
-- GH issues
-
 Manufacturing tests
-- improve DB logging
+- improve CLI validation in python scripts
+- DB and provisioning logic
 
 # Later
+
+Firmware:
+- GH issues
 
 Trezor-user-env requirements
 
