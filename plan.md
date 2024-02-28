@@ -7,8 +7,9 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 ## Deep work
 
 Manufacturing tests
-- improve CLI validation in python scripts
-- DB and provisioning logic
+- Docker improvements
+- UI improvements
+- DB columns
 
 ## Other work
 
@@ -18,9 +19,10 @@ Manufacturing tests
 
 # Tomorrow
 
-Manufacturing tests
-- Docker improvements
-- DB columns
+Manufacturing tests:
+- delay_after field
+- agent name and logout
+- lid switch / cannot run without it
 - provisioning logic test
 
 # Later
