@@ -6,10 +6,13 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-Manufacturing tests
-- Docker improvements
-- UI improvements
-- DB columns
+Manufacturing tests:
+- delay_after field
+- agent name and logout
+
+Firmware:
+- PR review
+- TS5 UI
 
 ## Other work
 
@@ -19,13 +22,14 @@ Manufacturing tests
 
 # Tomorrow
 
-Manufacturing tests:
-- delay_after field
-- agent name and logout
-- lid switch / cannot run without it
-- provisioning logic test
+Firmware:
+- TS5 UI
 
 # Later
+
+Manufacturing tests:
+- lid switch / cannot run without it
+- provisioning logic test
 
 Firmware:
 - GH issues
