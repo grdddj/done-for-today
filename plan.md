@@ -7,12 +7,10 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 ## Deep work
 
 Manufacturing tests:
-- delay_after field
-- agent name and logout
+- prodtest script improvements
 
 Firmware:
-- PR review
-- TS5 UI
+- TS5 UI - keyboard new design (PIN, word count)
 
 ## Other work
 
@@ -22,13 +20,15 @@ Firmware:
 
 # Tomorrow
 
-Firmware:
-- TS5 UI
+Manufacturing tests:
+- lid switch / cannot run without it
 
 # Later
 
+Firmware:
+- TS5 UI - keyboard new design (recovery, passphrase)
+
 Manufacturing tests:
-- lid switch / cannot run without it
 - provisioning logic test
 
 Firmware:
