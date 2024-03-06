@@ -7,10 +7,11 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 ## Deep work
 
 Manufacturing tests:
-- prodtest script improvements
-
-Firmware:
-- TS5 UI - keyboard new design (PIN, word count)
+- lid switch / cannot run without it
+- unlocking the lid at the end
+- DB archiving
+- new config and more options
+- debugging on Toradex
 
 ## Other work
 
@@ -21,12 +22,16 @@ Firmware:
 # Tomorrow
 
 Manufacturing tests:
-- lid switch / cannot run without it
+- increase the dialogue sizes
+- indexing the measurements
+- fixing the DB schema
+- try Optiga scripts
 
 # Later
 
 Firmware:
 - TS5 UI - keyboard new design (recovery, passphrase)
+- remove the check for odd pixels in toiftool
 
 Manufacturing tests:
 - provisioning logic test
