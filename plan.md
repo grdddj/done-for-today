@@ -7,11 +7,12 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 ## Deep work
 
 Manufacturing tests:
-- lid switch / cannot run without it
-- unlocking the lid at the end
-- DB archiving
-- new config and more options
-- debugging on Toradex
+- increase the dialogue sizes
+- improve frontend designs
+- not allowing multiple RUN clicks
+- speeding up the beginning of the test
+- showing popup at the end of the test - before unlocking the lid
+- indexing the measurements
 
 ## Other work
 
@@ -22,10 +23,15 @@ Manufacturing tests:
 # Tomorrow
 
 Manufacturing tests:
-- increase the dialogue sizes
-- indexing the measurements
 - fixing the DB schema
+- fixing missing mapping values
+- speed up the GithubActions image build
 - try Optiga scripts
+- beeper for signalization - integrate it with result, so they will see
+- oscilloscope calibration after each startup
+- do not provision again ... check after QR code and also try to read the value
+- find out how to lock/unlock the lid, eject/insert the USB, etc.
+- process: error -> eject USB -> show error to user (+ beep) -> wait for user to confirm (one button saying "Failed piece") -> unlock the lid
 
 # Later
 
