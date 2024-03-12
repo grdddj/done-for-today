@@ -7,12 +7,11 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 ## Deep work
 
 Manufacturing tests:
-- increase the dialogue sizes
-- improve frontend designs
-- not allowing multiple RUN clicks
-- speeding up the beginning of the test
-- showing popup at the end of the test - before unlocking the lid
-- indexing the measurements
+- better Deditec PIN API
+- config improvements
+- pre-commit hook
+- speed up the GithubActions image build
+- create DB table with JSON values
 
 ## Other work
 
@@ -23,24 +22,25 @@ Manufacturing tests:
 # Tomorrow
 
 Manufacturing tests:
-- fixing the DB schema
-- fixing missing mapping values
-- speed up the GithubActions image build
-- try Optiga scripts
-- beeper for signalization - integrate it with result, so they will see
-- oscilloscope calibration after each startup
+- setup SSH keys on Torizon to be able to quickly scp the files
+- make sure there is zip and unzip on the Torizon
+- modify config from frontend
+- setup frontend buttons with actions - operating PINs
+- try Optiga provisioning scripts
 - do not provision again ... check after QR code and also try to read the value
-- find out how to lock/unlock the lid, eject/insert the USB, etc.
-- process: error -> eject USB -> show error to user (+ beep) -> wait for user to confirm (one button saying "Failed piece") -> unlock the lid
 
 # Later
+
+Manufacturing tests:
+- fixing the DB schema
+- fixing missing mapping values
+- beeper for signalization - integrate it with result, so they will see
+- oscilloscope calibration after each startup
+- process: error -> eject USB -> show error to user (+ beep) -> wait for user to confirm (one button saying "Failed piece") -> unlock the lid
 
 Firmware:
 - TS5 UI - keyboard new design (recovery, passphrase)
 - remove the check for odd pixels in toiftool
-
-Manufacturing tests:
-- provisioning logic test
 
 Firmware:
 - GH issues
