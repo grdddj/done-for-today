@@ -7,11 +7,13 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 ## Deep work
 
 Manufacturing tests:
-- better Deditec PIN API
-- config improvements
-- pre-commit hook
-- speed up the GithubActions image build
-- create DB table with JSON values
+- setup SSH keys on Torizon to be able to quickly scp the files
+- setup Wireguard connection to Torizon
+- make sure there is zip and unzip on the Torizon
+- modify config from frontend
+- get push rights to ghcr for images
+- try Optiga provisioning scripts
+- do not provision again ... check after QR code and also try to read the value
 
 ## Other work
 
@@ -22,12 +24,10 @@ Manufacturing tests:
 # Tomorrow
 
 Manufacturing tests:
-- setup SSH keys on Torizon to be able to quickly scp the files
-- make sure there is zip and unzip on the Torizon
-- modify config from frontend
+- try tester in a factory
+- troubleshoot Optiga read/write
 - setup frontend buttons with actions - operating PINs
-- try Optiga provisioning scripts
-- do not provision again ... check after QR code and also try to read the value
+- improve the frontend layout for admin panel - three buttons with three possible screens
 
 # Later
 
