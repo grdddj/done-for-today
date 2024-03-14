@@ -6,14 +6,15 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
+
 Manufacturing tests:
-- setup SSH keys on Torizon to be able to quickly scp the files
-- setup Wireguard connection to Torizon
-- make sure there is zip and unzip on the Torizon
-- modify config from frontend
-- get push rights to ghcr for images
-- try Optiga provisioning scripts
+- try tester in a factory
+- improve the frontend layout for admin panel - three buttons with three possible screens
 - do not provision again ... check after QR code and also try to read the value
+- divide config admin panel into two columns, align properly ... with a table
+- remove close button from button choice dialogue
+- increase the distance between the OK and NOK button
+- make the notification panel have blue border
 
 ## Other work
 
@@ -24,10 +25,12 @@ Manufacturing tests:
 # Tomorrow
 
 Manufacturing tests:
-- try tester in a factory
-- troubleshoot Optiga read/write
-- setup frontend buttons with actions - operating PINs
-- improve the frontend layout for admin panel - three buttons with three possible screens
+- remove the duplication of limits/ulimits in test config ... set ENV variables
+- setup frontend buttons with actions - operating PINs / IO ... checkboxes with update button
+- make the close button always visible in logs popup
+- fix "Step XX" text in logs
+- find out how to read deditec PIN values ... from manual
+- troubleshoot Optiga read/write and make it fast ... with Andrew, Matejcik and Michal
 
 # Later
 
@@ -35,8 +38,10 @@ Manufacturing tests:
 - fixing the DB schema
 - fixing missing mapping values
 - beeper for signalization - integrate it with result, so they will see
-- oscilloscope calibration after each startup
-- process: error -> eject USB -> show error to user (+ beep) -> wait for user to confirm (one button saying "Failed piece") -> unlock the lid
+- oscilloscope calibration after each startup ... scope_manual_setting.py
+- background monitoring of closed lid ... some regular job testing it
+- automatic start of tests when lid is closed
+- cache the connection to DAQ device ... probably make a python server for it (will save time for imports )
 
 Firmware:
 - TS5 UI - keyboard new design (recovery, passphrase)
