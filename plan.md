@@ -7,10 +7,11 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 ## Deep work
 
 Firmware:
-- incorporate new czech translations
+- incorporate new czech translations - merge the PR
 
 Manufacturing tests:
-- cache the connection to DAQ device to quicken the measurements
+- quicken the DAQ measurements
+- troubleshoot Optiga read/write and make it fast ... with Andrew, Matejcik and Michal
 
 ## Other work
 
@@ -21,20 +22,20 @@ Manufacturing tests:
 # Tomorrow
 
 Manufacturing tests:
-- troubleshoot Optiga read/write and make it fast ... with Andrew, Matejcik and Michal
-- remove the duplication of limits/ulimits in test config ... set ENV variables
+- beeper for signalization - integrate it with result, so they will see
 - setup frontend buttons with actions - operating PINs / IO ... checkboxes with update button
+- oscilloscope calibration after each startup ... scope_manual_setting.py
+- remove the duplication of limits/ulimits in test config ... set ENV variables
 - make the close button always visible in logs popup
+- make sure user input can never be cancelled
 - fix "Step XX" text in logs
 - find out how to read deditec PIN values ... from manual
 
 # Later
 
 Manufacturing tests:
-- fixing the DB schema
+- DAQ speed increase by a socket
 - fixing missing mapping values
-- beeper for signalization - integrate it with result, so they will see
-- oscilloscope calibration after each startup ... scope_manual_setting.py
 - background monitoring of closed lid ... some regular job testing it
 - automatic start of tests when lid is closed
 
