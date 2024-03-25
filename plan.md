@@ -7,11 +7,12 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 ## Deep work
 
 Firmware:
-- incorporate new czech translations - merge the PR
+- review language PR
 
 Manufacturing tests:
-- quicken the DAQ measurements
-- troubleshoot Optiga read/write and make it fast ... with Andrew, Matejcik and Michal
+- beeper for signalization - integrate it with result, so they will see/hear the result
+- setup frontend buttons with actions - operating PINs / IO ... checkboxes with update button
+- describe the purpose and behavior of all the deditec PINs
 
 ## Other work
 
@@ -22,10 +23,9 @@ Manufacturing tests:
 # Tomorrow
 
 Manufacturing tests:
-- beeper for signalization - integrate it with result, so they will see
-- setup frontend buttons with actions - operating PINs / IO ... checkboxes with update button
+- remove the duplication of limits/ulimits in test config ... set ENV variables ... or do the whole OK/NOK logic in script
+- fix invalid PIN turning on logic --- test on device
 - oscilloscope calibration after each startup ... scope_manual_setting.py
-- remove the duplication of limits/ulimits in test config ... set ENV variables
 - make the close button always visible in logs popup
 - make sure user input can never be cancelled
 - fix "Step XX" text in logs
@@ -34,6 +34,7 @@ Manufacturing tests:
 # Later
 
 Manufacturing tests:
+- speed increase by calling python functions directly
 - DAQ speed increase by a socket
 - fixing missing mapping values
 - background monitoring of closed lid ... some regular job testing it
