@@ -7,8 +7,8 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 ## Deep work
 
 Manufacturing tests:
-- remove the duplication of limits/ulimits in test config ... set ENV variables ... or do the whole OK/NOK logic in script
 - speed increase by calling python functions directly ... use click as CLI
+- update PIN-IO values when opening the admin panel
 
 ## Other work
 
@@ -18,9 +18,11 @@ Manufacturing tests:
 
 # Tomorrow
 
+Trezor-user-env:
+- add support for T3T1 model
+
 Manufacturing tests:
-- speed increase by calling python functions directly ... use click as CLI
-- fix invalid PIN turning on logic --- test on device
+- re-enable the limit modifying via frontend admin panel
 - clean up algocraft scripts
 - oscilloscope calibration after each startup ... scope_manual_setting.py
 - make the close button always visible in logs popup
