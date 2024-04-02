@@ -6,9 +6,18 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
+Trezor-user-env:
+- add support for T3T1 model
+- update dependencies, install trezorlib from GitHub
+- fetch latest emulators from GithubActions
+
+Firmware:
+- reviews
+- PR for showing unrecognized model, and fix T3T1=T2B1
+
 Manufacturing tests:
-- speed increase by calling python functions directly ... use click as CLI
-- update PIN-IO values when opening the admin panel
+- improve error handling of calling run functions
+- merge improvements to develop
 
 ## Other work
 
@@ -20,6 +29,9 @@ Manufacturing tests:
 
 Trezor-user-env:
 - add support for T3T1 model
+- fetch latest emulators from GithubActions
+- briefly investigate the big size
+- try to strip the emulators ... 15 MB goes to 1.8
 
 Manufacturing tests:
 - re-enable the limit modifying via frontend admin panel
