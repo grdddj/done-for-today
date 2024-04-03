@@ -8,16 +8,13 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 Trezor-user-env:
 - add support for T3T1 model
-- update dependencies, install trezorlib from GitHub
 - fetch latest emulators from GithubActions
-
-Firmware:
-- reviews
-- PR for showing unrecognized model, and fix T3T1=T2B1
+- investigate the image big size
+- stripping the emulators
 
 Manufacturing tests:
-- improve error handling of calling run functions
-- merge improvements to develop
+- bug fixes
+- oscilloscope calibration after each startup ... scope_manual_setting.py
 
 ## Other work
 
@@ -28,15 +25,13 @@ Manufacturing tests:
 # Tomorrow
 
 Trezor-user-env:
-- add support for T3T1 model
-- fetch latest emulators from GithubActions
-- briefly investigate the big size
-- try to strip the emulators ... 15 MB goes to 1.8
+- investigate the image big size - try decreasing it
+- put arm builds into Gitlab temporarily
+- fetch the latest main builds from trezor.io
 
 Manufacturing tests:
 - re-enable the limit modifying via frontend admin panel
 - clean up algocraft scripts
-- oscilloscope calibration after each startup ... scope_manual_setting.py
 - make the close button always visible in logs popup
 - make sure user input can never be cancelled
 - fix "Step XX" text in logs
