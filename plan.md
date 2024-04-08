@@ -7,14 +7,9 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 ## Deep work
 
 Trezor-user-env:
-- add support for T3T1 model
-- fetch latest emulators from GithubActions
-- investigate the image big size
-- stripping the emulators
-
-Manufacturing tests:
-- bug fixes
-- oscilloscope calibration after each startup ... scope_manual_setting.py
+- investigate the image big size - try decreasing it
+- put arm builds into Gitlab temporarily, hardcode the binary into the repo
+- fetch the latest main builds from trezor.io
 
 ## Other work
 
@@ -25,11 +20,10 @@ Manufacturing tests:
 # Tomorrow
 
 Trezor-user-env:
-- investigate the image big size - try decreasing it
-- put arm builds into Gitlab temporarily
-- fetch the latest main builds from trezor.io
+- polish the Docker improvements and make a PR
 
 Manufacturing tests:
+- make Optiga script SKIP, not FAIL when already locked
 - re-enable the limit modifying via frontend admin panel
 - clean up algocraft scripts
 - make the close button always visible in logs popup
