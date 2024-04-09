@@ -7,9 +7,9 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 ## Deep work
 
 Trezor-user-env:
-- investigate the image big size - try decreasing it
-- put arm builds into Gitlab temporarily, hardcode the binary into the repo
-- fetch the latest main builds from trezor.io
+- polish the Docker improvements and make a PR
+- try to decrease the image furter
+- dashboard code and UI/UX improvements
 
 ## Other work
 
@@ -20,7 +20,9 @@ Trezor-user-env:
 # Tomorrow
 
 Trezor-user-env:
-- polish the Docker improvements and make a PR
+- fix running emu from URL
+- allow for frontend-button update of all latest emulators
+- running multiple emulators at once
 
 Manufacturing tests:
 - make Optiga script SKIP, not FAIL when already locked
@@ -32,6 +34,9 @@ Manufacturing tests:
 - find out how to read deditec PIN values ... from manual
 
 # Later
+
+Trezor-user-env:
+- update trezorlib after new release
 
 Manufacturing tests:
 - profile the whole test suite ... how long does it take to run
