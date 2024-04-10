@@ -6,10 +6,11 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-Trezor-user-env:
-- polish the Docker improvements and make a PR
-- try to decrease the image furter
-- dashboard code and UI/UX improvements
+Manufacturing tests:
+- make Optiga script SKIP, not FAIL when already locked
+- re-enable the limit modifying via frontend admin panel
+- allow for persisting local config.json
+- extend and clean up sending DB values
 
 ## Other work
 
@@ -19,14 +20,8 @@ Trezor-user-env:
 
 # Tomorrow
 
-Trezor-user-env:
-- fix running emu from URL
-- allow for frontend-button update of all latest emulators
-- running multiple emulators at once
-
 Manufacturing tests:
-- make Optiga script SKIP, not FAIL when already locked
-- re-enable the limit modifying via frontend admin panel
+- extend and clean up sending DB values
 - clean up algocraft scripts
 - make the close button always visible in logs popup
 - make sure user input can never be cancelled
@@ -36,11 +31,14 @@ Manufacturing tests:
 # Later
 
 Trezor-user-env:
+- fix running emu from URL - and make sure it works for ARM
+- allow for frontend-button update of all latest emulators
+- GithubActions emulators downloading --- but missing for ARM
+- running multiple emulators at once
 - update trezorlib after new release
 
 Manufacturing tests:
 - profile the whole test suite ... how long does it take to run
-- DAQ speed increase by a socket
 - fixing missing mapping values
 - background monitoring of closed lid ... some regular job testing it
 - automatic start of tests when lid is closed
