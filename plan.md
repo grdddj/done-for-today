@@ -7,10 +7,8 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 ## Deep work
 
 Manufacturing tests:
-- make Optiga script SKIP, not FAIL when already locked
-- re-enable the limit modifying via frontend admin panel
-- allow for persisting local config.json
 - extend and clean up sending DB values
+- adding timeout into user interaction of display check
 
 ## Other work
 
@@ -21,7 +19,8 @@ Manufacturing tests:
 # Tomorrow
 
 Manufacturing tests:
-- extend and clean up sending DB values
+- adding timeout into user interaction of display check
+- log structured JSON, not strings
 - clean up algocraft scripts
 - make the close button always visible in logs popup
 - make sure user input can never be cancelled
