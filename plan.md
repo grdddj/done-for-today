@@ -7,8 +7,8 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 ## Deep work
 
 Manufacturing tests:
-- extend and clean up sending DB values
 - adding timeout into user interaction of display check
+- cleanup config, allow for frontend edit
 
 ## Other work
 
@@ -19,11 +19,13 @@ Manufacturing tests:
 # Tomorrow
 
 Manufacturing tests:
-- adding timeout into user interaction of display check
+- update README
 - log structured JSON, not strings
+- profile the whole test suite ... how long does it take to run
+- background monitoring of closed lid ... some regular job testing it
+- automatic start of tests when lid is closed
 - clean up algocraft scripts
 - make the close button always visible in logs popup
-- make sure user input can never be cancelled
 - fix "Step XX" text in logs
 - find out how to read deditec PIN values ... from manual
 
@@ -35,12 +37,6 @@ Trezor-user-env:
 - GithubActions emulators downloading --- but missing for ARM
 - running multiple emulators at once
 - update trezorlib after new release
-
-Manufacturing tests:
-- profile the whole test suite ... how long does it take to run
-- fixing missing mapping values
-- background monitoring of closed lid ... some regular job testing it
-- automatic start of tests when lid is closed
 
 Firmware:
 - TS5 UI - keyboard new design (recovery, passphrase)
