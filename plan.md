@@ -6,11 +6,14 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
+Trezor-user-env:
+- update T3T1 ARM emulator
+- ARM troubleshooting
+- download from URL fixes
+
 Manufacturing tests:
-- factory visit
-- new DB columns
-- background monitoring of closed lid ... some regular job testing it
-- automatic start of tests when lid is closed
+- rotate logs
+- update README
 
 ## Other work
 
@@ -21,10 +24,10 @@ Manufacturing tests:
 # Tomorrow
 
 Manufacturing tests:
-- rotate logs
 - save all logs/statistics to Toradex SSD, not on flash
-- update README
+- review what we log
 - log structured JSON, not strings
+- shutting down the Toradex by a button
 - profile the whole test suite ... how long does it take to run
 - clean up algocraft scripts
 - make the close button always visible in logs popup
@@ -34,7 +37,6 @@ Manufacturing tests:
 # Later
 
 Trezor-user-env:
-- fix running emu from URL - and make sure it works for ARM
 - allow for frontend-button update of all latest emulators
 - GithubActions emulators downloading --- but missing for ARM
 - running multiple emulators at once
@@ -46,8 +48,6 @@ Firmware:
 
 Firmware:
 - GH issues
-
-Trezor-user-env requirements
 
 Translations:
 - zbyva 2 sekund ... solve the issue with plurals
