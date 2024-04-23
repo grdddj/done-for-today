@@ -7,13 +7,9 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 ## Deep work
 
 Trezor-user-env:
-- update T3T1 ARM emulator
-- ARM troubleshooting
-- download from URL fixes
-
-Manufacturing tests:
-- rotate logs
-- update README
+- allow for frontend-button update of all latest emulators
+- GithubActions emulators downloading --- but missing for ARM
+- running multiple emulators at once
 
 ## Other work
 
@@ -22,6 +18,11 @@ Manufacturing tests:
 ## Notes
 
 # Tomorrow
+
+Trezor-user-env:
+- allow for frontend-button update of all latest emulators
+- GithubActions emulators downloading --- but missing for ARM
+- running multiple emulators at once
 
 Manufacturing tests:
 - save all logs/statistics to Toradex SSD, not on flash
@@ -37,9 +38,6 @@ Manufacturing tests:
 # Later
 
 Trezor-user-env:
-- allow for frontend-button update of all latest emulators
-- GithubActions emulators downloading --- but missing for ARM
-- running multiple emulators at once
 - update trezorlib after new release
 
 Firmware:
