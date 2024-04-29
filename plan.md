@@ -7,9 +7,12 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 ## Deep work
 
 Trezor-user-env:
-- allow for frontend-button update of all latest emulators
-- GithubActions emulators downloading --- but missing for ARM
-- running multiple emulators at once
+- troubleshooting unworking MAC emulators
+
+Manufacturing tests:
+- save all logs/statistics to Toradex SSD, not on flash
+- final station-type configuration
+- main PR/develop review
 
 ## Other work
 
@@ -19,13 +22,7 @@ Trezor-user-env:
 
 # Tomorrow
 
-Trezor-user-env:
-- allow for frontend-button update of all latest emulators
-- GithubActions emulators downloading --- but missing for ARM
-- running multiple emulators at once
-
 Manufacturing tests:
-- save all logs/statistics to Toradex SSD, not on flash
 - review what we log
 - log structured JSON, not strings
 - shutting down the Toradex by a button
@@ -38,6 +35,9 @@ Manufacturing tests:
 # Later
 
 Trezor-user-env:
+- allow for frontend-button update of all latest emulators
+- GithubActions emulators downloading --- but missing for ARM
+- running multiple emulators at once
 - update trezorlib after new release
 
 Firmware:
