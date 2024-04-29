@@ -6,13 +6,10 @@ Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd3
 
 ## Deep work
 
-Trezor-user-env:
-- troubleshooting unworking MAC emulators
-
 Manufacturing tests:
-- save all logs/statistics to Toradex SSD, not on flash
-- final station-type configuration
-- main PR/develop review
+- final station-type configuration and fixes
+- new popups for final
+- frontend improvements
 
 ## Other work
 
@@ -23,6 +20,8 @@ Manufacturing tests:
 # Tomorrow
 
 Manufacturing tests:
+- new inputs
+- SQL injection defense
 - review what we log
 - log structured JSON, not strings
 - shutting down the Toradex by a button
