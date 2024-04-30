@@ -2,14 +2,13 @@
 
 ## Education
 
-Lightning Network - Platby budoucnosti - https://uploads-ssl.webflow.com/5e5fcd39a7ed2643c8f70a6a/63680ec74eedb9a69fb09d49_lightning-network-bitcoin-kniha-braiins.pdf
+System design - https://github.com/G33kzD3n/Catalogue/blob/master/System%20Design%20Interview%20An%20Insider%E2%80%99s%20Guide%20by%20Alex%20Xu%20(z-lib.org).pdf
 
 ## Deep work
 
 Manufacturing tests:
-- final station-type configuration and fixes
-- new popups for final
-- frontend improvements
+- new inputs - allowing for ENV variable in config command
+- final DB columns
 
 ## Other work
 
@@ -20,8 +19,8 @@ Manufacturing tests:
 # Tomorrow
 
 Manufacturing tests:
-- new inputs
 - SQL injection defense
+- display skipped tests as SKIPPED in UI
 - review what we log
 - log structured JSON, not strings
 - shutting down the Toradex by a button
