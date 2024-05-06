@@ -7,8 +7,13 @@ System design - https://github.com/G33kzD3n/Catalogue/blob/master/System%20Desig
 ## Deep work
 
 Manufacturing tests:
-- new inputs - allowing for ENV variable in config command
-- final DB columns
+- final tests fixes
+- SQL injection defense
+- add information about color/btconly/wordcount to frontend
+- use .env file even in production
+
+db ERROR MySQL error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' _min, _max, test_set_sbu10_status, test_set_sbu10_error_number, test_set_sbu...' at line 1
+2024-05-06 18:29:25,939 - db INFO DB function finished.
 
 ## Other work
 
@@ -19,7 +24,7 @@ Manufacturing tests:
 # Tomorrow
 
 Manufacturing tests:
-- SQL injection defense
+- change run_id to be ASCII and not hex
 - display skipped tests as SKIPPED in UI
 - review what we log
 - log structured JSON, not strings
