@@ -7,9 +7,9 @@ System design - https://github.com/G33kzD3n/Catalogue/blob/master/System%20Desig
 ## Deep work
 
 Manufacturing tests:
-- display skipped tests as SKIPPED in UI
-- change run_id to be ASCII and not hex
-- analyze new issues
+- improve calibration
+- fix errors in lid locking script
+- log rotation issues
 - create a more thorough testing environment (mock test-cases) for end-to-end testing
 
 ## Other work
@@ -22,6 +22,8 @@ Manufacturing tests:
 
 Manufacturing tests:
 - create a more thorough testing environment (mock test-cases) for end-to-end testing
+- log rotation issues
+- CET time on toradex
 - review what we log
 - log structured JSON, not strings
 - shutting down the Toradex by a button
