@@ -7,13 +7,10 @@ System design - https://github.com/G33kzD3n/Catalogue/blob/master/System%20Desig
 ## Deep work
 
 Manufacturing tests:
-- final tests fixes
-- SQL injection defense
-- add information about color/btconly/wordcount to frontend
-- use .env file even in production
-
-db ERROR MySQL error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' _min, _max, test_set_sbu10_status, test_set_sbu10_error_number, test_set_sbu...' at line 1
-2024-05-06 18:29:25,939 - db INFO DB function finished.
+- display skipped tests as SKIPPED in UI
+- change run_id to be ASCII and not hex
+- analyze new issues
+- create a more thorough testing environment (mock test-cases) for end-to-end testing
 
 ## Other work
 
@@ -24,8 +21,7 @@ db ERROR MySQL error: 1064 (42000): You have an error in your SQL syntax; check 
 # Tomorrow
 
 Manufacturing tests:
-- change run_id to be ASCII and not hex
-- display skipped tests as SKIPPED in UI
+- create a more thorough testing environment (mock test-cases) for end-to-end testing
 - review what we log
 - log structured JSON, not strings
 - shutting down the Toradex by a button
@@ -44,22 +40,9 @@ Trezor-user-env:
 - update trezorlib after new release
 
 Firmware:
-- TS5 UI - keyboard new design (recovery, passphrase)
-- remove the check for odd pixels in toiftool
-
-Firmware:
-- GH issues
-
-Translations:
-- zbyva 2 sekund ... solve the issue with plurals
+- ordinals support in firmware
 
 On-demand update of the UI screens
-
-Vertically centering the content - investigate it more deeply
-
-TR - internal error screen
-
-Trezorlib documentation PR
 
 ---
 
