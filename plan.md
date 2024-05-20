@@ -7,10 +7,11 @@ System design - https://github.com/G33kzD3n/Catalogue/blob/master/System%20Desig
 ## Deep work
 
 Manufacturing tests:
-- improve calibration
-- fix errors in lid locking script
-- log rotation issues
-- create a more thorough testing environment (mock test-cases) for end-to-end testing
+- read FIRMWARE_VALUE from config file
+- check FIRMWARE commands
+- finding out device retest
+- mode visible in frontend
+- skipping previously successful test-cases
 
 ## Other work
 
@@ -21,9 +22,10 @@ Manufacturing tests:
 # Tomorrow
 
 Manufacturing tests:
+- constant lid monitoring during the test for security reasons (via background worker)
+- send SKIPPED for all skipped test-cases
 - create a more thorough testing environment (mock test-cases) for end-to-end testing
 - log rotation issues
-- CET time on toradex
 - review what we log
 - log structured JSON, not strings
 - shutting down the Toradex by a button
