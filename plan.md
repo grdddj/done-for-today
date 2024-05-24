@@ -7,11 +7,7 @@ System design - https://github.com/G33kzD3n/Catalogue/blob/master/System%20Desig
 ## Deep work
 
 Manufacturing tests:
-- read FIRMWARE_VALUE from config file
-- check FIRMWARE commands
-- finding out device retest
-- mode visible in frontend
-- skipping previously successful test-cases
+- production troubleshooting and issues
 
 ## Other work
 
@@ -23,9 +19,9 @@ Manufacturing tests:
 
 Manufacturing tests:
 - constant lid monitoring during the test for security reasons (via background worker)
+- monitoring of USB connection - similar to the lid monitoring
 - send SKIPPED for all skipped test-cases
 - create a more thorough testing environment (mock test-cases) for end-to-end testing
-- log rotation issues
 - review what we log
 - log structured JSON, not strings
 - shutting down the Toradex by a button
