@@ -7,7 +7,10 @@ System design - https://github.com/G33kzD3n/Catalogue/blob/master/System%20Desig
 ## Deep work
 
 Manufacturing tests:
-- production troubleshooting and issues
+- monitoring of USB connection - similar to the lid monitoring
+- dialogs appearing and being submitted automatically - interactionless
+- show Wireguard status
+- new candidate code-review
 
 ## Other work
 
@@ -18,8 +21,11 @@ Manufacturing tests:
 # Tomorrow
 
 Manufacturing tests:
+- automatically submit the userId, deviceId and orderNumber fields
+- resetting yields with logout
+- show total number of test-cases on the Toradex device
+- show number of failed devices in order
 - constant lid monitoring during the test for security reasons (via background worker)
-- monitoring of USB connection - similar to the lid monitoring
 - send SKIPPED for all skipped test-cases
 - create a more thorough testing environment (mock test-cases) for end-to-end testing
 - review what we log
