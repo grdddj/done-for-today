@@ -7,39 +7,11 @@ System design - https://github.com/G33kzD3n/Catalogue/blob/master/System%20Desig
 ## Deep work
 
 Manufacturing tests:
-- show number of failed devices in order
-- improve the retest-fail scenarions for showing yield and order statistics
-- show total number of test-cases on the Toradex device
-- allow for operator account in admin frontend
-- logging the admin access
-- improve test coverage
+- find out how the async loop works with constant monitoring of the lid
+- stopping the test when the lid is opened
+- final USB monitoring
 
 ## Other work
-
-Martin Fencl interview:
-- https://martinfencl.eu/
-- https://github.com/Howardzi-nn/
-- questions:
-  - using pytest for the whole testing pipeline? What are the benefits/drawbacks? What are the alternatives? What is the client?
-  - what can be improved on the code?
-  - how do you know the code is correct without running it? (type hints, mypy, vulture)
-  - automatic formatting (black)
-  - funny makefile targets (mrproper) - appreciate that there is so many of them
-  - how do you use AI in your work?
-  - do you have some hobby projects?
-  - why do you like programming?
-  - what type of work is the most interesting for you?
-- description if our project:
-  - 6 months old, github, me and Michal, frontend (vue.js), backend (python websocket), BEAMS, Toradex
-  - I would cooperate with you at the beginning, then I would take over the project, with me still being PR reviewer
-  - what interests you so far on this, if anything? (questions)
-- our tester next steps:
-  - requirements/troubleshooting from production
-  - security certification - checking lid, etc.
-  - local testing environment (not dependent on hardware)
-  - documentation
-  - 20 open issues on github
-  - ? use async more ?
 
 ## Ideas
 
@@ -48,8 +20,7 @@ Martin Fencl interview:
 # Tomorrow
 
 Manufacturing tests:
-- find out how the async loop works with constant monitoring of the lid
-- constant lid monitoring during the test for security reasons (via background worker)
+- production review/trouble-shooting
 - send SKIPPED for all skipped test-cases
 - create a more thorough testing environment (mock test-cases) for end-to-end testing
 - review what we log
