@@ -7,9 +7,7 @@ System design - https://github.com/G33kzD3n/Catalogue/blob/master/System%20Desig
 ## Deep work
 
 Manufacturing tests:
-- find out how the async loop works with constant monitoring of the lid
-- stopping the test when the lid is opened
-- final USB monitoring
+- production review/trouble-shooting
 
 ## Other work
 
@@ -20,7 +18,7 @@ Manufacturing tests:
 # Tomorrow
 
 Manufacturing tests:
-- production review/trouble-shooting
+- new issues
 - send SKIPPED for all skipped test-cases
 - create a more thorough testing environment (mock test-cases) for end-to-end testing
 - review what we log
