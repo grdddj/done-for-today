@@ -7,7 +7,7 @@ System design - https://github.com/G33kzD3n/Catalogue/blob/master/System%20Desig
 ## Deep work
 
 Manufacturing tests:
-- production review/trouble-shooting
+- transform frontend into Vue-CLI and typescript
 
 ## Other work
 
@@ -18,6 +18,7 @@ Manufacturing tests:
 # Tomorrow
 
 Manufacturing tests:
+- transform frontend into Vue-CLI and typescript
 - new issues
 - send SKIPPED for all skipped test-cases
 - create a more thorough testing environment (mock test-cases) for end-to-end testing
