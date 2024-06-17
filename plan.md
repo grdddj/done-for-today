@@ -7,7 +7,12 @@ System design - https://github.com/G33kzD3n/Catalogue/blob/master/System%20Desig
 ## Deep work
 
 Manufacturing tests:
+- issue with loading old order
+- read-only credentials to production DB, data exports
 - transform frontend into Vue-CLI and typescript
+
+Trezor-user-env:
+- troubleshooting "Read and confirm mnemonic"
 
 ## Other work
 
@@ -19,7 +24,12 @@ Manufacturing tests:
 
 Manufacturing tests:
 - transform frontend into Vue-CLI and typescript
-- new issues
+- fix Dockerfile npm build
+- new features
+
+# Later
+
+Manufacturing tests:
 - send SKIPPED for all skipped test-cases
 - create a more thorough testing environment (mock test-cases) for end-to-end testing
 - review what we log
@@ -30,8 +40,6 @@ Manufacturing tests:
 - make the close button always visible in logs popup
 - fix "Step XX" text in logs
 - find out how to read deditec PIN values ... from manual
-
-# Later
 
 Trezor-user-env:
 - allow for frontend-button update of all latest emulators
